@@ -1,0 +1,150 @@
+body{
+width:100%;
+margin:0;
+}
+
+
+.nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Color de la barra del menu */
+.nav {
+  width: auto;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: Black;
+  color: white;
+
+
+}
+
+/* Color de la barra del menu */
+.nav a {
+ text-decoration: none;
+  display: block;
+  padding: 0 16px;
+  line-height: inherit;
+  cursor: pointer;
+   background-color: Black;
+  color: white;
+
+}
+
+/* Color de la barra del menu mientra se presiona*/
+.nav a:hover {
+  display: block;
+  padding: 0 16px;
+  line-height: inherit;
+  cursor: pointer;
+   background-color: orange;
+  color: white;
+
+
+  border-bottom: 7px solid ;
+  padding-bottom: 3px;
+  transition: border-bottom 80ms;
+   text-decoration: none;
+
+
+}
+
+
+/* Color del sub menu*/
+.nav ul li ul a{
+  display: block;
+  padding: 0 16px;
+  line-height: inherit;
+  cursor: pointer;
+   background-color: #625F61FF;
+  color: white;
+
+}
+
+/* Color del la linea derecha del sub menu*/
+.nav__submenu {
+  font-weight: 400;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: 220px;
+  background-color: #625F61FF;
+
+}
+
+
+.nav li ul li ul {
+  display: none;
+   text-decoration: none;
+}
+
+/* Color del sub menu del sub menu*/
+.nav li ul li ul a{
+ background-color: #C6C3C5FF;
+  color: white;
+}
+
+
+
+
+/* Color del sub menu del sub menu del submenu*/
+.nav li ul li ul li ul a {
+ background-color: grey;
+  color: white;
+}
+
+
+
+.nav li:hover > ul {
+  display: inline-block;
+  padding-left:30px;
+   text-decoration: none;
+
+}
+
+.nav__menu {
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav__menu-item {
+  display: inline-block;
+  position: relative;
+}
+
+/* Color del sub menu mientra se presiona*/
+.nav__menu-item:hover {
+  background-color: orange;
+   text-decoration: none;
+
+}
+
+/* Color del la linea derecha del sub menu del submenu*/
+.nav__submenu-item:hover {
+  background: #C6C3C5FF;
+   text-decoration: none;
+
+
+}
+
+
+/* Color del la linea derecha del sub menu del submenu*/
+.nav__submenu-item ul li:hover {
+  background: grey;
+   text-decoration: none;
+
+
+}
+
+.nav__menu-item:hover .nav__submenu {
+  display: block;
+
+
+}

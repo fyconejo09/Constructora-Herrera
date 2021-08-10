@@ -142,6 +142,11 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 800px;
 	margin:0 auto;
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 
@@ -153,6 +158,11 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1050px;
 	margin:0 auto;
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 
@@ -165,6 +175,11 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1220px;
 	margin:0 auto;
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 
@@ -177,6 +192,11 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1180px;
 	margin:0 auto;
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 
@@ -189,6 +209,11 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1050px;
 	margin:0 auto;
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 #contentPlanteles2{
@@ -199,6 +224,11 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1150px;
 	margin:0 auto;
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 #contentProyectos2{
@@ -209,6 +239,12 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1120px;
 	margin:0 auto;
+
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 
@@ -220,6 +256,12 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1000px;
 	margin:0 auto;
+
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 
@@ -231,6 +273,12 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1140px;
 	margin:0 auto;
+
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 
@@ -242,6 +290,12 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1120px;
 	margin:0 auto;
+
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 #contentAgregados {
@@ -252,6 +306,11 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 780px;
 	margin:0 auto;
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 
@@ -264,6 +323,11 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1120px;
 	margin:0 auto;
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 #contentconcreto {
@@ -274,6 +338,11 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1600px;
 	margin:0 auto;
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 #contentacarreosmenu {
@@ -284,6 +353,11 @@ textarea{
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 1000px;
 	margin:0 auto;
+
+
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 250px
 }
 
 

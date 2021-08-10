@@ -14,17 +14,17 @@ table, form {
 
 .lo_top-strip {
 	background: #373D41;
-	height:37px;
+	height:35px;
 	width: 100%;
 }
 
 .lo_top-info {
-	width:900px;
+	width:1200px;
 	margin:0 auto;
 }
 
 .lo_bottom-strip {
-	background: #3D82AB;
+	background:  #3D82AB;
 	border-bottom:4px solid #5C9DC0;
 
 }
@@ -34,7 +34,7 @@ table, form {
 .lo_top-info h1 {
 	color:#fff;
 	margin:0;padding:8px 0 0 0;
-	font-size:18px;
+	font-size:25px;
 	font-weight: normal
 }
 
@@ -84,7 +84,7 @@ table, form {
 	color: #fff;
 	display: block;
 	height: 20px;
-	font-size: 12px;
+	font-size: 14px;
 	text-transform: uppercase;
 
 }

@@ -22,6 +22,7 @@ header nav {
   margin: 0px auto;
   background: #3D82AB;
 
+
 }
 
 
@@ -39,6 +40,9 @@ list-style: none;
 header nav ul li {
 float:left;
 
+
+float: none;
+border-bottom: 1px  solid rgba(255, 255, 255, .3);
 }
 
 header nav ul li a {

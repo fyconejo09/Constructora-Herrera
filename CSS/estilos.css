@@ -71,4 +71,23 @@ background: #5C9DC0;
   border-bottom: 1px  solid gba(255, 255, 255, 0.3);
 
   }
+
+  .menu_bar {
+  display: block;
+  width: 100%;
+  background: #ccc;
+
+  }
+
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 20px;
+    background: #5C9DC0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+
+  }
+
 }

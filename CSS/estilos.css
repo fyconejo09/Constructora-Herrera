@@ -20,7 +20,7 @@ header nav {
   width: 100%;
   max-width: 1000px;
   margin: 20px auto;
-  background: #5C9DC0;
+  background: #3D82AB;
 
 }
 
@@ -54,7 +54,7 @@ margin-right: 10px
 }
 
 header nav ul li a:hover {
-background: #5C9DC0;
+background: #3D82AB;
 }
 
 @media screen and (max-width:800px){
@@ -82,7 +82,7 @@ background: #5C9DC0;
   .menu_bar .bt-menu {
     display: block;
     padding: 20px;
-    background: #5C9DC0;
+    background: #3D82AB;
     color: white;
     text-decoration: none;
     font-weight: bold;

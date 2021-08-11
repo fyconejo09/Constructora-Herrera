@@ -48,7 +48,7 @@ header label:hover {
 }
 
 
-@media (max-widrh:768px){
+@media (max-width:768px){
 
   header label {
     display: block;

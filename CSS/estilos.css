@@ -56,3 +56,13 @@ margin-right: 10px
 header nav ul li a:hover {
 background: #5C9DC0;
 }
+
+@media screen and (max-width:800px){
+  header nav {
+    width: 80%;
+    height: 100%;
+    margin: 0px;
+    position: fixed;
+
+  }
+}

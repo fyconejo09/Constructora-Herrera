@@ -5,6 +5,9 @@ body {
 	margin: 0px;
 
 	background: #fcfcfc url(../images/bg_texture.jpg) repeat;
+	/* =============================== Se cambio esto ========================== */
+	height: 1500px;
+	/* =============================== Se cambio esto ========================== */
 }
 
 table, form {
@@ -15,7 +18,9 @@ table, form {
 .lo_top-strip {
 	background: #373D41;
 	height:35px;
+	/* =============================== Se cambio esto ========================== */
 	width: 100%;
+	/* =============================== Se cambio esto ========================== */
 }
 
 .lo_top-info {
@@ -132,8 +137,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
+
+	/* =============================== Se cambio esto ========================== */
 	width: 60%;
-	height: 500px;
+	height: 30%;
+	/* =============================== Se cambio esto ========================== */
 	margin:0 auto;
 }
 
@@ -448,7 +456,9 @@ div[name="DataCtnr"] span{
 
 
 #cb-footer {
-	width: 890px;
+	/* =============================== Se cambio esto ========================== */
+	width: 60%;
+	/* =============================== Se cambio esto ========================== */
 	clear: both;
 	border-top: 0px solid #a1b5c0;
 	color: #777;

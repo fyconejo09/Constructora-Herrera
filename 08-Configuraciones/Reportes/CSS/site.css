@@ -119,6 +119,15 @@ table, form {
 	border: 1px solid #DDDDDD;
 	}
 
+
+}
+#content1 {
+	padding: 10px;
+	background: #fff;
+	min-height: 700px;
+	border: 1px solid #DDDDDD;
+	}
+
 #content h1 {
 	color: #3D82AB;
 	font-size: 22px;

@@ -44,3 +44,9 @@ display: block;
 text-decoration: none;
 
 }
+
+
+header nav ul li span {
+margin-right: 10px
+
+}

@@ -4,7 +4,10 @@
 }
 
 body {
-  background: #fcfcfc url(../images/bg_texture.jpg) repeat;
+  font: 13px/130% Arial, Helvetica, sans-serif;
+	margin: 0px;
+
+	background: #fcfcfc url(../images/bg_texture.jpg) repeat;
 }
 
 

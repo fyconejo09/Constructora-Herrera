@@ -128,11 +128,12 @@ textarea{
 
 #content1 {
 	margin: 4px 0px 4px 0px;
-	padding: 100px;
+	padding: 10px;
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 880px;
+	width: 60%;
+	height: 500px;
 	margin:0 auto;
 }
 

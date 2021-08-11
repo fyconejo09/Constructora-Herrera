@@ -61,7 +61,7 @@ table, form {
 #navbar {
 	height: 30px;
 	background: #3D82AB;
-	width:900px;
+	width:60%;
 	margin:0 auto;
 
 }
@@ -132,7 +132,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 880px;
+	width: 60%;
 	margin:0 auto;
 }
 

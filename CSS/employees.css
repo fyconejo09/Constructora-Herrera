@@ -19,7 +19,7 @@ table, form {
 }
 
 .lo_top-info {
-	width:100%;
+	width:1200px;
 	margin:0 auto;
 }
 
@@ -61,7 +61,7 @@ table, form {
 #navbar {
 	height: 30px;
 	background: #3D82AB;
-	width:60%;
+	width:900px;
 	margin:0 auto;
 
 }
@@ -132,7 +132,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 60%;
+	width: 880px;
 	margin:0 auto;
 }
 

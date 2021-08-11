@@ -60,9 +60,8 @@ background: #3D82AB;
 
 @media screen and (max-width:800px){
   header nav {
-    width: 80%;
-    height: 100%;
-    left: -100;
+    width: 20%;
+    height: 40%;
     margin: 0;
     position: fixed;
   }
@@ -74,5 +73,5 @@ background: #3D82AB;
 
   }
 
-  
+
 }

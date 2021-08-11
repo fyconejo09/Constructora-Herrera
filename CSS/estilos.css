@@ -13,7 +13,6 @@ body {
 
 header {
   width: 100%;
-  font-size: 25px;
 
 }
 
@@ -29,6 +28,7 @@ header nav {
 .menu_bar {
 display: none;
 }
+
 
 header nav ul  {
 overflow: hidden;

@@ -1,0 +1,35 @@
+#bar{
+    color: White; background-color: black
+}
+
+#titulo{
+    color: white; margin: 2.5px; font-size: 2em;
+}
+
+.imagen{
+    width: 100%; heigth: 100%;
+}
+
+#bar .boton {
+    color: #d9d9d9;
+}
+
+#bar .boton:hover {
+    color: orangered;}
+
+
+#titulo:hover {
+    color: orangered;
+}
+
+.jumbotron{
+    text-align: center;background-color: black;color: #d9d9d9;
+}
+
+#botonb:hover{
+    color: white;background-color: orange;
+}
+
+#bar .boton:active{
+    color: #ff751a
+}

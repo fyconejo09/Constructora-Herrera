@@ -126,6 +126,16 @@ textarea{
 	margin:0 auto;
 }
 
+#content1 {
+	margin: 4px 0px 4px 0px;
+	padding: 10px;
+	background: #fff;
+	color: #444;
+	box-shadow: 0px 0px 1px 0px #bbb;
+	width: 880px;
+	margin:0 auto;
+}
+
 #contentDiesel {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;

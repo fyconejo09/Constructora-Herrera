@@ -11,6 +11,7 @@ header {
 
 #btn-menu {
   display: none;
+
 }
 
 header label {
@@ -51,7 +52,11 @@ header label:hover {
 @media (max-width:768px){
 
   header label {
-    display: block;
+    display:block;
+    margin-left: 90%;
+    margin-bottom: 5%;
+  
+
   }
 
   .menu {

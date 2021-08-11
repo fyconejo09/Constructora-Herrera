@@ -39,9 +39,6 @@ list-style: none;
 
 header nav ul li {
 float:left;
-
-
-border-bottom: 1px  solid rgba(255, 255, 255, .3);
 }
 
 header nav ul li a {
@@ -59,4 +56,23 @@ margin-right: 10px
 
 header nav ul li a:hover {
 background: #3D82AB;
+}
+
+@media screen and (max-width:800px){
+  header nav {
+    width: 80%;
+    height: 100%;
+    left: -100;
+    margin: 0;
+    position: fixed;
+  }
+
+  header nav ul li {
+  display: block;
+  float: none;
+  border-bottom: 1px  solid rgba(255, 255, 255, .3);
+
+  }
+
+  
 }

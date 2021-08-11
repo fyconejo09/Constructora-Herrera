@@ -17,7 +17,7 @@ header {
 }
 
 header nav {
-  width: 90%;
+  width: 100%;
   max-width: 1000px;
   margin: 20px auto;
   background: orange;

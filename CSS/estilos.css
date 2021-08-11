@@ -68,7 +68,7 @@ background: #5C9DC0;
   header nav ul li {
   display: block;
   float: none;
-  border-bottom: 1px  solid gba(255, 255, 255, 0.3);
+  border-bottom: 1px  solid rgba(255, 255, 255, .3);
 
   }
 
@@ -93,4 +93,8 @@ background: #5C9DC0;
 
   }
 
+  .menu_bar span {
+    float: right;
+    font-size: 40px;
+  }
 }

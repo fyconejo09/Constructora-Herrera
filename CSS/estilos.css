@@ -89,9 +89,9 @@ header label:hover {
     display:block;
     margin-left: 80%;
     margin-bottom: 5%;
-
-
   }
+
+
 
   .menu {
     position: absolute;
@@ -118,4 +118,602 @@ header label:hover {
 
 
   }
+
+
+
+
+
+
+
+
+
+
+  /* =============================== CONTENT ========================== */
+
+  #content {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height:100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+
+
+  #reportescontentacarreos1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+  #reportescontentplanteles1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+  #reportescontentasfalto1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+  #reportescontentagregados1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+
+  #reportescontentconcreto1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  #reportescontentrconcreto1produccion {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  #reportescontentlogistica1{
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  #reportescontenttaller1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+
+
+
+
+  #reportescontentlistadepreciosconfiguraciones1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  #reportescontenKilometrajeconfiguraciones1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+  #reportescontencentrodecostosconfiguraciones1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  #reportescontenmaterialesconfiguraciones1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  #reportescontentercerosconfiguraciones1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+  #reportescontentrplacasconfiguraciones1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+  #reportescontentreportesplacasconfiguraciones1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  	/* =============================== Contenct de formularios========================= */
+
+  #contentinframe1 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 50%;
+  	height: 50%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  #contentinframe2 {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+
+  #contentDiesel {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  #contentLastre {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+  #contentFacturacion{
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+  #contentProyectos {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+  #contentLastre2{
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+  #contentPlanteles2{
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+  #contentProyectos2{
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  #contentlogistica {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  #contentasfalto {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+  #contentEmulsion {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+  #contentAgregados {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+  #contenttubos {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+  #contentconcreto {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+  #contentacarreosmenu {
+  	margin: 4px 0px 4px 0px;
+  	padding: 10px;
+  	background: #fff;
+  	color: #444;
+  	box-shadow: 0px 0px 1px 0px #bbb;
+  	width: 100%;
+  	height: 100%;
+  	margin:0 auto;
+  	display: flex;
+  	justify-content: center;
+  	padding-top: 15%;
+  }
+
+
+
+
+
+
+
+
+
+
+  #content h1 {
+  	font-size: 21px;
+  	margin: 0px 0 14px;
+  	padding: 0px;
+  }
+  #content h2 {
+  	font-size: 17px;
+  	margin: 10px 0px;
+  	padding: 0px;
+  }
+  #content h3 {
+  	font-size: 15px;
+  	margin: 17px 0px 0px 0px;
+  	padding: 0px;
+  }
+  #content p {
+  	font-size: 13px;
+  	margin: 7px 0px;
+  	padding: 0px;
+  }
+  #content a {
+  	color: #3D82AB;
+  	text-decoration: none;
+  }
+  #content a:hover {
+  	text-decoration: underline;
+  }
+  input[type="submit"]{
+  	cursor: pointer;
+  }
+  #InsertRecordNotes{
+  	resize: none;
+  }
+  #EditRecordNotes{
+  	resize: vertical;
+  }
+  .centered{
+  	width: 450px;
+  	margin: 0 auto;
+  }
+  #content > .centered h1{
+  	margin-top: 10px;
+  }
+  .centeredForm{
+  	text-align:center;
+  }
+  .centeredForm form table{
+  	margin: 0 auto;
+  }
+  .centeredForm form table table{
+  	margin: 0;
+  }
+  .centeredForm h1{
+  	margin-left: -265px !important;
+  	margin-top: 10px !important;
+  }
+  .centered h1{
+  	margin-left: 5px !important;
+
+  }
+  #datapage-form{
+  	text-align: center;
+  }
+  .recovery{
+  	margin-left: 60px;
+  }
+
+  div[name="HeaderErrorMsg"]{
+  	text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

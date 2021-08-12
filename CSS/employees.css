@@ -127,8 +127,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 55%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -141,9 +144,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 97%;
-	height: 94%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -154,9 +159,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 94%;
-	height: 94%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -168,8 +175,10 @@ textarea{
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 100%;
-	height: 93.75%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -180,9 +189,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 96.87%;
-	height: 96.87%x;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -194,9 +205,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 93.75%;
-	height: 93.75%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -207,8 +220,10 @@ textarea{
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 100%;
-	height: 95.62%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -218,9 +233,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 93.75%;
-	height: 93.75%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -230,9 +247,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 93.75%;
-	height: 93.75%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -247,9 +266,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 75%;
-	height:85.62%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -259,9 +280,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 50%;
-	height: 93.75%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 #reportescontencentrodecostosconfiguraciones1 {
@@ -270,9 +293,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 81.25%;
+	width: 100%;
 	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -282,9 +307,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 43.75%;
+	width: 100%;
 	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -294,9 +321,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width:43.75%;
+	width: 100%;
 	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 #reportescontentrplacasconfiguraciones1 {
@@ -305,9 +334,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 87.5%;
-	height: 50%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -318,9 +349,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 93.75%;
-	height: 93.75%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -332,10 +365,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 60%;
-	height: 30%;
-
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 #contentDiesel {
@@ -345,8 +379,8 @@ textarea{
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
 	width: 100%;
+	height: 100%;
 	margin:0 auto;
-
 	display: flex;
 	justify-content: center;
 }
@@ -358,8 +392,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 66%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -370,8 +407,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 76%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -382,8 +422,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 74%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -394,8 +437,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 66%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 #contentPlanteles2{
@@ -404,8 +450,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 72%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 #contentProyectos2{
@@ -414,8 +463,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 70%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -425,8 +477,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 63%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -436,8 +491,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 71%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -447,8 +505,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 70%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 #contentAgregados {
@@ -457,8 +518,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 49%;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -469,8 +533,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1120px;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 #contentconcreto {
@@ -479,8 +546,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1600px;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 #contentacarreosmenu {
@@ -489,8 +559,11 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1000px;
+	width: 100%;
+	height: 100%;
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 

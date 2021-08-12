@@ -266,10 +266,6 @@ textarea{
 
 
 
-
-
-
-
 #reportescontentlistadepreciosconfiguraciones1 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -404,8 +400,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
-
 
 
 #contentDiesel {
@@ -617,14 +611,6 @@ textarea{
 }
 
 
-
-
-
-
-
-
-
-
 #content h1 {
 	font-size: 21px;
 	margin: 0px 0 14px;
@@ -651,124 +637,6 @@ textarea{
 }
 #content a:hover {
 	text-decoration: underline;
-}
-input[type="submit"]{
-	cursor: pointer;
-}
-#InsertRecordNotes{
-	resize: none;
-}
-#EditRecordNotes{
-	resize: vertical;
-}
-.centered{
-	width: 450px;
-	margin: 0 auto;
-}
-#content > .centered h1{
-	margin-top: 10px;
-}
-.centeredForm{
-	text-align:center;
-}
-.centeredForm form table{
-	margin: 0 auto;
-}
-.centeredForm form table table{
-	margin: 0;
-}
-.centeredForm h1{
-	margin-left: -265px !important;
-	margin-top: 10px !important;
-}
-.centered h1{
-	margin-left: 5px !important;
-
-}
-#datapage-form{
-	text-align: center;
-}
-.recovery{
-	margin-left: 60px;
-}
-
-div[name="HeaderErrorMsg"]{
-	text-align: center;
-}
-/*---------Result page---------*/
-.result{
-	text-align: center;
-}
-#content .result h1{
-	margin-top: 10px;
-}
-#Mod0InlineAdd{
-	float: right;
-}
-
-/*---------Details page---------*/
-.left_block{
-	float:left;
-	width:460px;
-	padding: 20px 0 30px 15px;
-	margin-right: 10px;
-	border: 1px solid #D1D6DA;
-}
-/*---------Buttons-----------*/
-#Mod0CancelRecord{
-	float: left;
-}
-#Mod0EditRecord{
-	float: left;
-	margin-left: -10px;
-}
-#Mod0DeleteRecord{
-	float: right;
-}
-/*----------Logs block----------*/
-.right_block{
-	float:left;
-	width:392px;
-}
-.right_block iframe{
-	border:none;
-	width:100%;
-}
-.add_log{
-	width: 375px;
-	padding: 20px 0px 20px 15px;
-	border: 1px solid #D1D6DA;
-	border-right: 1px solid #D1D6DA !important;
-}
-#InsertRecordAttachment{
-	width: 340px;
-}
-.logs_history{
-	padding: 20px 15px 21px 15px;
-	margin-top: 10px;
-	border: 1px solid #D1D6DA;
-	overflow-y: auto;
-	overflow-x: hidden;
-}
-.logs_history div[name="DataCtnr"]{
-	width: 310px;
-    white-space: pre-line;
-    overflow-x: auto;
-}
-.logs_history #RecordMessageTop{
-	margin-left: 7px;
-}
-.add_log h3, .logs_history h3{
-	margin-left: 7px;
-}
-#manage{
-	display: none;
-}
-
-/*--------Calendar----------*/
-div[name="DataCtnr"] span{
-	line-height: 1.8;
-	white-space: pre-line;
 }
 
 /* =============================== FOOTER ========================== */

@@ -38,8 +38,8 @@ nav div div  {
 header{
   width: 100%;
   background: #3D82AB;
-
-
+  position: fixed;
+  z-index: 100;
 }
 
 

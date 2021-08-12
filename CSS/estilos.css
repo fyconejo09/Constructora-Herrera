@@ -9,18 +9,19 @@ iframe {
 
 }
 
-nav div div  {
 
-  font-size: 17px;
-  margin-left: 20%;
 
-}
-header {
+
+
+header{
   width: 100%;
   background: #3D82AB;
 
 
 }
+
+
+
 
 #btn-menu {
   display: none;
@@ -40,6 +41,9 @@ header label:hover {
   cursor: pointer;
   background: rgba(0, 0, 0, 0.3);
 }
+
+
+
 
 
 .menu ul {
@@ -80,6 +84,8 @@ header label:hover {
     transition: all 0.5s;
 
   }
+
+
 
   .menu ul{
     flex-direction: column;

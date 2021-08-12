@@ -3,25 +3,17 @@
 body {
 	font: 13px/130% Arial, Helvetica, sans-serif;
 	margin: 0px;
-
 	background: #fcfcfc url(../images/bg_texture.jpg) repeat;
-	/* =============================== Se cambio esto ========================== */
 	height: 90%;
 	width: 100%;
-	/* =============================== Se cambio esto ========================== */
+
 }
 
-table, form {
-	margin: 0px;
-	padding: 0px;
-}
 
 .lo_top-strip {
 	background: #373D41;
 	height:35px;
-	/* =============================== Se cambio esto ========================== */
 	width: 100%;
-	/* =============================== Se cambio esto ========================== */
 }
 
 .lo_top-info {
@@ -72,8 +64,6 @@ table, form {
 
 }
 
-
-
 #navbar ul {
 	margin: 0 0 0 0px;
 	padding: 0px 0 0 0px;
@@ -116,10 +106,7 @@ table, form {
 	background: #5C9DC0;
 }
 
-textarea{
-	white-space: pre-line;
-	box-sizing: border-box;
-}
+
 /* =============================== CONTENT ========================== */
 
 #content {
@@ -136,10 +123,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
-
-
-
 #reportescontentacarreos1 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -153,8 +136,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
-
 
 #reportescontentplanteles1 {
 	margin: 4px 0px 4px 0px;
@@ -170,8 +151,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
-
 #reportescontentasfalto1 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -185,8 +164,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
-
 
 #reportescontentagregados1 {
 	margin: 4px 0px 4px 0px;
@@ -202,9 +179,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
-
-
 #reportescontentconcreto1 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -218,7 +192,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
 
 #reportescontentrconcreto1produccion {
 	margin: 4px 0px 4px 0px;
@@ -234,7 +207,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
 #reportescontentlogistica1{
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -249,7 +221,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
 #reportescontenttaller1 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -263,8 +234,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
-
 
 #reportescontentlistadepreciosconfiguraciones1 {
 	margin: 4px 0px 4px 0px;
@@ -309,7 +278,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
 #reportescontenmaterialesconfiguraciones1 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -323,7 +291,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
 
 #reportescontentercerosconfiguraciones1 {
 	margin: 4px 0px 4px 0px;
@@ -352,8 +319,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
-
 
 #reportescontentreportesplacasconfiguraciones1 {
 	margin: 4px 0px 4px 0px;
@@ -386,7 +351,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
 #contentinframe2 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -400,7 +364,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
 
 #contentDiesel {
 	margin: 4px 0px 4px 0px;
@@ -416,7 +379,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
 #contentLastre {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -430,8 +392,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
-
 
 #contentFacturacion{
 	margin: 4px 0px 4px 0px;
@@ -447,8 +407,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
-
 #contentProyectos {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -462,8 +420,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
-
 
 #contentLastre2{
 	margin: 4px 0px 4px 0px;
@@ -507,7 +463,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
 #contentlogistica {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -522,7 +477,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
 #contentasfalto {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -536,7 +490,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
 
 #contentEmulsion {
 	margin: 4px 0px 4px 0px;
@@ -565,8 +518,6 @@ textarea{
 	justify-content: center;
 	padding-top: 3%;
 }
-
-
 
 #contenttubos {
 	margin: 4px 0px 4px 0px;
@@ -610,7 +561,6 @@ textarea{
 	padding-top: 3%;
 }
 
-
 #content h1 {
 	font-size: 21px;
 	margin: 0px 0 14px;
@@ -643,9 +593,7 @@ textarea{
 
 
 #cb-footer {
-	/* =============================== Se cambio esto ========================== */
 	width: 60%;
-	/* =============================== Se cambio esto ========================== */
 	clear: both;
 	border-top: 0px solid #a1b5c0;
 	color: #777;

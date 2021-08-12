@@ -6,7 +6,7 @@ body {
 
 	background: #fcfcfc url(../images/bg_texture.jpg) repeat;
 	/* =============================== Se cambio esto ========================== */
-	height: 1500px;
+	height: 90%;
 	/* =============================== Se cambio esto ========================== */
 }
 
@@ -127,7 +127,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 880px;
+	width: 55%;
 	margin:0 auto;
 }
 
@@ -135,19 +135,29 @@ textarea{
 
 
 
-#contentacarreos1 {
+#reportescontentacarreos1 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1550px;
-	height: 1500px;
+	width: 97%;
+	height: 94%;
 	margin:0 auto;
 }
 
 
 
+#reportescontentplanteles1 {
+	margin: 4px 0px 4px 0px;
+	padding: 10px;
+	background: #fff;
+	color: #444;
+	box-shadow: 0px 0px 1px 0px #bbb;
+	width: 94%;
+	height: 94%;
+	margin:0 auto;
+}
 
 
 
@@ -187,7 +197,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 800px;
+	width: 50%;
 	margin:0 auto;
 }
 
@@ -198,7 +208,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1050px;
+	width: 66%;
 	margin:0 auto;
 }
 
@@ -210,7 +220,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1220px;
+	width: 76%;
 	margin:0 auto;
 }
 
@@ -222,7 +232,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1180px;
+	width: 74%;
 	margin:0 auto;
 }
 
@@ -234,7 +244,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1050px;
+	width: 66%;
 	margin:0 auto;
 }
 
@@ -244,7 +254,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1150px;
+	width: 72%;
 	margin:0 auto;
 }
 
@@ -254,7 +264,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1120px;
+	width: 70%;
 	margin:0 auto;
 }
 
@@ -265,7 +275,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1000px;
+	width: 63%;
 	margin:0 auto;
 }
 
@@ -276,7 +286,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1140px;
+	width: 71%;
 	margin:0 auto;
 }
 
@@ -287,7 +297,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 1120px;
+	width: 70%;
 	margin:0 auto;
 }
 
@@ -297,7 +307,7 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-	width: 780px;
+	width: 49%;
 	margin:0 auto;
 }
 

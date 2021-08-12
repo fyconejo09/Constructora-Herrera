@@ -133,6 +133,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -150,6 +151,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -165,6 +167,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -180,6 +183,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -195,6 +199,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -211,6 +216,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -225,6 +231,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -239,6 +246,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -253,6 +261,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -272,6 +281,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -286,6 +296,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 #reportescontencentrodecostosconfiguraciones1 {
@@ -299,6 +310,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -313,6 +325,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -327,6 +340,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 #reportescontentrplacasconfiguraciones1 {
@@ -340,6 +354,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -355,6 +370,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -371,7 +387,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
-
+	padding-top: 3%;
 }
 
 
@@ -386,7 +402,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
-
+	padding-top: 3%;
 }
 
 
@@ -403,6 +419,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -417,6 +434,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -432,6 +450,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -447,6 +466,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -462,6 +482,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 #contentPlanteles2{
@@ -475,6 +496,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 #contentProyectos2{
@@ -488,6 +510,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -502,6 +525,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -516,6 +540,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -530,6 +555,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 #contentAgregados {
@@ -543,6 +569,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -558,6 +585,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 #contentconcreto {
@@ -571,6 +599,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 #contentacarreosmenu {
@@ -584,6 +613,7 @@ textarea{
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
+	padding-top: 3%;
 }
 
 
@@ -755,6 +785,7 @@ div[name="DataCtnr"] span{
 	padding: 10px 0 10px 10px;
 	font-size: 11px;
 	text-align: center;
+
 }
 #cb-footer p {
 	margin: 0 0 5px 0;

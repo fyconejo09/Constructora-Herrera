@@ -14,6 +14,7 @@ script {
 }
 
 
+
 nav div div  {
 
   font-size: 17px;
@@ -22,12 +23,20 @@ nav div div  {
 }
 
 
-header{
+header   {
   width: 100%;
   background: #3D82AB;
+
+}
+
+
+body header   {
+
   position: fixed;
   z-index: 100;
+
 }
+
 
 
 

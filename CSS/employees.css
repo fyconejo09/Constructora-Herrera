@@ -324,27 +324,7 @@ textarea{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	/* =============================== Contenct de formularios========================= */
 
 #content1 {
 	margin: 4px 0px 4px 0px;
@@ -352,11 +332,9 @@ textarea{
 	background: #fff;
 	color: #444;
 	box-shadow: 0px 0px 1px 0px #bbb;
-
-	/* =============================== Se cambio esto ========================== */
-	width: 60%;
+	width: 75%;
 	height: 30%;
-	/* =============================== Se cambio esto ========================== */
+
 	margin:0 auto;
 }
 

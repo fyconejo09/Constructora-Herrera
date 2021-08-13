@@ -12,6 +12,7 @@ body {
 script{
   color: white;
 }
+
 .lo_top-strip {
 	background: #373D41;
 	height:30px;
@@ -140,6 +141,19 @@ script{
 	padding-top: 10%;
 }
 
+#content1 {
+	margin: 4px 0px 4px 0px;
+	padding: 10px;
+	background: #fff;
+	color: #fff;
+	box-shadow: 0px 0px 1px 0px #bbb;
+	width: 90%;
+	height:100%;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	padding-top: 10%;
+}
 
 	/* =============================== Contenct de formularios========================= */
 

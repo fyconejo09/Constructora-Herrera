@@ -9,7 +9,9 @@ body {
 
 }
 
-
+script{
+  color: white;
+}
 .lo_top-strip {
 	background: #373D41;
 	height:30px;

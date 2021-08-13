@@ -93,10 +93,6 @@ header label:hover {
     margin-bottom: 5%;
   }
 
-label h1 {
-  	padding-top: 50%;
-
-}
 
   .menu {
     position: absolute;
@@ -167,7 +163,7 @@ label h1 {
   	margin:0 auto;
   	display: flex;
   	justify-content: center;
-  	padding-top: 100%;
+  	padding-top: 30%;
   }
 
 

@@ -93,7 +93,10 @@ header label:hover {
     margin-bottom: 5%;
   }
 
+label h1 {
+  	padding-top: 50%;
 
+}
 
   .menu {
     position: absolute;

@@ -12,29 +12,44 @@ body {
 
 .lo_top-strip {
 	background: #373D41;
-	height:35px;
+	height:30px;
 	width: 100%;
 }
 
 .lo_top-info {
-	width:1200px;
+	width:90%;
 	margin:0 auto;
+	padding-left: 10%;
+
 }
 
 .lo_bottom-strip {
 	background:  #3D82AB;
 	border-bottom:4px solid #5C9DC0;
 
+
 }
 
 /* =============================== HEAD ========================== */
 
 .lo_top-info h1 {
-	color:#fff;
-	margin:0;padding:8px 0 0 0;
+	color:#fff; padding: 0px 0 0 0;
+	margin :0;
 	font-size:25px;
 	font-weight: normal
+
+
 }
+
+
+.lo_top-info h3 {
+	color:#fff;
+	padding:1% ;
+
+	font-size:25px;
+
+}
+
 
 .lo_top-info h1 small {
 	font-size: 12px;
@@ -348,7 +363,7 @@ body {
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
-	padding-top: 3%;
+	padding-top: 8%;
 }
 
 #contentinframe2 {
@@ -362,7 +377,7 @@ body {
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
-	padding-top: 3%;
+	padding-top: 8%;
 }
 
 #contentDiesel {

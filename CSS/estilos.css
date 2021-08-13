@@ -15,6 +15,8 @@ script {
 
 
 
+
+
 nav div div  {
 
   font-size: 17px;
@@ -510,7 +512,7 @@ header label:hover {
   	margin:0 auto;
   	display: flex;
   	justify-content: center;
-  	padding-top: 15%;
+  	padding-top: 30%;
   }
 
 

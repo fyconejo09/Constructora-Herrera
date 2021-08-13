@@ -199,33 +199,6 @@ script{
 }
 
 
-#content h1 {
-	font-size: 21px;
-	margin: 0px 0 14px;
-	padding: 0px;
-}
-#content h2 {
-	font-size: 17px;
-	margin: 10px 0px;
-	padding: 0px;
-}
-#content h3 {
-	font-size: 15px;
-	margin: 17px 0px 0px 0px;
-	padding: 0px;
-}
-#content p {
-	font-size: 13px;
-	margin: 7px 0px;
-	padding: 0px;
-}
-#content a {
-	color: #3D82AB;
-	text-decoration: none;
-}
-#content a:hover {
-	text-decoration: underline;
-}
 
 /* =============================== FOOTER ========================== */
 

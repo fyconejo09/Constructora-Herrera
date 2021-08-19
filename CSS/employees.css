@@ -34,14 +34,13 @@ script{
 }
 
 /* =============================== HEAD ========================== */
+	/*formato a los encabezados*/
 
 .lo_top-info h1 {
 	color:#fff; padding: 0px 0 0 0;
 	margin :0;
 	font-size:25px;
 	font-weight: normal
-
-
 }
 
 
@@ -50,7 +49,6 @@ script{
 	padding:1% ;
 
 	font-size:25px;
-
 }
 
 
@@ -69,11 +67,12 @@ script{
 	text-decoration: none;
 	margin: 5px 6px 0 6px;
 }
+
  #links a:hover{
  	text-decoration: underline;
  }
 /* =============================== NAVBAR ========================== */
-
+	/*Le da formato a la pagina barra de menu*/
 #navbar {
 	height: 30px;
 	background: #3D82AB;
@@ -126,7 +125,7 @@ script{
 
 
 /* =============================== CONTENT ========================== */
-
+	/*este contect lo usa el resto de paginas html*/
 #content {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -141,6 +140,7 @@ script{
 	padding-top: 10%;
 }
 
+	/* este contect lo usa el reporte de produccion fabrica de tubos */
 #content1 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -155,6 +155,7 @@ script{
 	padding-top: 10%;
 }
 
+	/* este contect lo usa el reporte stock de tubos y produccion de concreto */
 #content2 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -170,6 +171,7 @@ script{
 }
 	/* =============================== Contenct de formularios========================= */
 
+	/* este contect lo usa la pagina de index */
 #contentinframe1 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -184,6 +186,7 @@ script{
 	padding-top: 8%;
 }
 
+	/* este contect lo usa en menu de acarreos*/
 #contentinframe2 {
 	margin: 4px 0px 4px 0px;
 	padding: 10px;
@@ -201,8 +204,7 @@ script{
 
 
 /* =============================== FOOTER ========================== */
-
-
+	/*le da formato al pie de pagina*/
 #cb-footer {
 	width: 60%;
 	clear: both;

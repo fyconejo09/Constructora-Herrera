@@ -14,21 +14,27 @@
 }
 
 .barra_informacion{
-	
+
 	height: 50px;
-	
-}	
+
+}
 header h1 {
 	color: var(--blanco);
 	font-size: 20px;
 
 }
 
-	/*============================Menú desplegable=================*/	
-  
+thead {
+position: -webkit-sticky;
+position: sticky;
+top: 80px;
+}
+
+	/*============================Menú desplegable=================*/
+
 	.contenedor_menu{
 		width: 150px;
-	
+
 	}
 	.card{
 	  width: 140px;
@@ -38,15 +44,15 @@ header h1 {
 	}
 
 	.cuerpo_menu li ul, .cuerpo_menu .inferior ul { /*Con este modifico el primer sub menú*/
-		
+
 		margin-left: 100px;
-				
+
 	  }
-		  
+
 	.cuerpo_menu li ul li ul { /*Con este modifico el segundo submenu */
-		  
+
 		width: 60px;
-		  
+
 		}
 
 	/*============================Main=================*/

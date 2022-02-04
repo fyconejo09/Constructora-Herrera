@@ -193,10 +193,10 @@ h3{
   border-bottom-right-radius: 5px 5px;
 
 }
-.cuerpo_menu .inferior ul{ /*Con este modifico el sub menu de la última opcion*/
+.cuerpo_menu .superior ul{ /*Con este modifico el sub menu de la última opcion*/
 	background: var(--nav_bar);
 	margin-left: 158px;
-	margin-top:-328px;
+	margin-top: -62px;
 	display: none;
 	position: absolute;
 	border-top-right-radius: 5px 5px;

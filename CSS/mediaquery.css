@@ -33,7 +33,7 @@ header h1 {
 	}
 	.card{
 	  width: 140px;
-	  height: 600px;
+	  height: 800px;
 	  background-color: var(--nav_bar);
 	  border-radius: 0px 0px;
 	}

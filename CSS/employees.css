@@ -137,7 +137,7 @@ body header{
 }
 .card{
   width: 200px;
-  height: 600px;
+  height: 695px;
   background-color: var(--nav_bar);
   border-radius: 0px 0px;
 }
@@ -161,7 +161,7 @@ h3{
   transition: 1s all;
   font-family: sans-serif;
   font-size: 15px;
-  padding: 15px;
+  padding: 13px;
   margin-left: -40px;
   margin-top: 0px;
   color: #fff;
@@ -186,7 +186,7 @@ h3{
 .cuerpo_menu li ul { /*Con este modifico el primer sub menú*/
   background: var(--nav_bar);
   margin-left: 160px;
-  margin-top: -38px;
+  margin-top: -50px;
   display: none;
   position: absolute;
   border-top-right-radius: 5px 5px;

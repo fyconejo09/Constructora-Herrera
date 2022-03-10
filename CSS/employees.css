@@ -280,9 +280,17 @@ li a:hover{ /*Con este modifico el hover del menú principal*/
 	padding-top: 108px;
 	padding-bottom: 5%;
 }
-.STF0BF11B31B944F1EB48F95D727699A6A{
-	background-color: rgba(0, 0, 0, 0.2);
+.STF0BF11B31B944F1EB48F95D727699A6A {
+	background-color: rgba(0, 0, 0, 0.2)!important;
 	border-radius: 2rem;
+}
+
+.STF0BF11B31B944F1EB48F95D727699A6A .cbFormTableRow {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.STF0BF11B31B944F1EB48F95D727699A6A .cbFormTableEvenRow {
+    background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
 .cbHTMLBlockContainer{
@@ -293,6 +301,15 @@ li a:hover{ /*Con este modifico el hover del menú principal*/
 .cbLoginButtonContainer{
 	background-color: none;
 }
+
+
+
+
+
+
+
+
+
 	/* este contect lo usa el reporte de produccion fabrica de tubos */
 #content1 {
 	margin: 4px 0px 4px 0px;

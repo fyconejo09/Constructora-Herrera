@@ -285,6 +285,10 @@ li a:hover{ /*Con este modifico el hover del menú principal*/
 	border-radius: 2rem;
 }
 
+.STF0BF11B31B944F1EB48F95D727699A6A a {
+  color: #063b4f !important;
+}
+
 .STF0BF11B31B944F1EB48F95D727699A6A .cbFormTableRow {
     background-color: rgba(0, 0, 0, 0.2) !important;
 }

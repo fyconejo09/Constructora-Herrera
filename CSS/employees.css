@@ -302,9 +302,11 @@ li a:hover{ /*Con este modifico el hover del menú principal*/
     width: 100%!important;
 }
 
-.STF0BF11B31B944F1EB48F95D727699A6A .cbFormLabelCell .cbFormLabel{
-    width: 50%!important;
+
+.STF0BF11B31B944F1EB48F95D727699A6A .cbFormLabelCell {
+  width: 50%!important;
 }
+
 
 .cbHTMLBlockContainer{
 	background: none;

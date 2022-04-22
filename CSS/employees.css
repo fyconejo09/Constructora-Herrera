@@ -19,11 +19,20 @@ body {
 /* =============================== Formato titulos ========================== */
 
 
+article  {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+  width: 100%;
+	border: 1px solid #444;
+  justify-content: center;
+  align-items: center;
+}
 
 thead {
 position: -webkit-sticky;
 position: sticky;
-top: 100px;
+top: 10px;
 }
 
 

@@ -30,7 +30,7 @@ Table {
 	border: 1px solid #444;
 	background-color: #ffc;
 }
-Table {
+Table td {
 	width: 200px;
 	border: 1px solid #444;
 	background-color: #cfc;

@@ -40,6 +40,10 @@ table td {
  table th {
     width: 50% !important
   }
+  
+  table tr {
+     width: 50% !important
+   }
 
 
 

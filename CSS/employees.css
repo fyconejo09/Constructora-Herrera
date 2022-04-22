@@ -18,18 +18,19 @@ body {
 
 /* =============================== Formato titulos ========================== */
 
-* {
+Table {
 	margin: 0;
 	padding: 0;
 	overflow: auto;
+ white-space: nowrap;
 }
-#tabla {
+Table {
 	width: 100%;
 	border-collapse: collapse;
 	border: 1px solid #444;
 	background-color: #ffc;
 }
-.celda_dcha {
+Table {
 	width: 200px;
 	border: 1px solid #444;
 	background-color: #cfc;

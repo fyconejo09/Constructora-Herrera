@@ -21,7 +21,7 @@ body {
 table {
   border: 1px solid green !important;
    border-collapse: collapse;
-   width:50% !important; 
+   width:50% !important;
 
  }
 
@@ -34,8 +34,13 @@ table td {
  }
 
 table td {
-   width: 99% !important
+   width: 50% !important
  }
+
+ table th {
+    width: 50% !important
+  }
+
 
 
 thead {

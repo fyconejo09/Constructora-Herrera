@@ -18,10 +18,24 @@ body {
 
 /* =============================== Formato titulos ========================== */
 
-table { border: 1px solid green !important; border-collapse: collapse; width:100% !important; }
-table td { border: 1px solid green !important;}
-table td { white-space:nowrap !important}
-table td { width: 99% !important}
+table {
+  border: 1px solid green !important;
+   border-collapse: collapse;
+   width:50% !important; 
+
+ }
+
+table td {
+   border: 1px solid green !important;
+}
+
+table td {
+   white-space:nowrap !important
+ }
+
+table td {
+   width: 99% !important
+ }
 
 
 thead {

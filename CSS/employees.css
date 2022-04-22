@@ -19,13 +19,6 @@ body {
 /* =============================== Formato titulos ========================== */
 
 
-article form{
-	margin: 0;
-	padding: 0;
-        overflow: scroll;
-        white-space: nowrap;
-}
-
 
 thead {
 position: -webkit-sticky;

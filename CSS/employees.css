@@ -18,6 +18,11 @@ body {
 
 /* =============================== Formato titulos ========================== */
 
+table {
+width: 50% !important;
+}
+
+
 thead {
 position: -webkit-sticky;
 position: sticky;

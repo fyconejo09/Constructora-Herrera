@@ -18,7 +18,10 @@ body {
 
 /* =============================== Formato titulos ========================== */
 
-
+table { border: 1px solid green; border-collapse: collapse; width:100%; }
+table td { border: 1px solid green; }
+table td.shrink { white-space:nowrap }
+table td.expand { width: 99% }
 
 
 thead {

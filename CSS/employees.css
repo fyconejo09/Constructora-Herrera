@@ -18,25 +18,6 @@ body {
 
 /* =============================== Formato titulos ========================== */
 
-* {
-	margin: 0;
-	padding: 0;
-	overflow: auto;
- white-space: nowrap;
-}
-Table {
-	width: 100%;
-	border-collapse: collapse;
-	border: 1px solid #444;
-	background-color: #ffc;
-}
-Table td {
-	width: 200px;
-	border: 1px solid #444;
-	background-color: #cfc;
-}
-
-
 
 thead {
 position: -webkit-sticky;

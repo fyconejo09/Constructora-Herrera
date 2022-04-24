@@ -100,8 +100,8 @@ body header{
    right: -80px;
    top: 3px;
    border-radius: 4px;
-   height: 67px;
-   width: 67px;
+   height: 95px;
+   width: 95px;
    z-index: 100;
  }
 
@@ -265,8 +265,6 @@ li a:hover{ /*Con este modifico el hover del menú principal*/
 	column-gap: 1rem;
 	height: 620px;
 	padding-top: 98px;
-
-
 }
 
 .contenedor_video{

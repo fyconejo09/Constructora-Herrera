@@ -2,8 +2,8 @@
 :root {
     --blanco:#ffffff;
     --oscuro:#212121;
-    --nav_bar: #0808084d;
-	--encabezado: #0808084d;
+    --nav_bar: rgb(0 0 0 / 50%);
+	--encabezado: #080808bf;
     --gris: #757575;
     --grisClaro: #c5cace;
 }

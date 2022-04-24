@@ -3,9 +3,9 @@
     --blanco:#ffffff;
     --oscuro:#212121;
     --nav_bar: rgb(0 0 0 / 18%);
-	--encabezado: #080808bf;
+	  --encabezado: #080808bf;
     --gris: #757575;
-    --grisClaro: #0e0e0e;
+    --grisClaro: #6f6868;
 }
 body {
 	font: 13px/130% Arial, Helvetica, sans-serif;

@@ -52,7 +52,7 @@ h2{
 	font-size: 20px;
 	text-align: center;
 	color: var(--blanco);
-  margin: 0.1em 0;
+  margin: 0.6em 0;
 }
 /* =============================== HEAD ========================== */
 	/*formato a los encabezados*/
@@ -110,8 +110,8 @@ body header{
 	right: -20px;
 	top: -3px;
 	border-radius: 4px;
-	height: 45px;
-	width: 45px;
+	height: 31px;
+	width: 31px;
 	z-index: 100;
  }
 
@@ -295,7 +295,7 @@ li a:hover{ /*Con este modifico el hover del menú principal*/
 	display: flex;
 	justify-content: center;
 	padding-top: 108px;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 }
 .STF0BF11B31B944F1EB48F95D727699A6A {
 	background-color: rgba(0, 0, 0, 0.2)!important;

@@ -14,6 +14,16 @@
 
 }
 
+.cuerpo_menu .superior ul {
+    background: var(--nav_bar);
+    margin-left: 24%;
+    margin-top: -62px;
+    display: none;
+    position: absolute;
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+}
+
 .barra_informacion{
 
 	height: 50px;

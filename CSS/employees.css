@@ -1,10 +1,11 @@
 /* =============================== COMMON ========================== */
 :root {
+
     --blanco:#ffffff;
     --oscuro:#212121;
     --nav_bar: rgb(0 0 0 / 18%);
-	  --encabezado: #080808bf;
-    --gris: #f1e1e1;
+   	--encabezado: #080808bf;
+    --gris: #757575;
     --grisClaro: #c5cace;
 }
 body {

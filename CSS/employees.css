@@ -108,10 +108,10 @@ body header{
  #logo_2{
 	position: relative;
 	right: -20px;
-	top: -3px;
+	top: 0px;
 	border-radius: 4px;
-	height: 31px;
-	width: 31px;
+	height: 38px;
+	width: 38px;
 	z-index: 100;
  }
 

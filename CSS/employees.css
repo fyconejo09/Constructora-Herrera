@@ -2,10 +2,10 @@
 :root {
     --blanco:#ffffff;
     --oscuro:#212121;
-    --nav_bar: rgb(0 0 0 / 50%);
+    --nav_bar: rgb(0 0 0 / 18%);
 	--encabezado: #080808bf;
     --gris: #757575;
-    --grisClaro: #c5cace;
+    --grisClaro: #0e0e0e;
 }
 body {
 	font: 13px/130% Arial, Helvetica, sans-serif;

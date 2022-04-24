@@ -16,8 +16,7 @@ body {
 
 }
 
-/* =============================== Formato titulos ========================== */
-
+/* ========================= Formato de tablas y scrolling ======================== */
 
 article  {
 	margin: 0;
@@ -29,12 +28,17 @@ article  {
   white-space: nowrap;
 }
 
-thead {
+/* ======================== Fija la primera linea de las tablas ======================= */
+
+
+
+/*thead {
 position: -webkit-sticky;
 position: sticky;
 top: 0px;
-}
+}*/
 
+/* =============================== Formato titulos ========================== */
 
 h1{
 	font-size: 25px;

@@ -2,7 +2,7 @@
 :root {
 
   --blanco:#ffffff;
-  --oscuro:#212121;
+  --oscuro: #212121;
   --nav_bar: rgb(0 0 0 / 32%);
   --encabezado: #080808bf;
   --gris: #757575;
@@ -262,7 +262,7 @@ h3{
 #menu span, #menu a {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -276,36 +276,31 @@ h3{
     width: 100%;
 }
 #menu li {
-    background: rgb(0 0 0 / 32%);
+    background: rgb(0 0 0 / 0%);
 }
 #menu li:hover {
-    background: #f6f6f6;
+    background: #545252;
 }
 #menu a {
-    color: #666666;
+    color: white;
     line-height: 160%;
     padding: 11px 28px 11px 28px;
     width: 253px;
 }
 #menu ul ul li {
-    background: #f6f6f6;
+    background: #080808bf;
 }
 #menu ul ul li:hover {
-    background: #dddddd;
+    background: grey;
 }
 #menu ul ul li:hover a {
-    color: #666666;
-
-
-
-
-
+    color: white;
 }
 #menu ul ul li ul li {
-    background: #dddddd;
+    background: #080808bf;
 }
 #menu ul ul li ul li:hover {
-    background: #b7b7b7;
+    background: grey;
 }
 #menu .has-sub {
     position: relative;

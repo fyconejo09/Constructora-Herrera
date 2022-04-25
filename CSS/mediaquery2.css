@@ -122,13 +122,17 @@ header h1 {
 	}
 
 	#menu {
-	    width: 200px;
+	    width: 100%;
+	}
+
+	#menu ul li ul {
+	    width: 100%;
 	}
 
 	#menu span, #menu a {
 	    display: inline-block;
 	    font-family: Arial, Helvetica, sans-serif;
-	    font-size: 12px;
+	    font-size: 15px;
 	    text-decoration: none;
 	}
 
@@ -151,22 +155,22 @@ header h1 {
 	    color: white;
 	    line-height: 160%;
 	    padding: 11px 28px 11px 28px;
-	    width: 253px;
+	    width: 100%;
 	}
 	#menu ul ul li {
 	    background: #080808bf;
 	}
 	#menu ul ul li:hover {
-	    background: #c5cace;
+	    background: grey;
 	}
 	#menu ul ul li:hover a {
-	    color: black;
+	    color: white;
 	}
 	#menu ul ul li ul li {
-	    background: #dddddd;
+	    background: #080808bf;
 	}
 	#menu ul ul li ul li:hover {
-	    background: #b7b7b7;
+	    background: grey;
 	}
 	#menu .has-sub {
 	    position: relative;
@@ -190,7 +194,7 @@ header h1 {
   .principal{
 
     display: grid;
-	grid-template-columns: auto;
+	grid-template-columns:40% auto;
 	height: auto;
 	padding-top: 117px;
   }

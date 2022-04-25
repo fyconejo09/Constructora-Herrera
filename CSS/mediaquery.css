@@ -24,6 +24,10 @@
     border-bottom-right-radius: 5px 5px;
 }
 
+.cuerpo_menu .superior ul li ul {
+    padding-right: 18px;
+}
+
 .barra_informacion{
 
 	height: 50px;

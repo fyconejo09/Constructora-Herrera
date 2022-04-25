@@ -194,7 +194,7 @@ header h1 {
   .principal{
 
     display: grid;
-	grid-template-columns:48% auto;
+	grid-template-columns:55% auto;
 	height: auto;
 	padding-top: 117px;
   }

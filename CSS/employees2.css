@@ -1,0 +1,510 @@
+/* =============================== COMMON ========================== */
+:root {
+
+  --blanco:#ffffff;
+  --oscuro:#212121;
+  --nav_bar: rgb(0 0 0 / 32%);
+  --encabezado: #080808bf;
+  --gris: #757575;
+  --grisClaro: #c5cace;
+}
+body {
+	font: 13px/130% Arial, Helvetica, sans-serif;
+	margin: 0px;
+	background-image: linear-gradient(to top, var(--grisClaro)  0%, var(--blanco) 100%);
+	height: 100%;
+
+
+}
+
+/* ========================= Formato de tablas y scrolling ======================== */
+
+article  {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	border: 1px solid #444;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+/* ======================== Fija la primera linea de las tablas ======================= */
+
+
+
+/*thead {
+position: -webkit-sticky;
+position: sticky;
+top: 0px;
+}*/
+
+/* =============================== Formato titulos ========================== */
+
+h1{
+	font-size: 25px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	color: var(--blanco);
+}
+h2{
+	font-size: 20px;
+	text-align: center;
+	color: var(--blanco);
+  margin: 0;
+}
+/* =============================== HEAD ========================== */
+	/*formato a los encabezados*/
+
+.barra_informacion{
+  width: 100%;
+  background-color: var(--nav_bar);
+  height: 20px;
+  align-content: center;
+  margin: 0;
+  padding: 18px 0px 10px 0px;
+  z-index: 100;
+}
+
+#barra_sec{
+	display: grid;
+	grid-template-columns: 100px auto 100px;
+	column-gap: 1rem;
+
+}
+.text_info{
+	align-items: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+body header{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+
+}
+
+.titulo{
+  width: 100%;
+  height: 30px;
+  background-color: var(--oscuro);
+  margin: 0px;
+  padding: 1px 0px 8px 0px;
+  z-index: 100;
+}
+
+ #logo{
+   position: relative;
+   right: -80px;
+   top: 3px;
+   border-radius: 4px;
+   height: 82.5px;
+   width: 82.5px;
+   z-index: 100;
+ }
+
+ #logo_2{
+	position: relative;
+	right: -20px;
+	top: 0px;
+	border-radius: 4px;
+	height: 38px;
+	width: 38px;
+	z-index: 100;
+ }
+
+.link_menu{
+	margin-top: 12px;
+	margin-left: 20px;
+	text-align: left;
+}
+.link_logout{
+	margin-top: 12px;
+	margin-right: 20px;
+	text-align: right;
+
+}
+
+.link_menu a, .link_logout a {
+	margin-top: 6px;
+	color: var(--blanco);
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.material-icons:hover {
+    cursor: pointer;
+	color: var(--grisClaro);
+}
+/*============================Menú desplegable=================*/
+
+.container{
+
+  	padding: 0px;
+}
+
+.contenedor_menu{
+	width: 200px;
+
+}
+.card{
+  width: 200px;
+  height: 695px;
+  background-color: var(--nav_bar);
+  border-radius: 0px 0px;
+}
+
+.titulo_menu{
+  border-radius: 0px 0px 0px 0px;
+  padding: 5px;
+  background-color: var(--encabezado);
+}
+
+h3{
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+
+
+/*============================Menú Principal=================*/
+#menu {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#menu ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+  transition: 0.05s all;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  text-decoration-style: none;
+  list-style: none;
+  display: block;
+  display: list-item;
+  list-style-type: none;
+
+
+
+}
+
+#menu ul {
+    position: relative;
+    z-index: 597;
+    float: left;
+}
+
+#menu ul li {
+    float: left;
+    min-height: 1px;
+    line-height: 1em;
+    vertical-align: middle;
+
+
+    list-style: none;
+}
+
+#menu ul li.hover,
+#menu ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+}
+
+#menu ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%;
+}
+
+#menu ul ul li {
+    float: none;
+}
+
+#menu ul li:hover > ul {
+    visibility: visible;
+
+  display: block;
+  cursor: pointer;
+}
+
+#menu ul ul {
+    top: 0;
+    left: 100%;
+}
+
+#menu ul li {
+    float: none;
+}
+
+#menu {
+    width: 255px;
+}
+
+#menu span, #menu a {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#menu:after, #menu ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#menu ul, #menu li {
+    width: 100%;
+}
+#menu li {
+    background: rgb(0 0 0 / 32%);
+}
+#menu li:hover {
+    background: #f6f6f6;
+}
+#menu a {
+    color: #666666;
+    line-height: 160%;
+    padding: 11px 28px 11px 28px;
+    width: 253px;
+}
+#menu ul ul li {
+    background: #f6f6f6;
+}
+#menu ul ul li:hover {
+    background: #dddddd;
+}
+#menu ul ul li:hover a {
+    color: #666666;
+
+
+
+
+
+}
+#menu ul ul li ul li {
+    background: #dddddd;
+}
+#menu ul ul li ul li:hover {
+    background: #b7b7b7;
+}
+#menu .has-sub {
+    position: relative;
+}
+
+#menu .has-sub:after, #menu .has-sub > ul > .has-sub:hover:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 9px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -5px;
+}
+
+#menu .fa-angle-right {
+    float: right;
+}
+/*============================Menú Principal=================*/
+
+
+/* =============================== Main ========================== */
+
+.principal {
+	display: grid;
+	grid-template-columns: 200px auto;
+	column-gap: 1rem;
+	height: 620px;
+	padding-top: 87px;
+}
+
+.contenedor_video{
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+	width: 100%;
+	height: 70%;
+
+}
+.video_1{
+	width: 70%;
+	height: 100%;
+
+}
+
+
+
+/* =============================== CONTENT ========================== */
+	/*este contect lo usa el resto de paginas html*/
+#content {
+	margin: 4px 0px 4px 0px;
+	width: 100%;
+	height:100%;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	padding-top: 108px;
+	padding-bottom: 2%;
+}
+.STF0BF11B31B944F1EB48F95D727699A6A {
+	background-color: rgba(0, 0, 0, 0.2)!important;
+	border-radius: 2rem;
+}
+
+.STF0BF11B31B944F1EB48F95D727699A6A {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  border: 1px solid #444;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.STF0BF11B31B944F1EB48F95D727699A6A a {
+  color: #063b4f !important;
+}
+
+.STF0BF11B31B944F1EB48F95D727699A6A .cbFormTableRow {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.STF0BF11B31B944F1EB48F95D727699A6A .cbFormTableEvenRow {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+
+/*.STF0BF11B31B944F1EB48F95D727699A6A .cbFormFieldCell {
+    width: 100%!important;
+}*/
+
+
+/*.STF0BF11B31B944F1EB48F95D727699A6A .cbFormLabelCell {
+  width: 90%!important;
+}*/
+
+
+.cbHTMLBlockContainer{
+	background: none;
+
+}
+
+.cbLoginButtonContainer{
+	background-color: none;
+}
+
+.cbFormSection_68975ffa236b6d {
+    width: 90% !important;
+
+}
+
+
+
+	/* este contect lo usa el reporte de produccion fabrica de tubos */
+#content1 {
+	margin: 4px 0px 4px 0px;
+	padding: 10px;
+	background: #fff;
+	color: #fff;
+	box-shadow: 0px 0px 1px 0px #bbb;
+	width: 90%;
+	height:100%;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	padding-top: 10%;
+}
+
+	/* este contect lo usa el reporte stock de tubos y produccion de concreto */
+#content2 {
+	margin: 4px 0px 4px 0px;
+	padding: 10px;
+	background: #fff;
+	color: #fff;
+	box-shadow: 0px 0px 1px 0px #bbb;
+	width: 40%;
+	height:100%;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	padding-top: 10%;
+}
+	/* =============================== Contenct de formularios========================= */
+
+
+#contentinframe1 {
+	margin: 4px 0px 4px 0px;
+	padding: 0px;
+	box-shadow: 0px 0px 1px 0px #bbb;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	padding-top: 1%;
+}
+
+	/* este contect lo usa en menu de acarreos*/
+#contentinframe2 {
+	margin: 4px 0px 4px 0px;
+	padding: 10px;
+	background: #fff;
+	color: #fff;
+	box-shadow: 0px 0px 1px 0px #bbb;
+	width: 100%;
+	height: 100%;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	padding-top: 8%;
+}
+
+
+
+/* =============================== FOOTER ========================== */
+	/*le da formato al pie de pagina*/
+#cb-footer {
+	width: 60%;
+	clear: both;
+	border-top: 0px solid #a1b5c0;
+	color:var(--gris);
+	margin: 4px auto;
+	padding: 10px 0 10px 10px;
+	font-size: 11px;
+	text-align: center;
+	height: 100%;
+
+
+}
+#cb-footer p {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+#cb-footer a {
+	color:var(--gris);
+	text-decoration: underline;
+}
+#cb-footer a:hover {
+	text-decoration: none;
+}
+#cb-footer p:first-child{
+	font-weight: bold;
+}

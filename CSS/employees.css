@@ -378,7 +378,7 @@ h3{
   justify-content: center;
   align-items: center;
   white-space: nowrap;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 
 }
 

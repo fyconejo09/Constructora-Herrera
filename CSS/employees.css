@@ -422,7 +422,7 @@ h3{
 
 Div element.style {
 
-    overflow-y: hidden;
+  /*  overflow-y: hidden;*/
 }
 
 

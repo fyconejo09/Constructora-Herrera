@@ -378,6 +378,8 @@ h3{
   justify-content: center;
   align-items: center;
   white-space: nowrap;
+  overflow-x: hidden;
+
 }
 
 .STF0BF11B31B944F1EB48F95D727699A6A a {
@@ -417,6 +419,10 @@ h3{
 
 }
 
+
+element.style {
+    overflow-y: hidden;
+}
 
 
 	/* este contect lo usa el reporte de produccion fabrica de tubos */

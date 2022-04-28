@@ -256,11 +256,11 @@ h3{
 }
 
 #menu {
-    width: 200px;
+    width: 100%;
 }
 
 #menu ul li ul {
-    width: 200px;
+    width: 100%;
 }
 
 #menu span, #menu a {

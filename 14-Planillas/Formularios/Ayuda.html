@@ -1,0 +1,195 @@
+<form>
+    <a href="#miModal" >
+        <input type="button" value="Ayuda" class="boton">
+    </a>
+</form>
+
+
+
+
+
+<div id="miModal" class="modal">
+
+
+  <div class="modal-contenido">
+    <a class="Boton" href="#">X</a>
+
+
+
+
+
+<div class="box">
+
+
+    <div class="left">
+       <div class="content">
+         <ul>
+
+         <h2>Cedula</h2>
+         <li>Documento de identficación de la persona<br><br></li>
+
+         <h2>Perfil</h2>
+         <li>Corresponde al puesto asignado al colaborador<br><br></li>
+
+         <h2>Gestión</h2>
+         <li>Corresponde a la ubicación del puesto<br><br></li>
+
+         <h2>Encargado Chequeador</h2>
+         <li>Corresponde al encargado o jefe directo del colaborador<br><br></li>
+
+         <h2>Planilla Empresa</h2>
+         <li>Empresa donde se ecuentra la planilla del colaborador<br><br></li>
+
+         <h2>Periodo de Pag</h2>
+         <li>Es la cantidad de veces que se cancela la planilla al colaborador, puede ser quincenal o bisemanal<br><br></li>
+
+         <h2>Tipo de Pago</h2>
+         <li>Corresponde a la forma de pago de la planillas, puede ser por hora o fijo<br><br></li>
+
+         <h2>Tipo de Jornada</h2>
+         <li>Corresponde al tipo de jornada asignada al colaborador puede ser: Diurna, Mixta o Nocturna.<br><br></li>
+
+         <h2>Forma de Pago</h2>
+         <li>Corresponde metodo de pago escogido para el colaborador tanto en efectivo como transferencia.<br><br></li>
+
+      </div>
+  </div>
+
+
+
+
+    <div class="right">
+      <div class="content">
+         <ul>
+         <h2>Horas Completar Horario Diario</h2>
+
+          <li>3.1 Son la horas diarias que debe completar el colaborador para sumar las 48 horas semanales y 192 horas mensuales</li>
+
+        <h2>Cargas, Porcentaje</h2>
+
+         <li>4.1 El porcenaje debe expresarse en decimales, dividiendo el porcentaje entre cien (100%/100)</li>
+        </ul>
+
+
+      </div>
+   </div>
+
+
+   <div class="right">
+     <div class="content">
+        <ul>
+        <h2>Horas Completar Horario Diario</h2>
+
+         <li>3.1 Son la horas diarias que debe completar el colaborador para sumar las 48 horas semanales y 192 horas mensuales</li>
+
+       <h2>Cargas, Porcentaje</h2>
+
+        <li>4.1 El porcenaje debe expresarse en decimales, dividiendo el porcentaje entre cien (100%/100)</li>
+       </ul>
+
+
+     </div>
+  </div>
+
+
+  <div class="right">
+    <div class="content">
+       <ul>
+       <h2>Horas Completar Horario Diario</h2>
+
+        <li>3.1 Son la horas diarias que debe completar el colaborador para sumar las 48 horas semanales y 192 horas mensuales</li>
+
+      <h2>Cargas, Porcentaje</h2>
+
+       <li>4.1 El porcenaje debe expresarse en decimales, dividiendo el porcentaje entre cien (100%/100)</li>
+      </ul>
+
+
+    </div>
+ </div>
+
+
+
+</div>
+</div>
+</div>
+
+<style>
+
+.modal-contenido{
+  background-color:white !important;
+  width:90% !important;
+  height:75% !important;
+  padding: 10px 20px !important;
+  margin: 130px auto !important;
+  position: relative !important;
+}
+.modal{
+  background-color: rgba(0,0,0,.8) !important;
+  position:fixed !important;
+  top:0 !important;
+  right:0 !important;
+  bottom:0 !important;
+  left:0 !important;
+  opacity:0 !important;
+  pointer-events:none !important;
+  transition: all 1s !important;
+}
+#miModal:target{
+  opacity:1 !important;
+  pointer-events:auto !important;
+
+}
+
+button {
+
+}
+
+a {
+  background-color: none !important;
+  color: #fff !important;
+}
+
+.boton{
+  background-color: #47a386 !important;
+  border: 0 !important;
+  border-radius: 5px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  padding: 10px 25px !important;
+}
+
+.box {
+    overflow: hidden !important
+white-space: Normal !important;
+}
+
+.content {
+    font-size: 15px !important;
+    line-height: 20px !important;
+    padding: 0 20px !important;
+    text-align: justify !important;
+}
+
+.left {
+    float: left !important;
+    width: 25% !important;
+}
+
+.left .content {
+    border-right: 5px solid #4BB495 !important;
+}
+
+.right {
+    float: right !important;
+    width: 25% !important;
+}
+
+
+.right .content {
+    border-right: 5px solid #4BB495 !important;
+}
+
+
+</style>

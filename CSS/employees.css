@@ -153,7 +153,7 @@ body header{
 
 }
 .card{
-  width: 100%;
+  width: 125%;
   height: 695px;
   background-color: var(--nav_bar);
   border-radius: 0px 0px;

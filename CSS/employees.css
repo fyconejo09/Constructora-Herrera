@@ -27,7 +27,7 @@ article  {
 	border: 1px solid #444;
   justify-content: center;
   align-items: center;
-  white-space: pre;
+  white-space: nowrap;
 }
 
 /* ======================== Fija la primera linea de las tablas ======================= */
@@ -378,7 +378,7 @@ h3{
  border: 1px solid #444;
   justify-content: center;
   align-items: center;
-  white-space: pre;
+  white-space: nowrap;
   overflow-x: hidden;
 
 }

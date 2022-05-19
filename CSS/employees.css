@@ -371,7 +371,7 @@ h3{
 	border-radius: 2rem;
 }
 
-.STF0BF11B31B944F1EB48F95D727699A6A {
+/*.STF0BF11B31B944F1EB48F95D727699A6A {
   margin: 0;
   padding: 0;
  overflow: auto;
@@ -379,6 +379,30 @@ h3{
   justify-content: center;
   align-items: center;
   white-space: nowrap;
+  overflow-x: hidden;
+
+}*/
+
+#cbDataAjaxCtnr_51c5d291727353  {
+  margin: 0;
+  padding: 0;
+ overflow: auto;
+ border: 1px solid #444;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  overflow-x: hidden;
+
+}
+
+#cbTable_6384ed04221f7a {
+  margin: 0;
+  padding: 0;
+ overflow: auto;
+ border: 1px solid #444;
+  justify-content: center;
+  align-items: center;
+  white-space: normal;
   overflow-x: hidden;
 
 }

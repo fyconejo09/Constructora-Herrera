@@ -34,11 +34,11 @@ article  {
 
 
 
-/*thead {
+thead {
 position: -webkit-sticky;
 position: sticky;
 top: 0px;
-}*/
+}
 
 /* =============================== Formato titulos ========================== */
 
@@ -383,6 +383,19 @@ h3{
 
 }
 
+.cbTableCellPadding {
+  margin: 0;
+  padding: 0;
+ overflow: auto;
+ border: 1px solid #444;
+  justify-content: center;
+  align-items:center;
+  white-space: normal !important;
+  overflow-x: hidden;
+
+}
+
+
 
 .STF0BF11B31B944F1EB48F95D727699A6A .cbResultSetTableHeader {
   position: -webkit-sticky;
@@ -393,17 +406,6 @@ h3{
 }
 
 
-.cbTableCellPadding {
-  margin: 0;
-  padding: 0;
- overflow: auto;
- border: 1px solid #444;
-  justify-content: center;
-  align-items: center;
-  white-space: normal !important;
-  overflow-x: hidden;
-
-}
 
 .STF0BF11B31B944F1EB48F95D727699A6A a {
   color: #063b4f !important;

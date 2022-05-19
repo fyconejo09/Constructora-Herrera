@@ -366,6 +366,7 @@ h3{
 	padding-top: 108px;
 	padding-bottom: 2%;
 }
+
 .STF0BF11B31B944F1EB48F95D727699A6A {
 	background-color: rgba(0, 0, 0, 0.2)!important;
 	border-radius: 2rem;
@@ -383,15 +384,8 @@ h3{
 
 }
 
-.STF0BF11B31B944F1EB48F95D727699A6A .cbTableCellPadding {
-  margin: 0;
-  padding: 0;
- overflow: auto;
- border: 1px solid #444;
-  justify-content: center;
-  align-items:center;
+.cbTableCellPadding {
   white-space: normal !important;
-  overflow-x: hidden;
 
 }
 

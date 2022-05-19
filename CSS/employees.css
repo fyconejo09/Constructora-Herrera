@@ -380,10 +380,14 @@ h3{
   justify-content: center;
   align-items: center;
   white-space: nowrap;
-  overflow-x: hidden;
+
 
 }
 
+div#GridRootCtnr_5e16050d6be9b0 {
+    white-space: normal;
+    overflow-x: hidden;
+}
 
 .STF0BF11B31B944F1EB48F95D727699A6A a {
   color: #063b4f !important;

@@ -393,7 +393,7 @@ h3{
 }
 
 div#GridRootCtnr_5e16050d6be9b0 {
-    white-space: normal;
+    white-space: normal !important;
     overflow-x: hidden;
 }
 

@@ -356,7 +356,7 @@ h3{
 .video_1{
 	width: 70%;
 	height: 100%;
-  padding-left:15%; 
+  padding-left:15%;
 
 }
 
@@ -395,6 +395,10 @@ h3{
 div#GridRootCtnr_5e16050d6be9b0 {
     white-space: normal;
     overflow-x: hidden;
+}
+
+.STF0BF11B31B944F1EB48F95D727699A6A h1 {
+  color: #e2e8ea !important;
 }
 
 .STF0BF11B31B944F1EB48F95D727699A6A a {

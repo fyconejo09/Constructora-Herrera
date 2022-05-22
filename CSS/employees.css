@@ -415,7 +415,7 @@ div#GridRootCtnr_5e16050d6be9b0 {
 
 
 .STF0BF11B31B944F1EB48F95D727699A6A a {
-  color: #129cd1 !important;
+  color: #343f43 !important;
 }
 
 
@@ -432,6 +432,16 @@ div#GridRootCtnr_5e16050d6be9b0 {
 
 }
 
+.STF0BF11B31B944F1EB48F95D727699A6A .cbResultSetHeaderCellNumberDate {
+  background: #828a95 !important;
+
+}
+
+
+.STF0BF11B31B944F1EB48F95D727699A6A .cbResultSetHeaderCheckBoxCell {
+  background: #828a95 !important;
+
+}
 
 #linea {
   background-color: #0000009e !important;

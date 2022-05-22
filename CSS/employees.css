@@ -11,8 +11,15 @@
 body {
 	font: 13px/130% Arial, Helvetica, sans-serif;
 	margin: 0px;
-	background-image: linear-gradient(to top, var(--grisClaro)  0%, var(--blanco) 100%);
-	height: 100%;
+
+
+  height: 400px;
+  background-image: url("http://drive.google.com/uc?export=view&id=1KsSJPbGA_oy1OucA7bdZ5nTh_U5qYZmU");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
 
 
 }
@@ -340,9 +347,9 @@ h3{
 
 .contenedor_video{
 	display: flex;
-	justify-content: center;
+	justify-content:space-around;
 	margin-top: 80px;
-	width: 100%;
+	width: 80%;
 	height: 70%;
 
 }

@@ -1,7 +1,7 @@
 /* =============================== COMMON ========================== */
 :root {
 
-  --blanco:#ffffff;
+  --blanco: #ffffffd4;
   --oscuro: #212121;
   --nav_bar: rgb(0 0 0 / 32%);
   --encabezado: #080808bf;
@@ -429,6 +429,7 @@ div#GridRootCtnr_5e16050d6be9b0 {
 
 #linea {
   background-color: #0000009e !important;
+  color: #ffffffad !important;
 }
 
 #Parrafo {

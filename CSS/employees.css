@@ -428,7 +428,22 @@ div#GridRootCtnr_5e16050d6be9b0 {
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
+.STF0BF11B31B944F1EB48F95D727699A6A .cbResultSetData {
+  background-color: #ffffff;
+}
+
+.STF0BF11B31B944F1EB48F95D727699A6A .cbResultSetGridHeaderCell {
+  background: #ffffff;
+}
+
+
+
 .STF0BF11B31B944F1EB48F95D727699A6A .cbResultSetHeaderCell {
+  background: #828a95 !important;
+
+}
+
+.STF0BF11B31B944F1EB48F95D727699A6A .cbResultSetGridHeaderCellNumberDate {
   background: #828a95 !important;
 
 }

@@ -206,15 +206,15 @@ header h1 {
 	  	justify-content: flex-end;
 	  	margin-top: -45%;
 	  	width: 140%;
-	  	height: 100%;
+	  	height: 0%;
 	}
 
 	.contenedor_Imagenes1 {
 	  	display: flex;
 	  	justify-content: flex-end;
-	    margin-top: -640px;
+	    margin-top: 100px;
 	  	width: 140%;
-	  	height: 100%;
+	  	height: 0%;
 	}
 
 

@@ -200,6 +200,24 @@ header h1 {
   }
 
 
+
+	.contenedor_Imagenes {
+	  	display: flex;
+	  	justify-content: flex-end;
+	  	margin-top: -75%;
+	  	width: 140%;
+	  	height: 100%;
+	}
+
+	.contenedor_Imagenes1 {
+	  	display: flex;
+	  	justify-content: flex-end;
+	    margin-top: -600px;
+	  	width: 140%;
+	  	height: 100%;
+	}
+
+
   .contenedor_video{
 	display: flex;
 	justify-content: center;

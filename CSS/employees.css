@@ -356,7 +356,7 @@ h3{
 .contenedor_Imagenes {
   	display: flex;
   	justify-content: flex-end;
-  	margin-top: -12%;
+  	margin-top: -40%;
   	width: 90%;
   	height: 100%;
 }
@@ -364,7 +364,7 @@ h3{
 .contenedor_Imagenes1 {
   	display: flex;
   	justify-content: flex-end;
-  	margin-top: -11%;
+    margin-top: -600px;
   	width: 90%;
   	height: 100%;
 }

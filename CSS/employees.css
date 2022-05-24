@@ -162,7 +162,7 @@ body header{
 }
 .card{
   width: 100%;
-  height: 695px;
+  height: 658px;
   background-color: var(--nav_bar);
   border-radius: 0px 0px;
 }
@@ -348,7 +348,7 @@ h3{
 .contenedor_video{
 	display: flex;
 	justify-content: center;
-	margin-top: 80px;
+	margin-top: 3%;
 	width: 80%;
 	height: 70%;
 }
@@ -356,17 +356,17 @@ h3{
 .contenedor_Imagenes {
   	display: flex;
   	justify-content: flex-end;
-  	margin-top: -40%;
+  	margin-top: -38%;
   	width: 90%;
-  	height: 100%;
+  	height: 0%;
 }
 
 .contenedor_Imagenes1 {
   	display: flex;
   	justify-content: flex-end;
-    margin-top: -600px;
+    margin-top: 100px;
   	width: 90%;
-  	height: 100%;
+  	height: 0%;
 }
 
 
@@ -603,7 +603,7 @@ Div element.style {
 	clear: both;
 	border-top: 0px solid #a1b5c0;
 	color: white;
-	margin: 4px auto;
+	margin: -2% auto;
 	padding: 10px 0 10px 10px;
 	font-size: 11px;
 	text-align: center;

@@ -585,7 +585,7 @@ Div element.style {
 	width: 60%;
 	clear: both;
 	border-top: 0px solid #a1b5c0;
-	color:var(--gris);
+	color: white;
 	margin: 4px auto;
 	padding: 10px 0 10px 10px;
 	font-size: 11px;
@@ -599,7 +599,7 @@ Div element.style {
 	padding: 0;
 }
 #cb-footer a {
-	color:var(--gris);
+	color: white;
 	text-decoration: underline;
 }
 #cb-footer a:hover {

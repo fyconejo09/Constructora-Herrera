@@ -351,8 +351,25 @@ h3{
 	margin-top: 80px;
 	width: 80%;
 	height: 70%;
-
 }
+
+.contenedor_Imagenes {
+  	display: flex;
+  	justify-content: flex-end;
+  	margin-top: -12%;
+  	width: 90%;
+  	height: 100%;
+}
+
+.contenedor_Imagenes1 {
+  	display: flex;
+  	justify-content: flex-end;
+  	margin-top: -11%;
+  	width: 90%;
+  	height: 100%;
+}
+
+
 .video_1{
 	width: 70%;
 	height: 100%;

@@ -199,36 +199,13 @@ header h1 {
 	padding-top: 117px;
   }
 
-
-
 	.contenedor_Imagenes {
 	  	display: flex;
-	  	justify-content: flex-end;
-	  	margin-top: 0%;
-	  	width: 130%;
-	  	height: 0%;
+	  	margin-top: 7%;
 	}
 
-	.contenedor_Imagenes1 {
-	  	display: flex;
-	  	justify-content: flex-end;
-	    margin-top: 100px;
-	  	width: 130%;
-	  	height: 0%;
-	}
-
-
-
-  .contenedor_video{
-	display: flex;
-	justify-content: center;
-	margin-top: -100%;
-	width: 100%;
-	height: 300px;
-
-	}
 	.video_1{
-	width: 90%;
+	width: 80%;
 	}
 
   /* =============================== CONTENT ========================== */

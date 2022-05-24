@@ -345,34 +345,20 @@ h3{
 	padding-top: 87px;
 }
 
-.contenedor_video{
-	display: flex;
-	justify-content: center;
-	margin-top: -35%;
-	width: 80%;
-	height: 70%;
-}
+
 
 .contenedor_Imagenes {
   	display: flex;
-  	justify-content: flex-end;
-  	margin-top: 0%;
-  	width: 90%;
-  	height: 0%;
+  	margin-top: 7%;
 }
 
-.contenedor_Imagenes1 {
-  	display: flex;
-  	justify-content: flex-end;
-    margin-top: 100px;
-  	width: 90%;
-  	height: 0%;
-}
+
 
 
 .video_1{
-	width: 70%;
-	height: 100%;
+  margin-top: 5%;
+	width: 80%;
+	height: 80%;
   padding-left:15%;
 
 }

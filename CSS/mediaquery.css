@@ -204,7 +204,7 @@ header h1 {
 	.contenedor_Imagenes {
 	  	display: flex;
 	  	justify-content: flex-end;
-	  	margin-top: -75%;
+	  	margin-top: -45%;
 	  	width: 140%;
 	  	height: 100%;
 	}
@@ -212,7 +212,7 @@ header h1 {
 	.contenedor_Imagenes1 {
 	  	display: flex;
 	  	justify-content: flex-end;
-	    margin-top: -600px;
+	    margin-top: -640px;
 	  	width: 140%;
 	  	height: 100%;
 	}

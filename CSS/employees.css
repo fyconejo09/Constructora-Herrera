@@ -85,6 +85,7 @@ h2{
 	align-items: center;
 	padding: 0px;
 	margin: 0px;
+  width:90%
 }
 
 body header{
@@ -103,6 +104,15 @@ body header{
   z-index: 100;
 }
 
+.titulos_y_logo {
+  width:20%;
+}
+
+
+.titulos_y_logo_1 {
+  width:90%;
+}
+
  #logo{
    position: relative;
    right: -80px;
@@ -110,6 +120,17 @@ body header{
    border-radius: 4px;
    height: 82.5px;
    width: 82.5px;
+   z-index: 100;
+ }
+
+
+ #logo_1{
+   position: relative;
+   right: -1px;
+   top: 3px;
+   border-radius: 4px;
+   height: 82.5px;
+   width: 250px;
    z-index: 100;
  }
 
@@ -130,7 +151,7 @@ body header{
 }
 .link_logout{
 	margin-top: 12px;
-	margin-right: 20px;
+	margin-right: -100px;
 	text-align: right;
 
 }

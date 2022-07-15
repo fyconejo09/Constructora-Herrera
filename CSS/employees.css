@@ -346,7 +346,7 @@ h3{
   padding:10px;
   margin:1px;
   border-radius: 4px;
-  background:Black;
+  background:#115e92;
   color:White;
   font-family: arial, sans-serif;
   font-size: 1em;
@@ -358,7 +358,7 @@ h3{
   text-decoration:none;
   color:White;
   cursor:pointer;
-  background:Orange;
+  background:#69767f;
 }
 
 

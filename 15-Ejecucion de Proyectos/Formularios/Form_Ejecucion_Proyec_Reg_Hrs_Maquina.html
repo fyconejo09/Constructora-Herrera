@@ -56,100 +56,99 @@
 
 
 
-		<header>
 
-			<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+					<header>
 
-
-					<a id="view-code" href="https://codepen.io/virgilpana/pen/NPzodr">VIEW CODE</a>
-							<div class="screen">
-								<div class="navbar"></div>
-								<div class="list">
+						<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 
-								<div class="circle"></div>
-						<div class="menu">
-							<ul>
-								<li><a href="../Formularios/Form_Ejecucion_Proyec_Control_Cambios.html">Formulario Control de Cambios</a></li>
-								<li><a href="../Formularios/Form_Ejecucion_Proyec_Reg_Actividades.html">Formulario Registro Actividades</a></li>
-								<li><a href="../Formularios/Form_Ejecucion_Proyec_Reg_Hrs_Maquina.html">Formulario Horas Maquina</a></li>
-								<li><a href="../Formularios/Form_Ejecucion_Proyec_Reg_Insumos.html">Formulario Insumos</a></li>
-							</ul>
-						</div>
-						<div class="burger">
-							<div class="x"></div>
-							<div class="y"></div>
-											<div class="z"></div>
-						</div>
+						    <a id="view-code" href="https://codepen.io/virgilpana/pen/NPzodr">VIEW CODE</a>
+						        <div class="screen">
+						        	<div class="navbar"></div>
+						        	<div class="list">
 
 
-
-
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-			<script>
-			if( 'ontouchstart' in window ){ var click = 'touchstart'; }
-				else { var click = 'click'; }
-
-
-				$('div.burger').on(click, function(){
-
-						if( !$(this).hasClass('open') ){ openMenu(); }
-						else { closeMenu(); }
-
-				});
-
-
-				$('div.menu ul li a').on(click, function(e){
-					e.preventDefault();
-					closeMenu();
-				});
-
-
-				function openMenu(){
-
-					$('div.circle').addClass('expand');
-
-					$('div.burger').addClass('open');
-					$('div.x, div.y, div.z').addClass('collapse');
-					$('.menu li').addClass('animate');
-
-					setTimeout(function(){
-						$('div.y').hide();
-						$('div.x').addClass('rotate30');
-						$('div.z').addClass('rotate150');
-					}, 70);
-					setTimeout(function(){
-						$('div.x').addClass('rotate45');
-						$('div.z').addClass('rotate135');
-					}, 120);
+							        <div class="circle"></div>
+									<div class="menu">
+										<ul>
+											<li><a href="../Formularios/Form_Ejecucion_Proyec_Control_Cambios.html">Formulario Control de Cambios</a></li>
+											<li><a href="../Formularios/Form_Ejecucion_Proyec_Reg_Actividades.html">Formulario Registro Actividades</a></li>
+											<li><a href="../Formularios/Form_Ejecucion_Proyec_Reg_Hrs_Maquina.html">Formulario Horas Maquina</a></li>
+						          <li><a href="../Formularios/Form_Ejecucion_Proyec_Reg_Insumos.html">Formulario Insumos</a></li>
+										</ul>
+									</div>
+									<div class="burger">
+										<div class="x"></div>
+										<div class="y"></div>
+						                <div class="z"></div>
+									</div>
 
 
 
-				}
 
-				function closeMenu(){
+						<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-					$('div.burger').removeClass('open');
-					$('div.x').removeClass('rotate45').addClass('rotate30');
-					$('div.z').removeClass('rotate135').addClass('rotate150');
-					$('div.circle').removeClass('expand');
-					$('.menu li').removeClass('animate');
+						<script>
+						if( 'ontouchstart' in window ){ var click = 'touchstart'; }
+							else { var click = 'click'; }
 
-					setTimeout(function(){
-						$('div.x').removeClass('rotate30');
-						$('div.z').removeClass('rotate150');
-					}, 50);
-					setTimeout(function(){
-						$('div.y').show();
-						$('div.x, div.y, div.z').removeClass('collapse');
-					}, 70);
 
-				}
+							$('div.burger').on(click, function(){
 
-			</script>
+									if( !$(this).hasClass('open') ){ openMenu(); }
+									else { closeMenu(); }
 
-	 </header>
+							});
+
+
+
+
+
+							function openMenu(){
+
+								$('div.circle').addClass('expand');
+
+								$('div.burger').addClass('open');
+								$('div.x, div.y, div.z').addClass('collapse');
+								$('.menu li').addClass('animate');
+
+								setTimeout(function(){
+									$('div.y').hide();
+									$('div.x').addClass('rotate30');
+									$('div.z').addClass('rotate150');
+								}, 70);
+								setTimeout(function(){
+									$('div.x').addClass('rotate45');
+									$('div.z').addClass('rotate135');
+								}, 120);
+
+
+
+							}
+
+							function closeMenu(){
+
+								$('div.burger').removeClass('open');
+								$('div.x').removeClass('rotate45').addClass('rotate30');
+								$('div.z').removeClass('rotate135').addClass('rotate150');
+								$('div.circle').removeClass('expand');
+								$('.menu li').removeClass('animate');
+
+								setTimeout(function(){
+									$('div.x').removeClass('rotate30');
+									$('div.z').removeClass('rotate150');
+								}, 50);
+								setTimeout(function(){
+									$('div.y').show();
+									$('div.x, div.y, div.z').removeClass('collapse');
+								}, 70);
+
+							}
+
+						</script>
+
+				 </header>
+
 
 
 

@@ -340,50 +340,6 @@ h3{
 
 
 
-.enlace {
-  display:inline;
-  border:10px;
-  padding:10px;
-  margin:1px;
-  border-radius: 4px;
-  background:#1e71a97a;
-  color:White;
-  font-family: arial, sans-serif;
-  font-size: 1em;
-
-
-
-}
-
-.enlace:hover {
-  text-decoration:none;
-  color:White;
-  cursor:pointer;
-  background:#69767f;
-}
-
-
-.enlace1 {
-  display:inline;
-  border:10px;
-  padding:10px;
-  margin:1px;
-  border-radius: 4px;
-  background:#1e71a9;
-  color:White;
-  font-family: arial, sans-serif;
-  font-size: 1em;
-  width: 20%;
-
-
-}
-
-.enlace1:hover {
-  text-decoration:none;
-  color:White;
-  cursor:pointer;
-  background:#69767f;
-}
 
 #menu ul ul {
     visibility: hidden;
@@ -489,7 +445,58 @@ h3{
 #menu .fa-angle-right {
     float: right;
 }
-/*============================Menú Principal=================*/
+
+/*============================Menú Gestion de proyectos =================*/
+
+.enlaceheader {
+margin-top: 15%;
+}
+
+
+.enlace {
+  display:inline;
+  border:10px;
+  padding:10px;
+  margin:1px;
+  border-radius: 4px;
+  background:#1e71a97a;
+  color:White;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  position: absolute;
+
+
+
+}
+
+.enlace:hover {
+  text-decoration:none;
+  color:White;
+  cursor:pointer;
+  background:#69767f;
+}
+
+
+.enlace1 {
+  display:inline;
+  border:10px;
+  padding:10px;
+  margin:1px;
+  border-radius: 4px;
+  background:#1e71a9;
+  color:White;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  width: 20%;
+
+}
+
+.enlace1:hover {
+  text-decoration:none;
+  color:White;
+  cursor:pointer;
+  background:#69767f;
+}
 
 
 /* =============================== Main ========================== */

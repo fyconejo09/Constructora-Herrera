@@ -280,9 +280,9 @@ h2 {
 	/*============================Main=================*/
   .principal{
   	display: grid;
-		grid-template-columns:55% 100%;
-		height: auto;
-		padding-top: 117px;
+  	grid-template-columns: 55% 100%;
+  	height: auto;
+  	padding-top: 117px;
   }
 
 	.contenedor_Imagenes {

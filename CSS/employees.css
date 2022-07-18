@@ -462,13 +462,13 @@ h3{
 
 /*============================Menú Gestion de proyectos =================*/
 
-* { margin: 0px; padding: 0px; }
+* {margin: 0px;padding: 0px;}
 
 body {
-
-	width: 100%;
-	height: 100%;
-	font:12px "Open Sans", sans-serif;
+width: 100%;
+height: 100%;
+font:12px
+"Open Sans", sans-serif;
 }
 #view-code{
   color:#4183d7;

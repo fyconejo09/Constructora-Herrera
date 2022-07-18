@@ -79,10 +79,13 @@ header h1 {
 }
 
 .enlace1:hover {
-  text-decoration:none;
+	text-decoration:none;
   color:White;
   cursor:pointer;
   background:#69767f;
+}
+
+
 	/*============================Menú desplegable=================*/
 
 	#menu {
@@ -235,11 +238,10 @@ header h1 {
 	}
 	/*============================Main=================*/
   .principal{
-
-    display: grid;
-	grid-template-columns:55% 100%;
-	height: auto;
-	padding-top: 117px;
+  	display: grid;
+		grid-template-columns:55% 100%;
+		height: auto;
+		padding-top: 117px;
   }
 
 	.contenedor_Imagenes {
@@ -248,7 +250,7 @@ header h1 {
 	}
 
 	.video_1{
-	width: 80%;
+		width: 80%;
 	}
 
   /* =============================== CONTENT ========================== */

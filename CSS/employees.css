@@ -669,7 +669,7 @@ div.menu li.animate:nth-of-type(6){
 
 .principal {
 	display: grid;
-	grid-template-columns: 38.2% auto;
+	grid-template-columns: 13.2% auto;
 	column-gap: 1rem;
 	height: 620px;
 	padding-top: 87px;

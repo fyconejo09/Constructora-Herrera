@@ -63,6 +63,20 @@ h2{
 	color: var(--blanco);
   margin: 0;
 }
+
+#Cajon1 Div {
+	width: 80%;
+	height:100%;
+	float: left;
+}
+
+#Cajon2 Div {
+	width: 20%;
+	height:100%;
+	float: right;
+}
+
+
 /* =============================== HEAD ========================== */
 	/*formato a los encabezados*/
 

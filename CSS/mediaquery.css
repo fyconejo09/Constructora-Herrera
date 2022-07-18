@@ -55,16 +55,16 @@ h2 {
     padding-right: 60%;
 }
 
-#Cajon1 Div {
-	width: 80%;
-	height:100%;
-	float: left;
+#Cajon1 {
+	width: 80% !important;
+	height:100% !important;
+	float: left !important;
 }
 
-#Cajon2 Div {
-	width: 20%;
-	height:100%;
-	float: right;
+#Cajon2 {
+	width: 20% !important;
+	height:100% !important;
+	float: right !important;
 }
 /*============================ Iconos =================*/
 

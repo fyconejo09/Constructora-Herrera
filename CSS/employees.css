@@ -64,13 +64,13 @@ h2{
   margin: 0;
 }
 
-#Cajon1 Div {
+#Cajon1  {
 	width: 80%;
 	height:100%;
 	float: left;
 }
 
-#Cajon2 Div {
+#Cajon2  {
 	width: 20%;
 	height:100%;
 	float: right;
@@ -465,7 +465,7 @@ h3{
 * {margin: 0px;padding: 0px;}
 
 body {
-width: 100%; 
+width: 100%;
 height: 100%;
 font:12px
 "Open Sans", sans-serif;

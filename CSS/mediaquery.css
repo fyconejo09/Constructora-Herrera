@@ -45,6 +45,19 @@ h2 {
     padding-right: 60%;
 }
 
+
+/*============================ Iconos =================*/
+
+.material-icons_2 {
+    padding-right: 57%;
+}
+
+
+.link_menu a, .link_logout_1 a {
+    padding-right: 53%;
+}
+
+
 /*============================Menú Gestion de proyectos =================*/
 .enlace {
   display:inline;

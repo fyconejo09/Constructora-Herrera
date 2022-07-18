@@ -564,7 +564,9 @@ div.burger {
 		        transition: all 100ms ease-out;
 	}
 
-div.navbar{height:73px;background:none;}
+div.navbar{
+  height:73px;
+  background:none;}
 
 div.circle{
 	border-radius: 50%;
@@ -687,8 +689,8 @@ div.menu li.animate:nth-of-type(6){
 
 .video_1{
   margin-top: 5%;
-	width: 80%;
-	height: 80%;
+  width: 80%;
+  height: 80%;
   padding-left:15%;
 
 }
@@ -718,9 +720,9 @@ div.menu li.animate:nth-of-type(6){
   padding: 0;
  overflow: auto;
  border: 1px solid #6e6666;
-  justify-content: center;
-  align-items: center;
-  white-space: nowrap;
+ justify-content: center;
+ align-items: center;
+ white-space: nowrap;
 
 
 }

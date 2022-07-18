@@ -36,7 +36,13 @@
 header h1 {
 	color: var(--blanco);
 	font-size: 20px;
+	padding-right: 52%;
 
+}
+
+
+h2 {
+    padding-right: 60%;
 }
 
 /*============================Menú Gestion de proyectos =================*/

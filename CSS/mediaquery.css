@@ -55,7 +55,17 @@ h2 {
     padding-right: 60%;
 }
 
+#Cajon1 Div {
+	width: 80%;
+	height:100%;
+	float: left;
+}
 
+#Cajon2 Div {
+	width: 20%;
+	height:100%;
+	float: right;
+}
 /*============================ Iconos =================*/
 
 .material-icons_2 {

@@ -479,14 +479,14 @@ width: 100%;
   position:absolute;top:640px; left:50%;margin-left:-35px;
 }
 div.screen{
-  width:320px;
-	height:560px;
+  width:300px;
+	height:400px;
 	overflow:hidden;
 	position:absolute;
 	top:50px;
 	left:50%;
   margin-top: 3%;
-  margin-left: -50%;
+  margin-left: 33%;
 }
 
 .list{margin-top:36px; text-align:left;}

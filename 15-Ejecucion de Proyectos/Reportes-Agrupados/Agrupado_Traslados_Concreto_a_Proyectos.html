@@ -56,115 +56,68 @@
 
 
 
-			<header>
-
-						<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-
-
-
-										<div class="screen">
-											<div class="navbar"></div>
-											<div class="list">
-
-
-											<div class="circle"></div>
-									<div class="menu">
-										<ul>
-											<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Asfalto_a_Proyectos.html"> Asfalto</a></li>
-											<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Concreto_a_Proyectos.html"> Concreto</a></li>
-											<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Tuberia_a_Proyectos.html">Tuberia</a></li>
-											<li><a href="../Reportes-Agrupados/Traslados-a-proyectos-Agrupados.html">Agregados</a></li>										</ul>
-									</div>
-									<div class="burger">
-										<div class="x"></div>
-										<div class="y"></div>
-														<div class="z"></div>
-									</div>
 
 
 
 
-						<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-						<script>
-						if( 'ontouchstart' in window ){ var click = 'touchstart'; }
-							else { var click = 'click'; }
+		<div style="width: 99%; height:100%;">
 
 
-							$('div.burger').on(click, function(){
-
-									if( !$(this).hasClass('open') ){ openMenu(); }
-									else { closeMenu(); }
-
-							});
-
-
-							function openMenu(){
-
-								$('div.circle').addClass('expand');
-
-								$('div.burger').addClass('open');
-								$('div.x, div.y, div.z').addClass('collapse');
-								$('.menu li').addClass('animate');
-
-								setTimeout(function(){
-									$('div.y').hide();
-									$('div.x').addClass('rotate30');
-									$('div.z').addClass('rotate150');
-								}, 70);
-								setTimeout(function(){
-									$('div.x').addClass('rotate45');
-									$('div.z').addClass('rotate135');
-								}, 120);
-
-
-
-							}
-
-							function closeMenu(){
-
-								$('div.burger').removeClass('open');
-								$('div.x').removeClass('rotate45').addClass('rotate30');
-								$('div.z').removeClass('rotate135').addClass('rotate150');
-								$('div.circle').removeClass('expand');
-								$('.menu li').removeClass('animate');
-
-								setTimeout(function(){
-									$('div.x').removeClass('rotate30');
-									$('div.z').removeClass('rotate150');
-								}, 50);
-								setTimeout(function(){
-									$('div.y').show();
-									$('div.x, div.y, div.z').removeClass('collapse');
-								}, 70);
-
-							}
-
-						</script>
-
-				 </header>
-
-
-
-					<div id="content" style="width: 99%; height:100%;">
-
-			<!-- Caspio Deployed Code Start Here || CM - Employees/Employees Report  -->
-
-			<script type="text/javascript" src="https://c0hcr676.caspio.com/dp/95de9000849a514c1e094cd68865/emb"></script>
-			<div id="cxkg"><a href="https://c0hcr676.caspio.com/dp/95de9000849a514c1e094cd68865">Click here</a> to load this Caspio <a href="http://www.caspio.com" target="_blank" title="Cloud Database">Cloud Database</a></div>
+					<div id="Cajon4">
 
 
 
 
+						<main class="principal">
+						 <section class="contenedor_menu">
+
+
+							 <div class="container">
+								 <div class="card2"  >
+									 <div class="titulo_menu">
+									 		<h3>Menú </h3>
+									 	</div>
+									 <div id="menu">
+																 <ul>
+																	 <li><a href="../Reportes-Agrupados/Agrupado_Traslados_Asfalto_a_Proyectos.html"> Asfalto</a></li>
+							 										<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Concreto_a_Proyectos.html"> Concreto</a></li>
+							 										<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Tuberia_a_Proyectos.html">Tuberia</a></li>
+							 										<li><a href="../Reportes-Agrupados/Traslados-a-proyectos-Agrupados.html">Agregados</a></li>
+																 </ul>
+									 </div>
+								 	</div>
+								</div>
+
+						 </section>
+
+					 </main>
+
+
+
+					</div>
+
+
+
+					<div  id="Cajon3" >
+
+							<div id="content">
+
+								<!-- Caspio Deployed Code Start Here || CM - Employees/Employees Report  -->
+								<script type="text/javascript" src="https://c0hcr676.caspio.com/dp/95de9000849a514c1e094cd68865/emb"></script>
+								<div id="cxkg"><a href="https://c0hcr676.caspio.com/dp/95de9000849a514c1e094cd68865">Click here</a> to load this Caspio <a href="http://www.caspio.com" target="_blank" title="Cloud Database">Cloud Database</a></div>
+								<!-- Caspio Deployed Code End Here -->
+
+							</div>
+
+					</div>
 
 
 
 
-
-
-
-			<!-- Caspio Deployed Code End Here -->
 		</div>
+
+
+
 	  	<div id="cb-footer">
 				<div>
 				<p>This application was created by Constructora Herrera S.A.</p>

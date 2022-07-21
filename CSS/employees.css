@@ -64,6 +64,14 @@ h2{
   margin: 0;
 }
 
+
+#h2 {
+	font-size: 20px;
+	text-align: center;
+	color: var(--blanco);
+  margin: 10px;
+}
+
 #Cajon1  {
 	width: 80%;
 	height:100%;

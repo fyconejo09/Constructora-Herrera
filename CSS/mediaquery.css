@@ -55,6 +55,13 @@ h2 {
     padding-right: 60%;
 }
 
+#h2 {
+	font-size: 20px;
+	text-align: center;
+	color: var(--blanco);
+  margin: 10px;
+}
+
 #Cajon1  {
 	width: 0% !important;
 	height:0% !important;
@@ -67,6 +74,19 @@ h2 {
 	height:100% !important;
 	float: right !important;
 
+}
+
+
+#Cajon3  {
+	width: 90%;
+	height:100%;
+	float: right;
+}
+
+#Cajon4  {
+	width: 10% !important;
+	height:100% !important;
+	float: left !important;
 }
 /*============================ Iconos =================*/
 

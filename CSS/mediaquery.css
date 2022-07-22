@@ -6,6 +6,7 @@
 	.more {
 	    display: none;
 	    padding-top: 10px;
+	    margin-top: -100px;
 	}
 
 	a.showLink, a.hideLink {
@@ -19,13 +20,14 @@
 
 
 	.BotonOcultar {
-	    background-color: Black  ;
+	    background-color: Black;
 	    color: white;
-	    border-radius: 3px ;
+	    border-radius: 3px;
 	    padding: 10px;
 	    cursor: pointer;
 	    font-size: 13px;
 	    font-family: Arial, Helvetica, sans-serif;
+	    margin-top: -100px;
 	}
 
 	.BotonOcultar:hover {

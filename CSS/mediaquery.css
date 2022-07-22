@@ -6,6 +6,7 @@
 	.more {
 	    display: none;
 	    padding-top: 10px;
+			margin-top: -90%;
 	}
 
 	a.showLink, a.hideLink {
@@ -26,6 +27,7 @@
 	    cursor: pointer;
 	    font-size: 13px;
 	    font-family: Arial, Helvetica, sans-serif;
+			margin-top: 158%;
 	}
 
 	.BotonOcultar:hover {

@@ -26,7 +26,6 @@
 	    cursor: pointer;
 	    font-size: 13px;
 	    font-family: Arial, Helvetica, sans-serif;
-
 	}
 
 	.BotonOcultar:hover {
@@ -35,13 +34,18 @@
 	}
 
 	#Alturaboton1 {
-	    margin-top: -130px ;
+	    margin-top: -110px ;
+
 	}
 
 	#Alturaboton2 {
-	    padding-top: 120px;
-			position: relative;
+	    padding-top: 100px;
 	}
+
+	#EspacioBoton {
+	    padding-left: 30px;
+	}
+
 
 
 	/*============================Head=================*/

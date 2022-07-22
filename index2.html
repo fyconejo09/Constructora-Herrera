@@ -25,14 +25,10 @@
 
 
 		<header>
-
-
 	 <div class="titulo">
-
 	  		<div class="titulos_y_logo">
 		  		<img id="logo_1" align="left" src="Imagenes/LOGO-LETRAS-BLANCAS-230X80.png" />
 		  	</div>
-
 			 <div class="titulos_y_logo_1">
 					 <h1>Constructora Herrera S.A<small> .</small></h1>
 
@@ -40,50 +36,57 @@
 					  	<a href="https://registrosconstructoraherrera.tk/09-Configuraciones/Reportes/Registrar%20Usuario.html"><span class="material-icons_2">manage_accounts</span> Registrarme</a>
 					 </div>
 			 </div>
-
-	</div>
-
-
+		</div>
 
 			<div class="barra_informacion">
 				<div class="text_info_1" >
 					<h2>Plataforma de Gestión</h2>
 				</div>
 			</div>
-
-
-
 		</header>
 
 
 
-		<main class="principal">
-			<section class="contenedor_menu">
-				<div class="container">
-					<div class="card"  >
-					  <div class="titulo_menu">
-						<h3>Menú </h3>
-					  </div>
 
 
 
-						<div id="menu">
+
+		<div class="readmore"style="padding-top: 100px;">
+			<input Class="BotonOcultar" type="button" value="Mostrar Menu" href="#" id="example-show" class="showLink" onclick="showHide('example');return false;">
+				<div id="example" class="more">
+					<div class="text">
 
 
-													<ul>
-														<li><i></i><a href="../15-Ejecucion de Proyectos/Parametros/Parametros_Ejecucion_Proyect_Asigna_Equipos.html"> <span class="material-icons"> settings </span> Asignación de Equipos</a></li>
-														<li><i></i><a href="../15-Ejecucion de Proyectos/Parametros/Parametros_Ejecucion_Proyect_Asigna_Activid.html"> <span class="material-icons"> settings </span> Asignación de Actividades </a></li>
-														<li><i></i><a href="../15-Ejecucion de Proyectos/Parametros/Parametros_Ejecucion_Proyect_Insumos.html"> <span class="material-icons"> settings </span> Asignación de Insumos </a></li>
-													</ul>
-
-						</div>
 
 
+						<input Class="BotonOcultar" type="button" value="Ocultar Menu" href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;">
 					</div>
-				  </div>
-			</section>
+				</div>
+		</div>
 
-		</main>
+
+
+		<script>
+
+		function showHide(shID) {
+		    if (document.getElementById(shID)) {
+		        if (document.getElementById(shID+'-show').style.display != 'none') {
+		            document.getElementById(shID+'-show').style.display = 'none';
+		            document.getElementById(shID).style.display = 'block';
+		        }
+		        else {
+		            document.getElementById(shID+'-show').style.display = 'inline';
+		            document.getElementById(shID).style.display = 'none';
+		        }
+		    }
+		}
+
+		</script>
+
+
+
+
+
 
 
 	  	<div id="cb-footer">

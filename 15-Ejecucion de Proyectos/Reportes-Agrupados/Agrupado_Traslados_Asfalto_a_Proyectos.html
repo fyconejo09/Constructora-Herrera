@@ -70,29 +70,61 @@
 
 
 
-						<main class="principal">
-						 <section class="contenedor_menu">
 
 
-							 <div class="container">
-								 <div class="card2"  >
-									 <div class="titulo_menu">
-									 		<h3>Menú </h3>
-									 	</div>
-									 <div id="menu">
-																 <ul>
-																	 <li><a href="../Reportes-Agrupados/Agrupado_Traslados_Asfalto_a_Proyectos.html"> Asfalto</a></li>
-							 										<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Concreto_a_Proyectos.html"> Concreto</a></li>
-							 										<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Tuberia_a_Proyectos.html">Tuberia</a></li>
-							 										<li><a href="../Reportes-Agrupados/Traslados-a-proyectos-Agrupados.html">Agregados</a></li>
-																 </ul>
-									 </div>
-								 	</div>
+						<div class="readmore"style="padding-top: 100px;">
+							<input Class="BotonOcultar" type="button" value="Mostrar Menu" href="#" id="example-show" class="showLink" onclick="showHide('example');return false;">
+								<div id="example" class="more">
+									<div class="text">
+
+
+										<main class="principal" style="margin-top: -110px;">
+										 <section class="contenedor_menu">
+											 <div class="container">
+												 <div class="card2"  >
+													 <div class="titulo_menu">
+													 		<h3>Menú </h3>
+													 	</div>
+													 <div id="menu">
+																				 <ul>
+																					 <li><a href="../Reportes-Agrupados/Agrupado_Traslados_Asfalto_a_Proyectos.html"> Asfalto</a></li>
+											 										<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Concreto_a_Proyectos.html"> Concreto</a></li>
+											 										<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Tuberia_a_Proyectos.html">Tuberia</a></li>
+											 										<li><a href="../Reportes-Agrupados/Traslados-a-proyectos-Agrupados.html">Agregados</a></li>
+																				 </ul>
+													 </div>
+												 	</div>
+												</div>
+										 </section>
+									 </main>				
+
+
+										<input Class="BotonOcultar" type="button" value="Ocultar Menu" href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;">
+									</div>
 								</div>
+						</div>
 
-						 </section>
 
-					 </main>
+
+						<script>
+
+						function showHide(shID) {
+						    if (document.getElementById(shID)) {
+						        if (document.getElementById(shID+'-show').style.display != 'none') {
+						            document.getElementById(shID+'-show').style.display = 'none';
+						            document.getElementById(shID).style.display = 'block';
+						        }
+						        else {
+						            document.getElementById(shID+'-show').style.display = 'inline';
+						            document.getElementById(shID).style.display = 'none';
+						        }
+						    }
+						}
+
+						</script>
+
+
+
 
 
 

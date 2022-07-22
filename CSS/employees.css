@@ -32,7 +32,7 @@ body {
 
 .more {
     display: none;
-    padding-top: 10px;
+    padding-top: 6%;
 }
 
 a.showLink, a.hideLink {
@@ -46,10 +46,10 @@ a.hideLink {
 
 
 .BotonOcultar {
-    background-color: Black  ;
+    background-color: Black;
     color: white;
-    border-radius: 3px ;
-    padding: 10px;
+    border-radius: 3px;
+    padding: 12%;
     cursor: pointer;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,9 +61,8 @@ a.hideLink {
 }
 
 #Alturaboton1 {
-    margin-top: -110px ;
+    margin-top: -98%;
     position: relative;
-
 }
 
 #Alturaboton2 {

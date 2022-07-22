@@ -63,33 +63,63 @@
 
 					<div id="Cajon4">
 
+						<div  class="readmore" id="Alturaboton2">
+ 						 <a Class="BotonOcultar"><span class="material-icons"  style="color: white; " type="button" value="Mostrar Menu" href="#" id="example-show" class="showLink" onclick="showHide('example');return false;">arrow_forward_ios </span></a>
+ 							 <br>
+ 							 <br>
+ 							 <br>
+ 							 <div id="example" class="more">
+ 								 <div class="text">
+
+									 <main class="principal" id="Alturaboton1">
+			 						 <section class="contenedor_menu">
+
+
+			 							 <div class="container">
+			 								 <div class="card2"  >
+			 									 <div class="titulo_menu">
+			 									 		<h3>Menú </h3>
+			 									 	</div>
+			 									 <div id="menu">
+			 																 <ul>
+			 																	 <li><a href="../Reportes-Agrupados/Agrupado_Traslados_Asfalto_a_Proyectos.html"> Asfalto</a></li>
+			 							 										<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Concreto_a_Proyectos.html"> Concreto</a></li>
+			 							 										<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Tuberia_a_Proyectos.html">Tuberia</a></li>
+			 							 										<li><a href="../Reportes-Agrupados/Traslados-a-proyectos-Agrupados.html">Agregados</a></li>
+			 																 </ul>
+			 									 </div>
+			 								 	</div>
+			 								</div>
+
+			 						 </section>
+
+			 					 </main>
+
+ 									<br>
+ 									<br>
+ 							 <a Class="BotonOcultar"><span class="material-icons" style="color: white;" type="button" value="Ocultar Menu" href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;">arrow_back_ios</span></a>
+ 								 </div>
+ 							 </div>
+ 					 </div>
 
 
 
-						<main class="principal">
-						 <section class="contenedor_menu">
+ 					 <script>
 
+ 					 function showHide(shID) {
+ 							 if (document.getElementById(shID)) {
+ 									 if (document.getElementById(shID+'-show').style.display != 'none') {
+ 											 document.getElementById(shID+'-show').style.display = 'none';
+ 											 document.getElementById(shID).style.display = 'block';
+ 									 }
+ 									 else {
+ 											 document.getElementById(shID+'-show').style.display = 'inline';
+ 											 document.getElementById(shID).style.display = 'none';
+ 									 }
+ 							 }
+ 					 }
 
-							 <div class="container">
-								 <div class="card2"  >
-									 <div class="titulo_menu">
-									 		<h3>Menú </h3>
-									 	</div>
-									 <div id="menu">
-																 <ul>
-																	 <li><a href="../Reportes-Agrupados/Agrupado_Traslados_Asfalto_a_Proyectos.html"> Asfalto</a></li>
-							 										<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Concreto_a_Proyectos.html"> Concreto</a></li>
-							 										<li><a href="../Reportes-Agrupados/Agrupado_Traslados_Tuberia_a_Proyectos.html">Tuberia</a></li>
-							 										<li><a href="../Reportes-Agrupados/Traslados-a-proyectos-Agrupados.html">Agregados</a></li>
-																 </ul>
-									 </div>
-								 	</div>
-								</div>
-
-						 </section>
-
-					 </main>
-
+ 					 </script>
 
 
 					</div>

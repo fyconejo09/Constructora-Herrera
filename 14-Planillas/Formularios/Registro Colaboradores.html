@@ -56,13 +56,12 @@
 
 
 
-		<div style="width: 99%; height:100%;">
-
+		<div style="width: 99%; height:100%;" >
+			<div id="modificable">
 					<div id="Cajon4">
 
-
 						<div  class="readmore" id="Alturaboton2">
- 						 <a Class="BotonOcultar"><span class="material-icons"  style="color: white; " type="button" value="Mostrar Menu" href="#" id="example-show" class="showLink" onclick="showHide('example');return false;">arrow_forward_ios </span></a>
+ 						 <a Class="BotonOcultar"><span class="material-icons"  style="color: white; " type="button" value="Mostrar Menu" href="#" id="example-show" class="showLink" onclick= " aumentarmenu (); reducirform (); showHide('example');return false;">arrow_forward_ios </span></a>
  							 <br>
  							 <br>
  							 <br>
@@ -70,7 +69,7 @@
  								 <div class="text">
 
 									 <main class="principal" id="Alturaboton1">
-										<section class="contenedor_menu">
+										<section class="contenedor_menu" >
 											<div class="container">
 												<div class="card2"  >
 													<div class="titulo_menu">
@@ -91,12 +90,59 @@
 
  									<br>
  									<br>
- 							 <a Class="BotonOcultar"><span class="material-icons" style="color: white;" type="button" value="Ocultar Menu" href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;">arrow_back_ios</span></a>
- 								 </div>
+ 							 <a Class="BotonOcultar"><span class="material-icons" style="color: white;" type="button" value="Ocultar Menu" href="#" id="example-hide" class="hideLink" onclick="reducirmenu (); aumentarform (); showHide('example'); return false ;  ">arrow_back_ios</span></a>
+								 </div>
  							 </div>
  					 </div>
+					 </div>
 
+					 <script language="javascript">
+					 function reducirmenu() {
+					 if (document.getElementById("modificable").style.width == '10%') {
+					 document.getElementById("modificable").style.width = '0%';
+					 document.getElementById("modificable").style.height = '0%';
+					 } else {
+					 document.getElementById("modificable").style.width = '0%';
+					 document.getElementById("modificable").style.height = '0%';
+					 }
+					 }
+					 </script>
 
+					 <script language="javascript">
+					 function aumentarmenu() {
+					 if (document.getElementById("modificable").style.width == '0%') {
+					 document.getElementById("modificable").style.width = '10%';
+					 document.getElementById("modificable").style.height = '100%';
+					 } else {
+					 document.getElementById("modificable").style.width = '10%';
+					 document.getElementById("modificable").style.height = '100%';
+					 }
+					 }
+					 </script>
+
+					 <script language="javascript">
+					 function reducirform() {
+					 if (document.getElementById("modificable1").style.width == '100%') {
+					 document.getElementById("modificable1").style.width = '90%';
+					 document.getElementById("modificable1").style.height = '100%';
+					 } else {
+					 document.getElementById("modificable1").style.width = '90%';
+					 document.getElementById("modificable1").style.height = '100%';
+					 }
+					 }
+					 </script>
+
+					 <script language="javascript">
+					 function aumentarform() {
+					 if (document.getElementById("modificable1").style.width == '90%') {
+					 document.getElementById("modificable1").style.width = '100% ';
+					 document.getElementById("modificable1").style.height = '100% ';
+					 } else {
+					 document.getElementById("modificable1").style.width = '100% ';
+					 document.getElementById("modificable1").style.height = '100% ';
+					 }
+					 }
+					 </script>
 
  					 <script>
 
@@ -118,8 +164,9 @@
 					</div>
 
 
-
+					<div id="modificable1">
 					<div  id="Cajon3" >
+
 							<div id="content">
 								<!-- Caspio Deployed Code Start Here || CM - Employees/Employees Report  -->
 								<script type="text/javascript" src="https://c0hcr676.caspio.com/dp/95de900096328ffbd88345afa2b9/emb"></script>
@@ -127,7 +174,7 @@
 								<!-- Caspio Deployed Code End Here -->
 							</div>
 					</div>
-
+			</div>
 		</div>
 
 

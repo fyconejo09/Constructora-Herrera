@@ -64,7 +64,7 @@ a.hideLink {
 
 #Alturaboton1 {
     margin-top: -65%;
-    position: relative;
+    position: relative !important;
 }
 
 #Alturaboton2 {
@@ -364,13 +364,11 @@ body header{
 /*============================Menú desplegable=================*/
 
 .container{
-
-  	padding: 0px;
+padding: 0px;
 }
 
 .contenedor_menu{
 	width: 100%;
-
 }
 .card{
   width: 100%;

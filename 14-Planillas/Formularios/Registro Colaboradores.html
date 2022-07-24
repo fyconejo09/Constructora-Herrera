@@ -52,12 +52,27 @@
 			</nav>
 		</header>
 
+
+
+
+
+
+
+
+
 		<div style="width: 99%; height:90%;" >
 
-						<div id="modificable">
-							<div id="Cajon4">
+
+					<div id ="Cajon4" >
+
+						<div id="Cajon5">
+							<a Class="BotonOcultar"><span class="material-icons"  style="color: white; " type="button" value="Mostrar Menu" href="#" id="example-show" class="showLink" onclick= "  showHide('example'); reducirform(); aumentarmenu() ;return false;">arrow_forward_ios </span></a>
+							<a Class="BotonOcultar"><span class="material-icons" style="color: white;" type="button" value="Ocultar Menu" href="#" id="example-hide" class="hideLink" onclick=" reducirmenu(); aumentarform() ; showHide('example'); return false ;  ">arrow_back_ios</span></a>
+						</div>
+
+						<div >
+							<div Class="Cajon6" id="modificable">
 								<div  class="readmore" id="Alturaboton2">
- 						 					<a Class="BotonOcultar"><span class="material-icons"  style="color: white; " type="button" value="Mostrar Menu" href="#" id="example-show" class="showLink" onclick= "  showHide('example');return false;">arrow_forward_ios </span></a>
  							 				<br>
  							 				<br>
  							 				<br>
@@ -87,21 +102,24 @@
 
  														<br>
  														<br>
- 							 							<a Class="BotonOcultar"><span class="material-icons" style="color: white;" type="button" value="Ocultar Menu" href="#" id="example-hide" class="hideLink" onclick=" showHide('example'); return false ;  ">arrow_back_ios</span></a>
 													</div>
  							 			</div>
  					 			</div>
 					 		</div>
 						</div>
 
+					</div>
+
 					 <script language="javascript">
 					 	function reducirmenu() {
-					 	if (document.getElementById("modificable").style.width == '10%') {
+					 	if (document.getElementById("modificable").style.width == '100%') {
 					 	document.getElementById("modificable").style.width = '0%';
 					 	document.getElementById("modificable").style.height = '0%';
+						document.getElementById("modificable").style.overflow = 'hidden';
 					 	} else {
 					 	document.getElementById("modificable").style.width = '0%';
 					 	document.getElementById("modificable").style.height = '0%';
+						document.getElementById("modificable").style.overflow = 'hidden';
 					 	}
 					 	}
 					 </script>
@@ -109,11 +127,18 @@
 					 <script language="javascript">
 					 	function aumentarmenu() {
 					 	if (document.getElementById("modificable").style.width == '0%') {
-					 	document.getElementById("modificable").style.width = '10%';
+					 	document.getElementById("modificable").style.width = '100%';
 					 	document.getElementById("modificable").style.height = '100%';
+						document.getElementById("modificable").style.overflow = 'visible';
+						document.getElementById("modificable").style.position = 'relative';
+						document.getElementById("modificable").style.background = 'Black';
+
 					 	} else {
-						 document.getElementById("modificable").style.width = '10%';
+						 document.getElementById("modificable").style.width = '100%';
 					 	document.getElementById("modificable").style.height = '100%';
+						document.getElementById("modificable").style.overflow = 'visible';
+						document.getElementById("modificable").style.position = 'relative';
+						document.getElementById("modificable").style.background = 'Black';
 					 	}
 					 	}
 					 </script>
@@ -123,9 +148,11 @@
 					 	if (document.getElementById("modificable1").style.width == '100%') {
 					 	document.getElementById("modificable1").style.width = '90%';
 					 	document.getElementById("modificable1").style.height = '100%';
+						document.getElementById("modificable").style.margin = '10px';
 					 	} else {
 					 	document.getElementById("modificable1").style.width = '90%';
 					 	document.getElementById("modificable1").style.height = '100%';
+						document.getElementById("modificable").style.margin = '10px';
 					 	}
 					 	}
 					 </script>
@@ -135,9 +162,11 @@
 					 	if (document.getElementById("modificable1").style.width == '90%') {
 					 	document.getElementById("modificable1").style.width = '100% ';
 					 	document.getElementById("modificable1").style.height = '100% ';
+						document.getElementById("modificable").style.margin = '-140px';
 					 	} else {
 					 	document.getElementById("modificable1").style.width = '100% ';
 					 	document.getElementById("modificable1").style.height = '100% ';
+						document.getElementById("modificable").style.margin = '-140px';
 					 	}
 					 	}
 					 </script>
@@ -161,8 +190,8 @@
 
 					</div>
 
-					<div id="modificable1">
-						<div  id="Cajon3" >
+					<div >
+						<div  Class="Cajon3" id="modificable1" >
 							<div id="content">
 								<!-- Caspio Deployed Code Start Here || CM - Employees/Employees Report  -->
 								<script type="text/javascript" src="https://c0hcr676.caspio.com/dp/95de900096328ffbd88345afa2b9/emb"></script>

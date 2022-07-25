@@ -45,7 +45,7 @@ a.hideLink {
 }
 
 
-.BotonOcultar {
+.BotonOcultar1 {
     background-color: Black;
     color: white;
     border-radius: 3px;
@@ -53,14 +53,34 @@ a.hideLink {
     cursor: pointer;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+    display: inline;
 }
 
 
 
-.BotonOcultar:hover {
+.BotonOcultar1:hover {
     background-color: Orange  ;
     color: white;
 }
+
+.BotonOcultar2 {
+    background-color: Black;
+    color: white;
+    border-radius: 3px;
+    padding: 0.9%;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+
+
+
+.BotonOcultar2:hover {
+    background-color: Orange  ;
+    color: white;
+}
+
 
 #Alturaboton1 {
     margin-top: -65%;

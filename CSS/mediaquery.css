@@ -18,7 +18,7 @@
 	}
 
 
-	.BotonOcultar {
+	.BotonOcultar1 {
 	    background-color: Black;
 	    color: white;
 	    border-radius: 3px;
@@ -26,11 +26,30 @@
 	    cursor: pointer;
 	    font-size: 13px;
 	    font-family: Arial, Helvetica, sans-serif;
+	    display: inline;
 	}
 
 
 
-	.BotonOcultar:hover {
+	.BotonOcultar1:hover {
+	    background-color: Orange  ;
+	    color: white;
+	}
+
+	.BotonOcultar2 {
+	    background-color: Black;
+	    color: white;
+	    border-radius: 3px;
+	    padding: 0.9%;
+	    cursor: pointer;
+	    font-size: 13px;
+	    font-family: Arial, Helvetica, sans-serif;
+	    display: inline;
+	}
+
+
+
+	.BotonOcultar2:hover {
 	    background-color: Orange  ;
 	    color: white;
 	}
@@ -125,7 +144,7 @@ h2 {
 	width: 90%;
 	height: 100%;
 	float: right;
-	margin-top: 40px;
+	margin-top: 170px;
 }
 
 #Cajon4  {
@@ -388,7 +407,7 @@ h2 {
   	margin:0 auto;
   	display: flex;
   	justify-content: center;
-  	padding-top: 125px;
+  	/* padding-top: 125px; */
   }
 
 

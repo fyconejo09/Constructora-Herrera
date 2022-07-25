@@ -66,8 +66,9 @@
 					<div id ="Cajon4" >
 
 						<div id="Cajon5">
-							<a Class="BotonOcultar"><span class="material-icons"  style="color: white; " type="button" value="Mostrar Menu" href="#" id="example-show" class="showLink" onclick= "  showHide('example'); reducirform(); aumentarmenu() ;return false;">arrow_forward_ios </span></a>
-							<a Class="BotonOcultar"><span class="material-icons" style="color: white;" type="button" value="Ocultar Menu" href="#" id="example-hide" class="hideLink" onclick=" reducirmenu(); aumentarform() ; showHide('example'); return false ;  ">arrow_back_ios</span></a>
+							<a Class="BotonOcultar1" id="ocultarboton"><span class="material-icons"  style="color: white; " type="button" value="Mostrar Menu" href="#" id="example-show" class="showLink" onclick= "  showHide('example'); reducirform(); aumentarmenu() ; ocultarboton(); mostrarboton(); return false;">arrow_forward_ios </span></a>
+							<a Class="BotonOcultar2" id="mostrarboton"><span class="material-icons" style="color: white;" type="button" value="Ocultar Menu" href="#" id="example-hide" class="hideLink" onclick=" reducirmenu(); aumentarform() ; showHide('example'); ocultarboton2() ; mostrarboton2() ;return false ;  ">arrow_back_ios</span></a>
+
 						</div>
 
 						<div >
@@ -109,6 +110,47 @@
 						</div>
 
 					</div>
+
+					<script language="javascript">
+					 	function ocultarboton() {
+					 		if (document.getElementById('ocultarboton').style.display == 'inline') {
+					 		document.getElementById('ocultarboton').style.display = 'none';
+					 		} else {
+					 		document.getElementById('ocultarboton').style.display = 'none';
+					 		}
+					 	}
+					</script>
+
+					<script language="javascript">
+						function mostrarboton() {
+							if (document.getElementById('mostrarboton').style.display == 'none') {
+								document.getElementById('mostrarboton').style.display = 'inline';
+							} else {
+							document.getElementById('mostrarboton').style.display = 'inline';
+							}
+						}
+					</script>
+
+					<script language="javascript">
+						function ocultarboton2() {
+							if (document.getElementById('mostrarboton').style.display == 'inline') {
+								document.getElementById('mostrarboton').style.display = 'none';
+							} else {
+							document.getElementById('mostrarboton').style.display = 'none';
+							}
+						}
+					</script>
+
+					<script language="javascript">
+					 	function mostrarboton2() {
+					 		if (document.getElementById('ocultarboton').style.display == 'none') {
+					 		document.getElementById('ocultarboton').style.display = 'inline';
+					 		} else {
+					 		document.getElementById('ocultarboton').style.display = 'inline';
+					 		}
+					 	}
+					</script>
+
 
 					 <script language="javascript">
 					 	function reducirmenu() {

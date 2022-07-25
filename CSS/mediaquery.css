@@ -386,6 +386,14 @@ h2 {
   	margin-top: -62px !important;
   }
 
+	.principal1{
+  	display: grid;
+  	grid-template-columns: 55% 100%;
+  	height: auto;
+  	padding-top: 117px;
+  	margin-top: -62px !important;
+  }
+
 	.contenedor_Imagenes {
 	  	display: flex;
 	  	margin-top: 7%;

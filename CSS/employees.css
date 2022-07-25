@@ -32,7 +32,7 @@ body {
 
 .more {
     display: none;
-    padding-top: 6%;
+    padding-top: 14%;
 }
 
 a.showLink, a.hideLink {
@@ -538,7 +538,7 @@ h3{
 #menu a {
     color: white;
     line-height: 118%;
-    padding: 18px 28px 11px 28px;
+    padding: 18px 28px 11px 8px;
     width: 79%;
 }
 #menu ul ul li {

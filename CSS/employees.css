@@ -800,7 +800,7 @@ div.menu li.animate:nth-of-type(6){
 
 .principal {
 	display: grid;
-	grid-template-columns: 13.2% auto;
+	grid-template-columns: 14.2% auto;
 	column-gap: 1rem;
 	height: 100%;
 	/*padding-top: 87px;*/

@@ -111,8 +111,7 @@
 header h1 {
 	color: var(--blanco);
 	font-size: 20px;
-	padding-right: 59%;
-
+	padding-right: 65%;
 }
 
 
@@ -125,6 +124,7 @@ h2 {
 	text-align: center;
 	color: var(--blanco);
   margin: 10px;
+	padding-right: 100%;
 }
 
 #Cajon1  {

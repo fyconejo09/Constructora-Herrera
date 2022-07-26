@@ -56,15 +56,15 @@
 
 		<div style="width: 99%; height:90%;" >
 
-					<div id ="Cajon4" >
+					<div id ="Cajon41" >
 
-						<div id="Cajon5">
+						<div id="Cajon51">
 							<a Class="BotonOcultar1" id="ocultarboton"><span class="material-icons"  style="color: white; " type="button" value="Mostrar Menu" href="#" id="example-show" class="showLink" onclick= "  showHide('example');reducirform(); aumentarmenu(); ocultarboton() ; ocultarboton(); mostrarboton(); return false;">arrow_forward_ios </span></a>
 							<a Class="BotonOcultar2" id="mostrarboton"><span class="material-icons" style="color: white;" type="button" value="Ocultar Menu" href="#" id="example-hide" class="hideLink" onclick=" showHide('example'); reducirmenu(); aumentarform(); ocultarboton2(); mostrarboton2(); return false ;  ">arrow_back_ios</span></a>
 
 						</div>
 
-							<div Class="Cajon6" id="modificable">
+							<div Class="Cajon61" id="modificable">
 								<div  class="readmore" id="Alturaboton2">
  							 				<br>
  							 				<br>
@@ -76,10 +76,10 @@
 														<section class="contenedor_menu" >
 															<div class="container">
 																<div class="card2"  >
-																			<div class="titulo_menu">
-														 						<h3>Menú </h3>
+																			<div class="titulo_menu1">
+														 						<h3> </h3>
 																			</div>
-																			<div id="menu">
+																			<div id="menu1">
 																				<ul>
 																					<li><i></i><a href="../Formularios/Planilla_Salarios_Reporte_Colaboradores.html"> <span class="material-icons"> summarize </span> Reporte Planilla Colaboradores</a></li>
  			 																	 	<li><i></i><a href="../Formularios/Planilla_Salarios_Reporte_RRHH.html"> <span class="material-icons"> summarize </span> Reporte Planilla RRHH</a></li>
@@ -175,35 +175,39 @@
 					 </script>
 
 					 <script language="javascript">
-					 		function reducirform() {
-					 			if (document.getElementById("modificable1").style.width == '100%') {
-					 			document.getElementById("modificable1").style.width = '90%';
-					 			document.getElementById("modificable1").style.height = '100%';
-								document.getElementById("modificable").style.margin = '0px';
-								document.getElementById("modificable1").style.marginTop = '140px';
-					 			} else {
-					 			document.getElementById("modificable1").style.width = '90%';
-					 			document.getElementById("modificable1").style.height = '100%';
-								document.getElementById("modificable").style.margin = '0px';
-								document.getElementById("modificable1").style.marginTop = '140px';
+					 	if(screen.width  > 768 ) {
+					 			function reducirform() {
+					 				if (document.getElementById("modificable1").style.width == '100%') {
+					 				document.getElementById("modificable1").style.width = '100%';
+					 				document.getElementById("modificable1").style.height = '100%';
+									document.getElementById("modificable").style.margin = '0px';
+									document.getElementById("modificable1").style.marginTop = '-58.6%';
+					 				} else {
+					 				document.getElementById("modificable1").style.width = '100%';
+					 				document.getElementById("modificable1").style.height = '100%';
+									document.getElementById("modificable").style.margin = '0px';
+									document.getElementById("modificable1").style.marginTop = '-58.6%';
+					 				}
 					 			}
-					 		}
+							}
 					 </script>
 
 					 <script language="javascript">
-					 		function aumentarform() {
-					 			if (document.getElementById("modificable1").style.width == '90%') {
-					 			document.getElementById("modificable1").style.width = '100% ';
-					 			document.getElementById("modificable1").style.height = '100% ';
-								document.getElementById("modificable").style.margin = '0px';
-								document.getElementById("modificable1").style.marginTop = '-20px';
-					 			} else {
-					 			document.getElementById("modificable1").style.width = '100% ';
-					 			document.getElementById("modificable1").style.height = '100% ';
-								document.getElementById("modificable").style.margin = '0px';
-								document.getElementById("modificable1").style.marginTop = '-20px';
+					 	if(screen.width > 768 ) {
+					 			function aumentarform() {
+					 				if (document.getElementById("modificable1").style.width == '90%') {
+					 				document.getElementById("modificable1").style.width = '100% ';
+					 				document.getElementById("modificable1").style.height = '100% ';
+									document.getElementById("modificable").style.margin = '0px';
+									document.getElementById("modificable1").style.marginTop = '-19%';
+					 				} else {
+					 				document.getElementById("modificable1").style.width = '100% ';
+					 				document.getElementById("modificable1").style.height = '100% ';
+									document.getElementById("modificable").style.margin = '0px';
+									document.getElementById("modificable1").style.marginTop = '-19%';
+					 				}
 					 			}
-					 		}
+						}
 					 </script>
 
  					 <script>
@@ -223,7 +227,7 @@
 
 					</div>
 
-						<div  Class="Cajon3" id="modificable1" >
+						<div  Class="Cajon31" id="modificable1" >
 							<div id="content">
 								<!-- Caspio Deployed Code Start Here || CM - Employees/Employees Report  -->
 								<script type="text/javascript" src="https://c0hcr676.caspio.com/dp/95de90001ce7fee412214b6b8fb3/emb"></script>

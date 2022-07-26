@@ -121,8 +121,14 @@ h2 {
 	font-size: 20px;
 	text-align: center;
 	color: var(--blanco);
-  margin: 10px;
-	padding-right: 100%;
+	margin: 10px;
+	/* padding-right: 100%; */
+}
+
+#barra_sec{
+	display: grid;
+	grid-template-columns: 20px auto 330px;
+	column-gap: 1rem;
 }
 
 #Cajon1  {

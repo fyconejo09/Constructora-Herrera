@@ -104,9 +104,7 @@
 }
 
 .barra_informacion{
-
-	height: 50px;
-
+height: 50px;
 }
 header h1 {
 	color: var(--blanco);
@@ -400,7 +398,7 @@ h2 {
 	/*============================Main=================*/
   .principal{
   	display: grid;
-  	grid-template-columns: 140% 100%;
+  	grid-template-columns: 150% 100%;
   	height: auto;
   	/* padding-top: 117px; */
   	margin-top: -62px !important;
@@ -411,7 +409,7 @@ h2 {
   	grid-template-columns: 55% 100%;
   	height: auto;
   	padding-top: 117px;
-  	margin-top: -62px !important;
+  	/* margin-top: -62px !important; */
   }
 
 	.contenedor_Imagenes {

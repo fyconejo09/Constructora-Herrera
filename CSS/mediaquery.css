@@ -203,53 +203,6 @@ h2 {
 }
 
 
-/*============================Menú Gestion de proyectos =================*/
-/*.enlace {
-  display:inline;
-  border:10px;
-  padding:10px;
-  margin:1px;
-  border-radius: 4px;
-  background:#1e71a97a;
-  color:White;
-  font-family: arial, sans-serif;
-  font-size: 1em;
-
-
-
-}
-
-.enlace:hover {
-  text-decoration:none;
-  color:White;
-  cursor:pointer;
-  background:#69767f;
-}
-
-
-.enlace1 {
-  display:inline;
-  border:10px;
-  padding:10px;
-  margin:1px;
-  border-radius: 4px;
-  background:#1e71a9;
-  color:White;
-  font-family: arial, sans-serif;
-  font-size: 1em;
-  width: 20%;
-
-
-}
-
-.enlace1:hover {
-	text-decoration:none;
-  color:White;
-  cursor:pointer;
-  background:#69767f;
-}*/
-
-
 	/*============================Menú desplegable=================*/
 
 	#menu {

@@ -1,5 +1,5 @@
 if(screen.width  > 768 ) {
-    window.onload = function reducirform() {
+function reducirform() {
       if (document.getElementById("modificable1").style.width == '100%') {
       document.getElementById("modificable1").style.width = '100%';
       document.getElementById("modificable1").style.height = '100%';

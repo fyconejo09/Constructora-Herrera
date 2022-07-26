@@ -1,4 +1,4 @@
-window.onload = function mostrarboton() {
+function mostrarboton() {
   if (document.getElementById('mostrarboton').style.display == 'none') {
     document.getElementById('mostrarboton').style.display = 'inline';
   } else {

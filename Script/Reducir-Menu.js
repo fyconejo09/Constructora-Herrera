@@ -1,4 +1,4 @@
-window.onload = function reducirmenu() {
+function reducirmenu() {
   if (document.getElementById("modificable").style.width == '100%') {
   document.getElementById("modificable").style.width = '0%';
   document.getElementById("modificable").style.height = '0%';

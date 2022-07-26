@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         let message =
           xhr.statusText ||
           "Error loading the file, verify that you are making the request by http or https";
-        el.innerHTML = `<div><p>Error ${xhr.status}: ${message}</p></div>`;
+        el.outerHTML = `<div><p>Error ${xhr.status}: ${message}</p></div>`;
       }
     });
 

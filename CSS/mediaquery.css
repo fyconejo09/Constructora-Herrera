@@ -109,7 +109,7 @@
 header h1 {
 	color: var(--blanco);
 	font-size: 20px;
-	padding-right: 47%;
+	padding-right: 55%;
 }
 
 
@@ -122,12 +122,12 @@ h2 {
 	text-align: center;
 	color: var(--blanco);
 	margin: 10px;
-	padding-right: 10%;
+	padding-right: 0%;
 }
 
 #barra_sec{
 	display: grid;
-	grid-template-columns: 20px auto 330px;
+	grid-template-columns: 20px auto 450px;
 	column-gap: 1rem;
 }
 

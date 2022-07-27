@@ -172,8 +172,17 @@ h2 {
 	float: none;
 	margin-top: 15%;
 	margin-left: 20px;
-	overflow-y: scroll;
+
 }
+
+#menu1 a {
+    color: white;
+    line-height: 118%;
+    padding: 15px 28px 30px 8px;
+    width: 100%;
+
+}
+
 
 #menu1 ul, li {
     list-style: none;

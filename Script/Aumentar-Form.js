@@ -4,12 +4,12 @@ if(screen.width > 768 ) {
       document.getElementById("modificable1").style.width = '100% ';
       document.getElementById("modificable1").style.height = '100% ';
       document.getElementById("modificable").style.margin = '0px';
-      document.getElementById("modificable1").style.marginTop = '-19%';
+      document.getElementById("modificable1").style.marginTop = '0%';
       } else {
       document.getElementById("modificable1").style.width = '100% ';
       document.getElementById("modificable1").style.height = '100% ';
       document.getElementById("modificable").style.margin = '0px';
-      document.getElementById("modificable1").style.marginTop = '-19%';
+      document.getElementById("modificable1").style.marginTop = '0%';
       }
     }
 }

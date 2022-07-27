@@ -116,6 +116,8 @@ article  {
 	height: 100%;
 	float: right;
 	margin-top: -48%;
+
+
 }
 
 #Cajon41  {
@@ -131,6 +133,7 @@ article  {
 	float: none;
 	margin-top: 17%;
 	margin-left: 2%;
+
 }
 
 .Cajon61  {
@@ -145,6 +148,10 @@ article  {
   border-radius: 0px 0px 0px 0px;
   padding: 0px;
   background-color: var(--encabezado);
+}
+
+#Barra  {
+  overflow: scroll;
 }
 
 #menu1 ul, li {

@@ -150,10 +150,6 @@ article  {
   background-color: var(--encabezado);
 }
 
-#Barra  {
-  overflow: scroll;
-}
-
 #menu1 ul, li {
     list-style: none;
     /*margin: 0;*/

@@ -183,6 +183,9 @@ h2 {
 
 }
 
+#Barra  {
+  overflow: scroll;
+}
 
 #menu1 ul, li {
     list-style: none;

@@ -132,13 +132,13 @@ h2 {
 }
 
 #Cajon1  {
-	width: 80%;
+	width: 20%;
 	height:100%;
 	float: left;
 }
 
-#Cajon21  {
-	width: 20%;
+#Cajon2  {
+	width: 80%;
 	height:100%;
 	float: right;
 }

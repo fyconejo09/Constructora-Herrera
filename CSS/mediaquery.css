@@ -127,7 +127,7 @@ h2 {
 
 #barra_sec{
 	display: grid;
-	grid-template-columns: 20px auto 450px;
+	grid-template-columns: 20px auto 480px;
 	column-gap: 1rem;
 }
 

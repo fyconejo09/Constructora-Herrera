@@ -219,8 +219,12 @@ h2 {
 
 .link_menu a, .link_logout_1 a {
     padding-right: 53%;
+
 }
 
+.link_logout_1{
+  margin-top: 31px;
+}
 
 	/*============================Menú desplegable=================*/
 

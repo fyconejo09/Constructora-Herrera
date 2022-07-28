@@ -27,7 +27,7 @@ body {
 
 .more {
     display: none;
-    padding-top: 14%;
+    /* padding-top: 14%; */
 }
 
 a.showLink, a.hideLink {
@@ -44,7 +44,7 @@ a.hideLink {
     background-color: Black;
     color: white;
     border-radius: 3px;
-    padding: 0.9%;
+    padding: 19%;
     cursor: pointer;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
@@ -62,7 +62,7 @@ a.hideLink {
     background-color: Black;
     color: white;
     border-radius: 3px;
-    padding: 0.9%;
+    padding: 19%;
     cursor: pointer;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
@@ -78,12 +78,12 @@ a.hideLink {
 
 
 #Alturaboton1 {
-    margin-top: -46%;
+    margin-top: -6.1%;
     position: relative !important;
 }
 
 #Alturaboton2 {
-    padding-top: 30%;
+
 }
 
 
@@ -115,7 +115,7 @@ article  {
 	width: 100%;
 	height: 100%;
 	float: right;
-	margin-top: -48%;
+	margin-top: 0%;
 
 
 }
@@ -124,25 +124,24 @@ article  {
 	width: 100%;
 	height:100%;
 	float: left;
-	margin-top: -10%;
+	margin-top: 12%;
 }
 
 #Cajon51  {
-	width: 100%;
-	height: 50px;
-	float: none;
-	margin-top: 17%;
-	margin-left: 2%;
-
-}
-
-.Cajon61  {
-	width: 100%;
+	width: 10%;
 	height: 100%;
-	float: none;
-	margin-top: 19.5%;
-	margin-left: 15%;
+	float: left;
+	padding-left: 0.9%;
+  margin-top: -4%;
 }
+
+#Barra  {
+  float: right;
+  	width: 93.5%;
+    height: 100%;
+    margin-top: -1%
+}
+
 
 .titulo_menu1{
   border-radius: 0px 0px 0px 0px;
@@ -152,10 +151,9 @@ article  {
 
 #menu1 ul, li {
     list-style: none;
-    /*margin: 0;*/
-    /* padding: 0; */
+    /* margin: 0; */
+    padding: 0.3%;
     /*transition: 0.05s all;*/
-    margin-top: -1px;
     font-family: sans-serif;
     font-size: 15px;
     color: #fff;
@@ -202,11 +200,13 @@ article  {
     list-style: none;
 }
 
+
 #menu1 ul li.hover,
 #menu1 ul li:hover {
     position: relative;
     z-index: 599;
     cursor: default;
+    	border-top: 2px solid rgb(0 0 0 / 70%);
 }
 
 #menu1 ul ul {
@@ -290,6 +290,31 @@ article  {
 
 #menu1 .fa-angle-right {
     float: right;
+}
+
+
+/* =============================== Animacion <li> ========================== */
+
+
+li {
+  background-color: rgba(0,0,0,0.4);
+  line-height: 4;
+  padding: 0 2em;
+  color: #fff;
+  position: relative;
+}
+li:before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #fff;
+  transition: all .3s;
+}
+li:hover:before {
+  width: 100%;
 }
 
 /* =============================== Formato titulos ========================== */

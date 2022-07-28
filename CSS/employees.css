@@ -434,6 +434,15 @@ body header{
   z-index: 100;
 }
 
+.titulo2 {
+  width: 100%;
+  height: 30px;
+  background-color: var(--oscuro);
+  margin: 0px;
+  padding: 1px 0px 58px 0px;
+  z-index: 100;
+}
+
 .titulos_y_logo {
   width:20%;
 }

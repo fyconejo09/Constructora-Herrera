@@ -143,8 +143,8 @@ article  {
 
 #menu1 ul, li {
     list-style: none;
-    margin-top: -1%;
-    padding-top: 2%;
+    margin-top: 0%;
+    padding-top: 0%;
     padding-bottom: 2%;
     /*transition: 0.05s all;*/
     font-family: sans-serif;
@@ -236,7 +236,7 @@ article  {
 
 #menu1 {
      width: 100%;
-  /*   height: 80px;*/
+     /* height: 80px; */
 }
 
 #menu1 li{

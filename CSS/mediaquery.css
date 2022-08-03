@@ -215,6 +215,11 @@ h2 {
 
 }
 
+#menu1 ul, li {
+    margin-top: 1%;
+}
+
+
 .card2{
   height: 110px;
 }

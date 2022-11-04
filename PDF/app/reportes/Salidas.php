@@ -82,6 +82,6 @@ $html = '    <header class="clearfix">
     </main>';
 
 $mpdf = new mPDF('c', 'A4');
-$mpdf ->writeHTML('<div>hola......<div/>');
-$mpdf ->Output('reporte.pdf', 'I');
+$mpdf->writeHTML($html);
+$mpdf->Output('reporte.pdf', 'I');
  ?>

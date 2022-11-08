@@ -909,6 +909,119 @@ div#GridRootCtnr_5e16050d6be9b0 {
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
+
+
+
+
+
+
+@media print {
+
+
+  [Class*="cbFormNestedTableContainer cbFormBlock6"] {
+    margin-top: -60px !important;
+    /*Fecha*/
+   }
+
+
+  [Class*="cbFormNestedTableContainer cbFormBlock7"] {
+     margin-left: -430px !important;
+      /*Cliente*/
+    }
+
+  [Class*="cbFormNestedTableContainer cbFormBlock8"] {
+      margin-left: -500px !important;
+      margin-top: 60px !important;
+      /*Solicita*/
+     }
+
+  [Class*="cbFormNestedTableContainer cbFormBlock10"] {
+      margin-left: -430px !important;
+      margin-top: 60px !important;
+      /*Tipo Solicitud*/
+     }
+
+   [Class*="cbFormNestedTableContainer cbFormBlock11"] {
+        margin-left: -500px !important;
+        margin-top: 120px !important;
+        /*Plantel*/
+      }
+
+
+    [Class*="cbHTMLBlockContainer cbFormData cbFormBlock12"] {
+         display: none;
+         /*Titulo numero de boleta y tipo de material*/
+       }
+
+    [Class*="cbFormNestedTableContainer cbFormBlock14"] {
+           margin-left: -430px !important;
+           margin-top: 60px !important;
+           /*Producto*/
+        }
+
+    [Class*="cbFormNestedTableContainer cbFormBlock15"] {
+            margin-left: -500px !important;
+            margin-top: 120px !important;
+            /*Producto boleta*/
+         }
+
+
+
+
+img{
+    display: none !important;
+  }
+
+label.div{
+  display: none !important;
+
+}
+
+#Cajon41{
+  display: none !important;
+}
+
+
+.cbFormTextField{
+  display: flex !important;
+  align-items: center !important;
+  left: 50% !important;
+  background-color: black !important;
+}
+
+#linea{
+  display: none !important;
+}
+
+.boton{
+  display: none !important;
+}
+
+.cbSubmitButton{
+  display: none !important;
+}
+
+#caspioform{
+  overflow:hidden;
+}
+
+.STF0BF11B31B944F1EB48F95D727699A6A{
+  border: 0px;
+}
+
+script{
+  display: none !important;
+}
+
+ p{
+   display: none !important;
+ }
+
+}
+
+
+
+
 .STF0BF11B31B944F1EB48F95D727699A6A .cbFormTableEvenRow {
     background-color: rgba(0, 0, 0, 0.2) !important;
 }

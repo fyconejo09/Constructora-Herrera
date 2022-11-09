@@ -946,20 +946,26 @@ main {
     }
 
   [Class*="cbFormNestedTableContainer cbFormBlock8"] {
-      margin-left: -500px !important;
+      margin-left: -460px !important;
       margin-top: 60px !important;
       /*Solicita*/
      }
 
+  [Class*="cbFormNestedTableContainer cbFormBlock9"] {
+      margin-top: -16px !important;
+     /*Lugar de envio*/
+    }
+
+
   [Class*="cbFormNestedTableContainer cbFormBlock10"] {
       margin-left: -430px !important;
-      margin-top: 60px !important;
+      margin-top: 44px !important;
       /*Tipo Solicitud*/
      }
 
    [Class*="cbFormNestedTableContainer cbFormBlock11"] {
-        margin-left: -500px !important;
-        margin-top: 120px !important;
+        margin-left: -460px !important;
+        margin-top: 104px !important;
         /*Plantel*/
       }
 
@@ -969,21 +975,43 @@ main {
          /*Titulo numero de boleta y tipo de material*/
        }
 
+     [Class*="cbFormNestedTableContainer cbFormBlock13"] {
+        margin-top: -18px !important;
+        /*N Boleta*/
+      }
+
     [Class*="cbFormNestedTableContainer cbFormBlock14"] {
            margin-left: -430px !important;
-           margin-top: 60px !important;
+           margin-top: 42px !important;
            /*Producto*/
         }
 
     [Class*="cbFormNestedTableContainer cbFormBlock15"] {
-            margin-left: -500px !important;
-            margin-top: 120px !important;
+            margin-left: -460px !important;
+            margin-top: 102px !important;
             /*Producto boleta*/
          }
+     [Class*="cbFormNestedTableContainer cbFormBlock16"] {
+           margin-top: -16px !important;
+                 /*Cantidad*/
+        }
 
+    [Class*="cbFormNestedTableContainer cbFormBlock30"] {
+        margin-left: -430px !important;
+        margin-top: 70px !important;
+       /*Tipo*/
+        }
 
-
-
+    [Class*="cbFormNestedTableContainer cbFormBlock31"] {
+        margin-left: -460px !important;
+        margin-top: 120px !important;
+        /*Cubicaje*/
+            }
+    [Class*="cbFormNestedTableContainer cbFormBlock34"] {
+        margin-left: -445px !important;
+        margin-top: 70px !important;
+        /*Cedula*/
+                    }
 img{
     display: none !important;
   }
@@ -997,13 +1025,6 @@ label.div{
   display: none !important;
 }
 
-
-.cbFormTextField{
-  display: flex !important;
-  align-items: center !important;
-  left: 50% !important;
-  background-color: black !important;
-}
 
 #linea{
   display: none !important;

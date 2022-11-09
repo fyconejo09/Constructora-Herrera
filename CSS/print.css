@@ -5,7 +5,29 @@
   main {
     float:none;
   }
-  .STF0BF11B31B944F1EB48F95D727699A6A {}
+  body{
+    float: none !important;
+    width: auto !important;
+    margin:  0 !important;
+    padding: 0 !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    font-size: 14px;
+  }
+  .STF0BF11B31B944F1EB48F95D727699A6A {
+    border: 0px;
+  }
+  .cbFormTextField {
+    border: 0 !important;
+    background-color: #eee !important;
+    outline: none !important;
+  }
+  .cbFormRequiredMarker{  }
+  .cbFormSelect {
+    border: 0 !important;
+    background-color: #eee !important;
+    outline: none !important;
+  }
   [Class*="cbFormNestedTableContainer cbFormBlock9"] {
 
     }
@@ -94,9 +116,6 @@
   }
   #caspioform{
     overflow:hidden;
-  }
-  .STF0BF11B31B944F1EB48F95D727699A6A{
-    border: 0px;
   }
   script{
     display: none !important;

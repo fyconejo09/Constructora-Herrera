@@ -917,6 +917,26 @@ div#GridRootCtnr_5e16050d6be9b0 {
 
 @media print {
 
+  header, footer, nav, aside {
+    display: none;
+  }
+
+main {
+    float:none;
+}
+
+  .STF0BF11B31B944F1EB48F95D727699A6A {
+
+  }
+
+   [Class*="cbFormNestedTableContainer cbFormBlock9"] {
+
+     padding-left: 0 !important;
+     padding-right: 0 !important;
+     width: 40% !important;
+     /*Lugar de envio*/
+    }
+
 
   [Class*="cbFormNestedTableContainer cbFormBlock6"] {
     margin-top: -60px !important;

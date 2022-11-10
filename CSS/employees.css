@@ -1115,10 +1115,13 @@ Div element.style {
 	font-weight: bold;
 }
 
-  [Class*="cbUpdateButtonContainer cbFormBlock31"]{
-    display: none !important;
-    /*Esconde el boton de actualizar para reimpresion*/
-   }
+
+
+   [name="Mod0EditRecord"]{
+     display: none !important;
+     cursor: not-allowed !important;
+     /*Esconde el boton de actualizar para reimpresion y deshabilita el boton*/
+    }
 
    [Class*="cbFormNestedTableContainer cbFormBlock29_"]{
      display: none !important;

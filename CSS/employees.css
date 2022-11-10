@@ -1120,6 +1120,7 @@ Div element.style {
    [name="Mod0EditRecord"]{
      display: none !important;
      cursor: not-allowed !important;
+
      /*Esconde el boton de actualizar para reimpresion y deshabilita el boton*/
     }
 
@@ -1132,3 +1133,20 @@ Div element.style {
       display: none !important;
       /*Esconde el campo de nombre*/
      }
+
+
+
+  .botonreimpresion{
+  background-color: black;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+  width: 100% !important;
+  text-align: center !important;  
+  justify-content: center !important;
+  align-items: center !important;
+
+  }

@@ -29,7 +29,7 @@
 				<div style="width: 99%; height:90%;" >
 
 							<div id ="Cajon41" >
-									
+
 									<nav id="Barra">
 									<div Class="Cajon61" id="modificable">
 										<div  class="readmore" id="Alturaboton2">
@@ -142,6 +142,21 @@
 		        }
 		    </script>
 
+		
+				<script>
+
+				window.onload = function ejemplo ()
+				 {
+
+				setTimeout('resetform()', 1000)
+
+				}
+				    function resetform() {
+				     $("form select").each(function() { this.selectedIndex = 0 });
+				     $("form input[type=text] , form textarea").each(function() { this.value = '' });
+				}
+
+				</script>
 
 				<script>
 				   const btncompra = document.getElementById('[Class*="cbUpdateButtonContainer cbFormBlock31"]');

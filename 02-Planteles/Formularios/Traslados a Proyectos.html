@@ -85,36 +85,51 @@
 
 				<script type="text/javascript">
 		        function imprimirNombre(){
+								var Fecha = document.querySelector('[name="InsertRecordFecha"]').value;
 		            var cliente = document.querySelector('[name="InsertRecordCliente"]').value;
 								var solicita = document.querySelector('[name="InsertRecordSolicita"]').value;
-								var Luga_de_Envio = document.querySelector('[name="InsertRecordLuga_de_Envio"]').value;
+
 								var N_Boleta = document.querySelector('[name="InsertRecordN_Boleta"]').value;
+
+								var Tipo_de_Solicitud = document.querySelector('[name="InsertRecordTipo_de_Solicitud"]').value;
+								var Plantel = document.querySelector('[name="InsertRecordPlantel"]').value;
+								var Material = document.querySelector('[name="InsertRecordMaterial"]').value;
+								var Material_Boleta = document.querySelector('[name="InsertRecordMaterial_Boleta"]').value;
+								var Cantidad = document.querySelector('[name="cbParamVirtual1"]').value;
+								var Cc = document.querySelector('[name="InsertRecordCC"]').value;
+								var Luga_de_Envio = document.querySelector('[name="InsertRecordLuga_de_Envio"]').value;
+								var Orden_de_Compra = document.querySelector('[name="InsertRecordOrden_de_Compra"]').value;
+								var Placa = document.querySelector('[name="InsertRecordPlaca"]').value;
+								var Tipo = document.querySelector('[name="InsertRecordTipo"]').value;
+								var Cubicaje = document.querySelector('[name="InsertRecordCubicaje"]').value;
+								var Tercero = document.querySelector('[name="InsertRecordProveedor"]').value;
+								var Cedula_Juridica = document.querySelector('[name="InsertRecordCedula_Juridica"]').value;
 		            var popUpPersonalizado = window.open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
 		            popUpPersonalizado.document.body.innerHTML ="<h2 align='center'>Constructora Herrera S.A</h2>"
 								+"<h3 align='center'>8F38, Salida de material a proyectos</h3>"
 								+"<p align='center'>Ced: 3-101-125558</p>"
 								+"<p align='center'>San Carlos, 100 metros sur y 1 kilometro este del Colono Agropecuario</p>"
 								+"____________________________________________"+ "<br>"+ "<br>"
-								+"<b>Fecha:</b>"+ "<br>"
-								+"<b>Cliente:</b>"+ cliente + "<br>"
+								+"<b>Fecha: </b>"+ Fecha + "<br>"
+								+"<b>Cliente: </b>"+ cliente + "<br>"
 								+"____________________________________________"+ "<br>"+ "<br>"
-								+"<b>Solicita:</b>"+ solicita +"<br>"
-								+"<b>Lugar de Envio:</b>" + Luga_de_Envio +"<br>"
-								+"<b>Tipo de Solicitud:</b>"+"<br>"
-								+"<b>Plantel:</b>"+"<br>"
+								+"<b>Solicita: </b>"+ solicita +"<br>"
+								+"<b>Lugar de Envio: </b>" + Luga_de_Envio +"<br>"
+								+"<b>Tipo de Solicitud: </b>"+ Tipo_de_Solicitud +"<br>"
+								+"<b>Plantel: </b>"+ Plantel +"<br>"
 								+"____________________________________________"+ "<br>"+ "<br>"
-								+"<b>Producto:</b>"+"<br>"
-								+"<b>Producto de Boleta:</b>"+"<br>"
-								+"<b>Cantidad:</b>"+"<br>"
-								+"<b>Centro de Costos:</b>"+"<br>"
-								+"<b>Lugar Proyecto:</b>"+"<br>"
-								+"<b>Orden de Compra:</b>"+"<br>"
+								+"<b>Producto: </b>"+ Material +"<br>"
+								+"<b>Producto de Boleta: </b>" + Material_Boleta +"<br>"
+								+"<b>Cantidad: </b>"+ Cantidad +"<br>"
+								+"<b>Centro de Costos: </b>"+ Cc +"<br>"
+								+"<b>Lugar Proyecto: </b>"+ Luga_de_Envio +"<br>"
+								+"<b>Orden de Compra: </b>"+ Orden_de_Compra +"<br>"
 								+"____________________________________________"+ "<br>"+ "<br>"
-								+"<b>Placa:</b>"+"<br>"
-								+"<b>Tipo:</b>"+"<br>"
-								+"<b>Cubicaje:</b>"+"<br>"
-								+"<b>Proveedor/Cliente:</b>"+"<br>"
-								+"<b>Cedula Juridica/Fisica:</b>"+"<br>"
+								+"<b>Placa: </b>"+ Placa +"<br>"
+								+"<b>Tipo: </b>"+ Tipo +"<br>"
+								+"<b>Cubicaje: </b>"+ Cubicaje +"<br>"
+								+"<b>Proveedor/Cliente: </b>"+ Tercero +"<br>"
+								+"<b>Cedula Juridica/Fisica: </b>"+ Cedula_Juridica +"<br>"
 								+"____________________________________________"+ "<br>"+ "<br>"+ "<br>"+"<br>"
 								+"<b>Recibido por: _____________________________</b>"+"<br>"+"<br>"+"<br>"+"<br>"
 								+"<b>Chofer: _____________________________</b>"+"<br>"+"<br>"

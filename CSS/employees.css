@@ -1118,7 +1118,7 @@ Div element.style {
 
 
 
-[Class*="cbUpdateButtonContainer cbFormBlock36"] {
+[Id^="cbUpdateButton"] {
   display: none;
   /*Fecha*/
  }

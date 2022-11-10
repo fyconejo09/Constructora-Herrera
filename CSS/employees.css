@@ -1114,3 +1114,11 @@ Div element.style {
 #cb-footer p:first-child{
 	font-weight: bold;
 }
+
+
+
+
+[Class*="cbUpdateButtonContainer cbFormBlock36"] {
+  display: none;
+  /*Fecha*/
+ }

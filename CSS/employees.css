@@ -1115,10 +1115,6 @@ Div element.style {
 	font-weight: bold;
 }
 
-
-
-
-[Id^="cbUpdateButton"] {
-  display: none;
-  /*Fecha*/
- }
+  [Class*="cbUpdateButtonContainer cbFormBlock31_"]{
+    display: none !important;
+   }

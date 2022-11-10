@@ -1151,3 +1151,9 @@ Div element.style {
   cursor: pointer;
 
   }
+
+
+
+  .botonreimpresion:hover{
+  background-color: orange;
+  }

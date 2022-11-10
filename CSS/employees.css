@@ -1125,18 +1125,6 @@ Div element.style {
     }
 
 
-
-    [name="InsertRecordID_Apellido"], [for="InsertRecordID_Apellido"]{
-     display: none !important;
-     /*Esconde el campo de apellidos*/
-    }
-
-    [name="InsertRecordID_Nombre"], [for="InsertRecordID_Nombre"]{
-      display: none !important;
-      /*Esconde el campo de nombre*/
-     }
-
-
   .botonreimpresion{
   background-color: black;
   border: 0;

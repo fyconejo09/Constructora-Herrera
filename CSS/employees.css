@@ -1117,7 +1117,7 @@ Div element.style {
 
 
 
-   [name="Mod0EditRecord"]{
+   [name="Submit"]{
      display: none !important;
      cursor: not-allowed !important;
 
@@ -1126,7 +1126,15 @@ Div element.style {
 
 
 
+    [name="InsertRecordID_Apellido"], [for="InsertRecordID_Apellido"]{
+     display: none !important;
+     /*Esconde el campo de apellidos*/
+    }
 
+    [name="InsertRecordID_Nombre"], [for="InsertRecordID_Nombre"]{
+      display: none !important;
+      /*Esconde el campo de nombre*/
+     }
 
 
   .botonreimpresion{

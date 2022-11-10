@@ -1115,6 +1115,17 @@ Div element.style {
 	font-weight: bold;
 }
 
-  [Class*="cbUpdateButtonContainer cbFormBlock31_"]{
+  [Class*="cbUpdateButtonContainer cbFormBlock31"]{
     display: none !important;
+    /*Esconde el boton de actualizar para reimpresion*/
    }
+
+   [Class*="cbFormNestedTableContainer cbFormBlock29_"]{
+     display: none !important;
+     /*Esconde el campo de apellidos*/
+    }
+
+    [Class*="cbFormNestedTableContainer cbFormBlock30"]{
+      display: none !important;
+      /*Esconde el campo de nombre*/
+     }

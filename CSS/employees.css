@@ -1117,12 +1117,7 @@ Div element.style {
 
 
 
-   [name="Submit"]{
-     display: none !important;
-     cursor: not-allowed !important;
 
-     /*Esconde el boton de actualizar para reimpresion y deshabilita el boton*/
-    }
 
 
   .botonreimpresion{

@@ -88,16 +88,15 @@
 								var Fecha = document.querySelector('[name="InsertRecordFecha"]').value;
 		            var cliente = document.querySelector('[name="InsertRecordCliente"]').value;
 								var solicita = document.querySelector('[name="InsertRecordSolicita"]').value;
-
+								var Luga_de_Envio = document.querySelector('[name="InsertRecordLuga_de_Envio"]').value;
 								var N_Boleta = document.querySelector('[name="InsertRecordN_Boleta"]').value;
-
 								var Tipo_de_Solicitud = document.querySelector('[name="InsertRecordTipo_de_Solicitud"]').value;
 								var Plantel = document.querySelector('[name="InsertRecordPlantel"]').value;
 								var Material = document.querySelector('[name="InsertRecordMaterial"]').value;
 								var Material_Boleta = document.querySelector('[name="InsertRecordMaterial_Boleta"]').value;
 								var Cantidad = document.querySelector('[name="cbParamVirtual1"]').value;
 								var Cc = document.querySelector('[name="InsertRecordCC"]').value;
-								var Luga_de_Envio = document.querySelector('[name="InsertRecordLuga_de_Envio"]').value;
+								var Detalle_CC = document.querySelector('[name="InsertRecordLugar_Proyecto"]').value;
 								var Orden_de_Compra = document.querySelector('[name="InsertRecordOrden_de_Compra"]').value;
 								var Placa = document.querySelector('[name="InsertRecordPlaca"]').value;
 								var Tipo = document.querySelector('[name="InsertRecordTipo"]').value;
@@ -105,6 +104,7 @@
 								var Tercero = document.querySelector('[name="InsertRecordProveedor"]').value;
 								var Cedula_Juridica = document.querySelector('[name="InsertRecordCedula_Juridica"]').value;
 		            var popUpPersonalizado = window.open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
+
 		            popUpPersonalizado.document.body.innerHTML ="<h2 align='center'>Constructora Herrera S.A</h2>"
 								+"<h3 align='center'>8F38, Salida de material a proyectos</h3>"
 								+"<p align='center'>Ced: 3-101-125558</p>"
@@ -122,7 +122,7 @@
 								+"<b>Producto de Boleta: </b>" + Material_Boleta +"<br>"
 								+"<b>Cantidad: </b>"+ Cantidad +"<br>"
 								+"<b>Centro de Costos: </b>"+ Cc +"<br>"
-								+"<b>Lugar Proyecto: </b>"+ Luga_de_Envio +"<br>"
+								+"<b>Detalle CC: </b>"+ Detalle_CC +"<br>"
 								+"<b>Orden de Compra: </b>"+ Orden_de_Compra +"<br>"
 								+"____________________________________________"+ "<br>"+ "<br>"
 								+"<b>Placa: </b>"+ Placa +"<br>"
@@ -137,6 +137,7 @@
 								+"<b>Creado por:</b>"+"<br>"+"<br>"
 								+"____________________________________________"+ "<br>"+ "<br>"
 								+"<b>N Boleta: " + N_Boleta ;
+
 								popUpPersonalizado.document.close();
 								popUpPersonalizado.print( );
 								popUpPersonalizado.close();

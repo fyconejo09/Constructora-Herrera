@@ -1116,15 +1116,6 @@ Div element.style {
 }
 
 
-
-   [Class*="cbSubmitButtonContainer cbFormBlock30_"]{
-     display: none !important;
-     cursor: not-allowed !important;
-
-     /*Esconde el boton de actualizar para reimpresion y deshabilita el boton*/
-    }
-
-
   .botonreimpresion{
   background-color: black;
   border: 0;

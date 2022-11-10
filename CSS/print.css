@@ -12,7 +12,6 @@
     padding: 0 !important;
     display: inline-block !important;
     vertical-align: middle !important;
-    font-size: 14px;
   }
   .STF0BF11B31B944F1EB48F95D727699A6A {
     border: 0px;
@@ -21,19 +20,27 @@
     border: 0 !important;
     background-color: #eee !important;
     outline: none !important;
+    color: black !important;
+
+
   }
-  .cbFormRequiredMarker{  }
+  .cbFormLabelCell {
+
+
+
+    }
   .cbFormSelect {
     border: 0 !important;
     background-color: #eee !important;
     outline: none !important;
+
+
   }
   [Class*="cbFormNestedTableContainer cbFormBlock9"] {
 
     }
   [Class*="cbFormNestedTableContainer cbFormBlock6"] {
     margin-top: -60px !important;
-    width: 80px !important;
     /*Fecha*/
    }
   [Class*="cbFormNestedTableContainer cbFormBlock7"] {
@@ -123,4 +130,7 @@
   p{
     display: none !important;
   }
+
+
+
 }

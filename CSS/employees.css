@@ -1124,12 +1124,12 @@ Div element.style {
      /*Esconde el boton de actualizar para reimpresion y deshabilita el boton*/
     }
 
-   [Class*="cbFormNestedTableContainer cbFormBlock29_"]{
+   [Class*="cbFormNestedTableContainer cbFormBlock30"]{
      display: none !important;
      /*Esconde el campo de apellidos*/
     }
 
-    [Class*="cbFormNestedTableContainer cbFormBlock30"]{
+    [Class*="cbFormNestedTableContainer cbFormBlock31"]{
       display: none !important;
       /*Esconde el campo de nombre*/
      }
@@ -1145,7 +1145,7 @@ Div element.style {
   font-size: 14px;
   padding: 10px 25px;
   width: 100% !important;
-  text-align: center !important;  
+  text-align: center !important;
   justify-content: center !important;
   align-items: center !important;
 

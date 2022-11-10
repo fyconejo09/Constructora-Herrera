@@ -1124,12 +1124,12 @@ Div element.style {
      /*Esconde el boton de actualizar para reimpresion y deshabilita el boton*/
     }
 
-   [Class*="cbFormNestedTableContainer cbFormBlock30"]{
+   [name="EditRecordID_Apellido"], [for="EditRecordID_Apellido"]{
      display: none !important;
      /*Esconde el campo de apellidos*/
     }
 
-    [Class*="cbFormNestedTableContainer cbFormBlock31"]{
+    [name="EditRecordID_Nombre"], [for="EditRecordID_Nombre"]{
       display: none !important;
       /*Esconde el campo de nombre*/
      }

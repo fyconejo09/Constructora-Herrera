@@ -101,6 +101,7 @@
 								var Cedula_Juridica = document.querySelector('[name="InsertRecordCedula_Juridica"]').value;
 								var ID_Apellido = document.querySelector('[name="InsertRecordID_Apellido"]').value;
 								var ID_Nombre = document.querySelector('[name="InsertRecordID_Nombre"]').value;
+								var Consecutivo_Interno = document.querySelector('[name="InsertRecordID_Imprimible"]').value;
 		            var popUpPersonalizado = window.open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
 
 		            popUpPersonalizado.document.body.innerHTML ="<h2 align='center'>Constructora Herrera S.A</h2>"
@@ -135,6 +136,7 @@
 								+"<b>Creado por : </b>"+ ID_Nombre + " " + ID_Apellido + "<br>"+"<br>"
 								+"____________________________________________"+ "<br>"+ "<br>"
 								+"<b>N Boleta: " + N_Boleta ;
+								+"<b>N Consecutivo : " + Consecutivo_Interno ;
 
 								popUpPersonalizado.document.close();
 								popUpPersonalizado.print( );

@@ -1128,11 +1128,11 @@ Div element.style {
   text-align: center !important;
   justify-content: center !important;
   align-items: center !important;
-  cursor: pointer;
+  cursor: pointer !important;
 
   }
 
 
   .botonreimpresion:hover{
-  background-color: orange;
+  background-color: orange !important;
   }

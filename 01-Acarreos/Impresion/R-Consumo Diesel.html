@@ -24,15 +24,12 @@
 		<body>
 
 				<script src="../../Script/Include-html.js"></script>
-				<header data-include="../../Plantillas/Encabezado.html"></header>
 
 				<div style="width: 99%; height:90%;" >
 
 							<div id ="Cajon41" >
-									<div data-include="../../Plantillas/Cajon51.html"></div>
 									<nav id="Barra">
 									<div Class="Cajon61" id="modificable">
-										<div  class="readmore" id="Alturaboton2">
 		 							 			<div id="example" class="more">
 		 								 					<div class="text">
 											 							<main class="principal" id="Alturaboton1">
@@ -79,6 +76,89 @@
 							<script src="../../Script/Ocultar-Menu.js"></script>
 
 				</div>
+
+				<script type="text/javascript">
+						function reimpresion(){
+							var Fecha = document.querySelector('[name="InsertRecordFecha"]').value;
+							var Operario = document.querySelector('[name="InsertRecordOperario"]').value;
+							var Placa = document.querySelector('[name="InsertRecordPlaca"]').value;
+							var Cc = document.querySelector('[name="InsertRecordCC"]').value;
+							var Tipo = document.querySelector('[name="InsertRecordTipo"]').value;
+							var Marca = document.querySelector('[name="InsertRecordMarca"]').value;
+							var Modelo = document.querySelector('[name="InsertRecordModelo"]').value;
+							var Kilometraje_Actual = document.querySelector('[name="InsertRecordKilometraje"]').value;
+							var Horímetro_Actual = document.querySelector('[name="InsertRecordHorimetro"]').value;
+							var Cantidad_Litros_Limpieza = document.querySelector('[name="InsertRecordCant_Litros_Limpieza"]').value;
+							var Cant_Litros = document.querySelector('[name="InsertRecordCant_Litros"]').value;
+							var Precio = document.querySelector('[name="InsertRecordPrecio"]').value;
+							var Total = document.querySelector('[name="InsertRecordTotal"]').value;
+							var Tercero = document.querySelector('[name="InsertRecordProveedor"]').value;
+							var Cedula_Juridica = document.querySelector('[name="InsertRecordCedula_Juridica"]').value;
+							var Observaciones = document.querySelector('[name="InsertRecordObservaciones"]').value;
+							var Apellidos_ID = document.querySelector('[name="InsertRecordApellidos_ID"]').value;
+							var Nombre_ID = document.querySelector('[name="InsertRecordNombre_ID"]').value;
+							var N_Boleta = document.querySelector('[name="InsertRecordN_Boleta"]').value;
+							var Consecutivo_Interno = document.querySelector('[name="InsertRecordID_Imprimible"]').value;
+
+		          var popUpPersonalizado = window.open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
+							popUpPersonalizado.document.body.innerHTML ="<h2 align='center'>Constructora Herrera S.A</h2>"
+							+"<h3 align='center'>8F57, Control total de diesel</h3>"
+							+"<p align='center'>Ced: 3-101-125558</p>"
+							+"<p align='center'>San Carlos, 100 metros sur y 1 kilometro este del Colono Agropecuario</p>"
+							+"____________________________________________"+ "<br>"+ "<br>"
+							+"<b>Fecha: </b>"+ Fecha + "<br>"
+							+"<b>Operario: </b>"+ Operario + "<br>"
+							+"____________________________________________"+ "<br>"+ "<br>"
+							+"<b>Placa: </b>"+ Placa +"<br>"
+							+"<b>CC: </b>"+ Cc +"<br>"
+							+"<b>Tipo: </b>"+ Tipo +"<br>"
+							+"<b>Marca: </b>"+ Marca +"<br>"
+							+"<b>Modelo: </b>"+ Modelo +"<br>"
+							+"____________________________________________"+ "<br>"+ "<br>"
+							+"<b>Kilometraje: </b>"+ Kilometraje_Actual +"<br>"
+							+"<b>Horímetro: </b>"+ Horímetro_Actual +"<br>"
+							+"____________________________________________"+ "<br>"+ "<br>"
+							+"<b>Cantidad litros para limpieza: </b>"+ Cantidad_Litros_Limpieza +"<br>"
+							+"<b>Cantidad litros consumo: </b>"+ Cant_Litros +"<br>"
+							+"<b>Precio litro: </b>"+ Precio +"<br>"
+							+"<b>Total: </b>"+ Total +"<br>"
+							+"____________________________________________"+ "<br>"+ "<br>"
+							+"<b>Observaciones: </b>"+ Observaciones +"<br>"
+							+"____________________________________________"+ "<br>"+ "<br>"
+							+"<b>Tercero: </b>"+ Tercero +"<br>"
+							+"<b>Cedula Juridica: </b>"+ Cedula_Juridica +"<br>"
+							+"____________________________________________"+ "<br>"+ "<br>"+ "<br>"+"<br>"
+							+"<b>Recibido por: _____________________________</b>"+"<br>"+"<br>"+"<br>"+"<br>"
+							+"<b>Chofer: _____________________________</b>"+"<br>"+"<br>"
+							+"____________________________________________"+ "<br>"+ "<br>"
+							+"<b>Creado por : </b>"+ Nombre_ID + " " + Apellidos_ID + "<br>"+"<br>"
+							+"____________________________________________"+ "<br>"+ "<br>"
+							+"<b>N Boleta: " + N_Boleta + "<br>"
+							+"<b>N Consecutivo : " + Consecutivo_Interno ;
+
+								popUpPersonalizado.document.close();
+								popUpPersonalizado.print( );
+								popUpPersonalizado.close();
+							window.close();
+						}
+				</script>
+
+
+				<script>
+					 const btncompra = document.getElementById('[Class*="cbSubmitButtonContainer cbFormBlock42"]');
+					 btncompra.disabled = true;
+				</script>
+
+
+				<style>
+				[Class*="cbSubmitButtonContainer cbFormBlock42"]{
+					display: none !important;
+					cursor: not-allowed !important;
+					/*Esconde el boton de actualizar para reimpresion y deshabilita el boton*/
+				 }
+				</style>
+
+
 
 		  	<div data-include="../../Plantillas/Pie_de_Pagina.html"></div>
 

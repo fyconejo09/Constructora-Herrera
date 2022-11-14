@@ -90,11 +90,13 @@
 							var Horímetro_Actual = document.querySelector('[name="InsertRecordHorimetro"]').value;
 							var Cantidad_Litros_Limpieza = document.querySelector('[name="InsertRecordCant_Litros_Limpieza"]').value;
 							var Cant_Litros = document.querySelector('[name="InsertRecordCant_Litros"]').value;
-							var Precio = document.querySelector('[name="InsertRecordPrecio"]').value;
+							let Precio = document.querySelector('[name="InsertRecordPrecio"]').value;
 
-					   	var PrecioMoneda = Precio.toLocaleString("en-US", {
+
+					   	let PrecioMoneda = Precio.toLocaleString("en-US", {
 					        style: "currency",
-					        currency: "USD"
+					        currency: "USD",
+									minimumFractionDigits: 2
 					    });
 
 

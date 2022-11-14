@@ -93,8 +93,10 @@
 							var Precio = document.querySelector('[name="InsertRecordPrecio"]').value;
 
 
-
-							const PrecioMoneda = Precio.toLocaleString("en");
+							const PrecioMoneda = Precio.toLocaleString("en", {
+								style: "currency",
+								currency: "MXN"
+								});
 
 
 							var Total = document.querySelector('[name="InsertRecordTotal"]').value;

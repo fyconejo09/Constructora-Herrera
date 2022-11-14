@@ -91,6 +91,12 @@
 							var Cantidad_Litros_Limpieza = document.querySelector('[name="InsertRecordCant_Litros_Limpieza"]').value;
 							var Cant_Litros = document.querySelector('[name="InsertRecordCant_Litros"]').value;
 							var Precio = document.querySelector('[name="InsertRecordPrecio"]').value;
+
+
+
+							const PrecioMoneda = Precio.toLocaleString("en");
+
+
 							var Total = document.querySelector('[name="InsertRecordTotal"]').value;
 							var Tercero = document.querySelector('[name="InsertRecordProveedor"]').value;
 							var Cedula_Juridica = document.querySelector('[name="InsertRecordCedula_Juridica"]').value;
@@ -121,7 +127,7 @@
 							+"____________________________________________"+ "<br>"
 							+"<b>Cantidad litros para limpieza: </b>"+ Cantidad_Litros_Limpieza +"<br>"
 							+"<b>Cantidad litros consumo: </b>"+ Cant_Litros +"<br>"
-							+"<b>Precio litro: </b>"+ Precio +"<br>"
+							+"<b>Precio litro: </b>"+ PrecioMoneda +"<br>"
 							+"<b>Total: </b>"+ Total +"<br>"
 							+"____________________________________________"+ "<br>"
 							+"<b>Observaciones: </b>"+ Observaciones +"<br>" +"<br>"

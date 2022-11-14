@@ -92,10 +92,15 @@
 							var Cant_Litros = document.querySelector('[name="InsertRecordCant_Litros"]').value;
 							var Precio = document.querySelector('[name="InsertRecordPrecio"]').value;
 
+					    Precio.toLocaleString("en-US", {
+					        style: "currency",
+					        currency: "USD"
+					    });
 
-							const PrecioMoneda = Precio.toLocaleString("en", {
+
+							const PrecioMoneda = Precio.toLocaleString("en-US", {
 								style: "currency",
-								currency: "MXN"
+								currency: "CRC"
 								});
 
 

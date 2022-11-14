@@ -82,55 +82,55 @@
 
 				<script type="text/javascript">
 				function imprimirNombre(){
-						var Fecha = document.querySelector('[name="InsertRecordFecha"]').value;
-						var Plantel_de_Salida_Material = document.querySelector('[name="InsertRecordPlantel_de_Salida_Material"]').value;
-						var Plantel_Destino = document.querySelector('[name="InsertRecordPlantel_Destino"]').value;
-						var Comentarios = document.querySelector('[name="InsertRecordComentarios"]').value;
-						var Material = document.querySelector('[name="InsertRecordMaterial"]').value;
-						var Cantidad = document.querySelector('[name="InsertRecordCantidad"]').value;
-						var Orden_de_Compra = document.querySelector('[name="InsertRecordOrden_de_Compra"]').value;
-						var Cc = document.querySelector('[name="InsertRecordCC"]').value;
-						var Detalle_CC = document.querySelector('[name="InsertRecordDetalle_CC"]').value;
-						var Placa = document.querySelector('[name="InsertRecordPlaca"]').value;
-						var Tipo = document.querySelector('[name="InsertRecordTipo"]').value;
-						var Cubicaje = document.querySelector('[name="InsertRecordCubicaje"]').value;
-						var Tercero = document.querySelector('[name="InsertRecordProveedor"]').value;
-						var Cedula_Juridica = document.querySelector('[name="InsertRecordCedula_Juridica"]').value;
-						var ID_Imprimible = document.querySelector('[name="InsertRecordID_Imprimible"]').value;
-						var Nombre_ID = document.querySelector('[name="InsertRecordNombre_ID"]').value;
-						var Apellidos_ID = document.querySelector('[name="InsertRecordApellidos_ID"]').value;
-						var N_Boleta = document.querySelector('[name="InsertRecordN_Boleta"]').value;
-						var Consecutivo_Interno = document.querySelector('[name="InsertRecordID_Imprimible"]').value;
-						popUpPersonalizado.document.body.innerHTML ="<h2 align='center'>Constructora Herrera S.A</h2>"
-						+"<h3 align='center'>8F71, Traslados planteles</h3>"
-						+"<p align='center'>Ced: 3-101-125558</p>"
-						+"<p align='center'>San Carlos, 100 metros sur y 1 kilometro este del Colono Agropecuario</p>"
-						+"____________________________________________"+ "<br>"+ "<br>"
-						+"<b>Fecha: </b>"+ Fecha + "<br>"
-						+"____________________________________________"+ "<br>"+ "<br>"
-						+"<b>Platen Salida: </b>"+ Plantel_de_Salida_Material +"<br>"
-						+"<b>Plantel Destino: </b>" + Plantel_Destino +"<br>"
-						+"<b>Comentarios : </b>"+ Comentarios +"<br>"
-						+"____________________________________________"+ "<br>"+ "<br>"
-						+"<b>Producto: </b>"+ Material +"<br>"
-						+"<b>Cantidad: </b>"+ Cantidad +"<br>"
-						+"<b>Orden de Compra: </b>"+ Orden_de_Compra +"<br>"
-						+"<b>Centro de Costos: </b>"+ Cc +"<br>"
-						+"<b>Detalle CC: </b>"+ Detalle_CC +"<br>"
-						+"____________________________________________"+ "<br>"+ "<br>"
-						+"<b>Placa: </b>"+ Placa +"<br>"
-						+"<b>Tipo: </b>"+ Tipo +"<br>"
-						+"<b>Cubicaje: </b>"+ Cubicaje +"<br>"
-						+"<b>Tercero: </b>"+ Tercero +"<br>"
-						+"<b>Cedula Juridica/Fisica: </b>"+ Cedula_Juridica +"<br>"
-						+"____________________________________________"+ "<br>"+ "<br>"+ "<br>"+"<br>"
-						+"<b>Recibido por: _____________________________</b>"+"<br>"+"<br>"+"<br>"+"<br>"
-						+"<b>Chofer: _____________________________</b>"+"<br>"+"<br>"
-						+"____________________________________________"+ "<br>"+ "<br>"
-						+"<b>Creado por : </b>"+ Nombre_ID + " " + Apellidos_ID + "<br>"+"<br>"
-						+"____________________________________________"+ "<br>"+ "<br>"
-						+"<b>N Boleta: " + N_Boleta + "<br>"
-						+"<b>N Consecutivo : " + Consecutivo_Interno ;
+					var Fecha = document.querySelector('[name="InsertRecordFecha"]').value;
+					var Plantel_de_Salida_Material = document.querySelector('[name="InsertRecordPlantel_de_Salida_Material"]').value;
+					var Plantel_Destino = document.querySelector('[name="InsertRecordPlantel_Destino"]').value;
+					var Comentarios = document.querySelector('[name="InsertRecordComentarios"]').value;
+					var Material = document.querySelector('[name="InsertRecordMaterial"]').value;
+					var Cantidad = document.querySelector('[name="cbParamVirtual1"]').value;
+					var Orden_de_Compra = document.querySelector('[name="InsertRecordOrden_de_Compra"]').value;
+					var Cc = document.querySelector('[name="InsertRecordCC"]').value;
+					var Detalle_CC = document.querySelector('[name="InsertRecordDetalle_CC"]').value;
+					var Placa = document.querySelector('[name="InsertRecordPlaca"]').value;
+					var Tipo = document.querySelector('[name="InsertRecordTipo"]').value;
+					var Cubicaje = document.querySelector('[name="InsertRecordCubicaje"]').value;
+					var Tercero = document.querySelector('[name="InsertRecordProveedor"]').value;
+					var Cedula_Juridica = document.querySelector('[name="InsertRecordCedula_Juridica"]').value;
+					var Nombre_ID = document.querySelector('[name="InsertRecordNombre_ID"]').value;
+					var Apellidos_ID = document.querySelector('[name="InsertRecordApellidos_ID"]').value;
+					var N_Boleta = document.querySelector('[name="InsertRecordN_Boleta"]').value;
+					var Consecutivo_Interno = document.querySelector('[name="InsertRecordID_Imprimible"]').value;
+					var popUpPersonalizado = window.open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
+					popUpPersonalizado.document.body.innerHTML ="<h2 align='center'>Constructora Herrera S.A</h2>"
+					+"<h3 align='center'>8F71, Traslados planteles</h3>"
+					+"<p align='center'>Ced: 3-101-125558</p>"
+					+"<p align='center'>San Carlos, 100 metros sur y 1 kilometro este del Colono Agropecuario</p>"
+					+"____________________________________________"+ "<br>"+ "<br>"
+					+"<b>Fecha: </b>"+ Fecha + "<br>"
+					+"____________________________________________"+ "<br>"+ "<br>"
+					+"<b>Platen Salida: </b>"+ Plantel_de_Salida_Material +"<br>"
+					+"<b>Plantel Destino: </b>" + Plantel_Destino +"<br>"
+					+"<b>Comentarios : </b>"+ Comentarios +"<br>"
+					+"____________________________________________"+ "<br>"+ "<br>"
+					+"<b>Producto: </b>"+ Material +"<br>"
+					+"<b>Cantidad: </b>"+ Cantidad +"<br>"
+					+"<b>Orden de Compra: </b>"+ Orden_de_Compra +"<br>"
+					+"<b>Centro de Costos: </b>"+ Cc +"<br>"
+					+"<b>Detalle CC: </b>"+ Detalle_CC +"<br>"
+					+"____________________________________________"+ "<br>"+ "<br>"
+					+"<b>Placa: </b>"+ Placa +"<br>"
+					+"<b>Tipo: </b>"+ Tipo +"<br>"
+					+"<b>Cubicaje: </b>"+ Cubicaje +"<br>"
+					+"<b>Tercero: </b>"+ Tercero +"<br>"
+					+"<b>Cedula Juridica/Fisica: </b>"+ Cedula_Juridica +"<br>"
+					+"____________________________________________"+ "<br>"+ "<br>"+ "<br>"+"<br>"
+					+"<b>Recibido por: _____________________________</b>"+"<br>"+"<br>"+"<br>"+"<br>"
+					+"<b>Chofer: _____________________________</b>"+"<br>"+"<br>"
+					+"____________________________________________"+ "<br>"+ "<br>"
+					+"<b>Creado por : </b>"+ Nombre_ID + " " + Apellidos_ID + "<br>"+"<br>"
+					+"____________________________________________"+ "<br>"+ "<br>"
+					+"<b>N Boleta: " + N_Boleta + "<br>"
+					+"<b>N Consecutivo : " + Consecutivo_Interno ;
 
 						popUpPersonalizado.document.close();
 						popUpPersonalizado.print( );

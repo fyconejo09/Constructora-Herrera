@@ -150,7 +150,7 @@
 
 
 <!-- Codigo para ventana emergente de impresión -->
-			<!--	<button id="myBtn" class="boton" >Reimpresión</button>-->
+			<!--	<button id="myBtn" class="boton" >Reimpresión</button> -->
 				<div id="myModal" class="modal">
 		        <div class="modal-content">
 		          <span class="close"> X</span>
@@ -231,7 +231,7 @@
 											var ID_Apellido = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordID_Apellido"]').value;
 											var ID_Nombre = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordID_Nombre"]').value;
 											var Consecutivo_Interno = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordID_Imprimible"]').value;
-											var popUpPersonalizado = window.getElementById('ventanaemergente').open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
+											var popUpPersonalizado = window.open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
 
 											popUpPersonalizado.document.body.innerHTML ="<h2 align='center'>Constructora Herrera S.A</h2>"
 											+"<h3 align='center'>8F38, Salida de material a proyectos</h3>"
@@ -270,7 +270,7 @@
 											popUpPersonalizado.document.close();
 											popUpPersonalizado.print( );
 											popUpPersonalizado.close();
-											window.close();
+
 									}
 							</script>
 							<script>
@@ -332,7 +332,7 @@
 		        cursor: pointer;
 		      }
 		    </style>
-		<!--		<script>
+		<!-- 		<script>
  					// Get the modal
   				var modal = document.getElementById("myModal");
 
@@ -358,7 +358,7 @@
           		modal.style.display = "none";
             	}
      			}
-				</script>  -->
+				</script>-->
 <!-- Estilos y script para ventana emergente de impresión -->
 
 

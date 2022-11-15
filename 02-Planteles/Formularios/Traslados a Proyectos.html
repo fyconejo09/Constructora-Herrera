@@ -267,7 +267,17 @@
 
 									}
 							</script>
-
+							<script>
+								 const btncompra = document.getElementById('[Class^="cbSubmitButtonContainer cbFormBlock48"]');
+								 btncompra.disabled = true;
+							</script>
+							<style>
+								[Class^="cbSubmitButtonContainer cbFormBlock48"]{
+								display: none !important;
+								cursor: not-allowed !important;
+								/*Esconde el boton de actualizar para reimpresion y deshabilita el boton*/
+							 }
+							</style>
 							<div data-include="../../Plantillas/Pie_de_Pagina.html"></div>
 							<!-- Codigo para impresión -->
 		        </div>

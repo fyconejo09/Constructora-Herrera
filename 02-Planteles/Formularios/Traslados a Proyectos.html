@@ -26,7 +26,6 @@
 
 				<script src="../../Script/Include-html.js"></script>
 				<header data-include="../../Plantillas/Encabezado.html"></header>
-
 				<div style="width: 99%; height:90%;" >
 
 							<div id ="Cajon41" >
@@ -81,8 +80,6 @@
 							<script src="../../Script/Ocultar-Menu.js"></script>
 
 				</div>
-
-
 				<script type="text/javascript">
 		        function imprimirNombre(){
 								var Fecha = document.querySelector('[name="InsertRecordFecha"]').value;
@@ -147,13 +144,197 @@
 								popUpPersonalizado.close();
 		        }
 		    </script>
-
-
 				<!-- ID = #
-Class = .  -->
-
-
+				Class = .  -->
 		  	<div data-include="../../Plantillas/Pie_de_Pagina.html"></div>
+
+
+<!-- Codigo para ventana emergente de impresión -->
+
+				<div id="myModal" class="modal">
+		        <div class="modal-content">
+		          <span class="close"> X</span>
+							<!-- Codigo para impresión -->
+							<script src="../../Script/Include-html.js"></script>
+							<div style="width: 99%; height:90%;" >
+
+										<div id ="Cajon41" >
+
+												<nav id="Barra">
+												<div Class="Cajon61" id="modificable">
+													<div  class="readmore" id="Alturaboton2">
+															<div id="example" class="more">
+																		<div class="text">
+																					<main class="principal" id="Alturaboton1">
+																						<section class="contenedor_menu" >
+																							<div class="container">
+																								<div class="card2"  >
+																									<div class="titulo_menu1">
+																										<h3></h3>
+																									</div>
+																									<div id="menu1">
+																										<ul>
+																											<li><i></i><a href="../Reportes/R-Control de Lastre.html"> <span class="material-icons"> arrow_back_ios </span> Reportes</a></li>
+																											<li><i></i><a href="../Formularios/Control de Lastre.html"> <span class="material-icons"> arrow_back_ios </span> Formularios</a></li>
+																										</ul>
+																									</div>
+																								</div>
+																							</div>
+																						</section>
+																					</main>
+																		</div>
+															</div>
+													</div>
+													</nav>
+												</div>
+
+										<div  Class="Cajon31" id="modificable1" >
+												<div id="content">
+													<!-- Caspio Deployed Code Start Here || CM - Employees/Employees Report  -->
+													<script type="text/javascript" src="https://c0hcr676.caspio.com/dp/95de9000ab220014d23a41e5abb6/emb"></script>
+													<div id="cxkg"><a href="https://c0hcr676.caspio.com/dp/95de9000ab220014d23a41e5abb6">Click here</a> to load this Caspio <a href="http://www.caspio.com" target="_blank" title="Cloud Database">Cloud Database</a></div>
+													<!-- Caspio Deployed Code End Here -->
+												</div>
+											</div>
+
+										<script src="../../Script/Ocultar-Boton-Menu.js"></script>
+										<script src="../../Script/Mostrar-Boton-Menu.js"></script>
+										<script src="../../Script/Ocultar-Boton-Menu2.js"></script>
+										<script src="../../Script/Mostrar-Boton-Menu2.js"></script>
+										<script src="../../Script/Reducir-Menu.js"></script>
+										<script src="../../Script/Aumentar-Menu.js"> </script>
+										<script src="../../Script/Reducir-Form.js"></script>
+										<script src="../../Script/Aumentar-Form.js"></script>
+										<script src="../../Script/Ocultar-Menu.js"></script>
+
+							</div>
+							<script type="text/javascript">
+									function reimpresion(){
+											var Fecha = document.querySelector('[name="InsertRecordFecha"]').value;
+											var cliente = document.querySelector('[name="InsertRecordCliente"]').value;
+											var solicita = document.querySelector('[name="InsertRecordSolicita"]').value;
+											var Luga_de_Envio = document.querySelector('[name="InsertRecordLuga_de_Envio"]').value;
+											var N_Boleta = document.querySelector('[name="InsertRecordN_Boleta"]').value;
+											var Tipo_de_Solicitud = document.querySelector('[name="InsertRecordTipo_de_Solicitud"]').value;
+											var Plantel = document.querySelector('[name="InsertRecordPlantel"]').value;
+											var Material = document.querySelector('[name="InsertRecordMaterial"]').value;
+											var Material_Boleta = document.querySelector('[name="InsertRecordMaterial_Boleta"]').value;
+											var Cantidad = document.querySelector('[name="InsertRecordCantidad"]').value;
+											var Cc = document.querySelector('[name="InsertRecordCC"]').value;
+											var Detalle_CC = document.querySelector('[name="InsertRecordLugar_Proyecto"]').value;
+											var Orden_de_Compra = document.querySelector('[name="InsertRecordOrden_de_Compra"]').value;
+											var Placa = document.querySelector('[name="InsertRecordPlaca"]').value;
+											var Tipo = document.querySelector('[name="InsertRecordTipo"]').value;
+											var Cubicaje = document.querySelector('[name="InsertRecordCubicaje"]').value;
+											var Tercero = document.querySelector('[name="InsertRecordProveedor"]').value;
+											var Cedula_Juridica = document.querySelector('[name="InsertRecordCedula_Juridica"]').value;
+											var ID_Apellido = document.querySelector('[name="InsertRecordID_Apellido"]').value;
+											var ID_Nombre = document.querySelector('[name="InsertRecordID_Nombre"]').value;
+											var Consecutivo_Interno = document.querySelector('[name="InsertRecordID_Imprimible"]').value;
+											var popUpPersonalizado = window.open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
+
+											popUpPersonalizado.document.body.innerHTML ="<h2 align='center'>Constructora Herrera S.A</h2>"
+											+"<h3 align='center'>8F38, Salida de material a proyectos</h3>"
+											+"<p align='center'>Ced: 3-101-125558</p>"
+											+"<p align='center'>San Carlos, 100 metros sur y 1 kilometro este del Colono Agropecuario</p>"
+											+"____________________________________________"+ "<br>"+ "<br>"
+											+"<b>Fecha: </b>"+ Fecha + "<br>"
+											+"<b>Cliente: </b>"+ cliente + "<br>"
+											+"____________________________________________"+ "<br>"+ "<br>"
+											+"<b>Solicita: </b>"+ solicita +"<br>"
+											+"<b>Lugar de Envio: </b>" + Luga_de_Envio +"<br>"
+											+"<b>Tipo de Solicitud: </b>"+ Tipo_de_Solicitud +"<br>"
+											+"<b>Plantel: </b>"+ Plantel +"<br>"
+											+"____________________________________________"+ "<br>"+ "<br>"
+											+"<b>Producto: </b>"+ Material +"<br>"
+											+"<b>Producto de Boleta: </b>" + Material_Boleta +"<br>"
+											+"<b>Cantidad: </b>"+ Cantidad +"<br>"
+											+"<b>Orden de Compra: </b>"+ Orden_de_Compra +"<br>"
+											+"<b>Centro de Costos: </b>"+ Cc +"<br>"
+											+"<b>Detalle CC: </b>"+ Detalle_CC +"<br>"
+											+"____________________________________________"+ "<br>"+ "<br>"
+											+"<b>Placa: </b>"+ Placa +"<br>"
+											+"<b>Tipo: </b>"+ Tipo +"<br>"
+											+"<b>Cubicaje: </b>"+ Cubicaje +"<br>"
+											+"<b>Tercero: </b>"+ Tercero +"<br>"
+											+"<b>Cedula Juridica/Fisica: </b>"+ Cedula_Juridica +"<br>"
+											+"____________________________________________"+ "<br>"+ "<br>"+ "<br>"+"<br>"
+											+"<b>Recibido por: _____________________________</b>"+"<br>"+"<br>"+"<br>"+"<br>"
+											+"<b>Chofer: _____________________________</b>"+"<br>"+"<br>"
+											+"____________________________________________"+ "<br>"+ "<br>"
+											+"<b>Creado por : </b>"+ ID_Nombre + " " + ID_Apellido + "<br>"+"<br>"
+											+"____________________________________________"+ "<br>"+ "<br>"
+											+"<b>N Boleta: " + N_Boleta +"<br>"
+											+"<b>N Consecutivo : " + Consecutivo_Interno ;
+
+											popUpPersonalizado.document.close();
+											popUpPersonalizado.print( );
+											popUpPersonalizado.close();
+											window.close();
+									}
+							</script>
+							<script>
+								 const btncompra = document.getElementById('[Class*="cbSubmitButtonContainer"]');
+								 btncompra.disabled = true;
+							</script>
+							<style>
+								[Class*="cbSubmitButtonContaine"]{
+								display: none !important;
+								cursor: not-allowed !important;
+								/*Esconde el boton de actualizar para reimpresion y deshabilita el boton*/
+							 }
+							</style>
+							<div data-include="../../Plantillas/Pie_de_Pagina.html"></div>
+							<!-- Codigo para impresión -->
+		        </div>
+		    </div>
+
+<!-- Estilos y script para ventana emergente de impresión -->
+		    <style>
+		      body {font-family: Arial, Helvetica, sans-serif;}
+		      /* The Modal (background) */
+		      .modal {
+		        display: none; /* Hidden by default */
+		        position: fixed; /* Stay in place */
+		        z-index: 1; /* Sit on top */
+		        padding-top: 100px; /* Location of the box */
+		        left: 0;
+		        top: 0;
+		        width: 100%; /* Full width */
+		        height: 100%; /* Full height */
+		        overflow: auto; /* Enable scroll if needed */
+		        background-color: rgb(0,0,0); /* Fallback color */
+		        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		      }
+
+		      /* Modal Content */
+		      .modal-content {
+		        background-color: #fefefe;
+		        margin: auto;
+		        padding: 20px;
+		        border: 1px solid #888;
+		        width: 40%;
+		      }
+
+		      /* The Close Button */
+		      .close {
+		        color: black;
+		        float: center;
+		        font-size: 38px;
+		        font-weight: bold;
+		        width:10px;
+		      }
+
+		      .close:hover,
+		      .close:focus {
+		        color: #000;
+		        text-decoration: none;
+		        cursor: pointer;
+		      }
+		    </style>
+<!-- Estilos y script para ventana emergente de impresión -->
+
+
 
 		</body>
 

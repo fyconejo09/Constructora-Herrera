@@ -154,11 +154,9 @@
 				<div id="myModal" class="modal">
 		        <div class="modal-content">
 		          <span class="close"> X</span>
-							<button  onClick="reimpresion()" type="submit" class="botonreimpresion">Imprimir Registro</button>
-
 							<!-- Codigo para impresión -->
 							<script src="../../Script/Include-html.js"></script>
-							<div style="width: 99%; height:90%;" >
+							<div style="width: 99%; height:90%;" id = "ventanaemergente">
 
 										<div id ="Cajon41" >
 
@@ -212,7 +210,7 @@
 							</div>
 							<script type="text/javascript">
 									function reimpresion(){
-											var Fecha = document.querySelector('[name="InsertRecordFecha"]').value;
+											var Fecha = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordFecha"]').value;
 											var cliente = document.querySelector('[name="InsertRecordCliente"]').value;
 											var solicita = document.querySelector('[name="InsertRecordSolicita"]').value;
 											var Luga_de_Envio = document.querySelector('[name="InsertRecordLuga_de_Envio"]').value;

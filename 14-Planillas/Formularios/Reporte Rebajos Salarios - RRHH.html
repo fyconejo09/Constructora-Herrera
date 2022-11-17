@@ -192,22 +192,22 @@
 
 				<!-- Script para ventana emergente de impresión -->
 				<script>
-				  var modal1 = document.getElementById("Ocultar");
-				  var btn1 = document.getElementById("myBtnRegistroPrestamos");
-				  var span1 = document.getElementsByClassName("RegistroPrestamos")[0];
+				  var modalocultar = document.getElementById("Ocultar");
+				  var btnocultar = document.getElementById("myBtnRegistroPrestamos");
+				  var spanocultar = document.getElementsByClassName("RegistroPrestamos")[0];
 
 				  // When the user clicks on the button, open the modal
-				  btn1.onclick = function() {
+				  btnocultar.onclick = function() {
 				    modal1.style.display = "none";
 				  }
 				  // When the user clicks on <span> (x), close the modal
-				  span1.onclick = function() {
-				    modal1.style.display = "block";
+				  spanocultar.onclick = function() {
+				    modalocultar.style.display = "block";
 				  }
 				  // When the user clicks anywhere outside of the modal, close it
 				  window.onclick = function(event) {
-				    if (event.target == modal1) {
-				      modal1.style.display = "block";
+				    if (event.target == modalocultar) {
+				      modalocultar.style.display = "block";
 				    }
 				  }
 				</script>

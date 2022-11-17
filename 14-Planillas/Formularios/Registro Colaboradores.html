@@ -25,7 +25,7 @@
 
 				<script src="../../Script/Include-html.js"></script>
 				<header data-include="../../Plantillas/Encabezado.html"></header>
-				<div style="width: 99%; height:90%;" >
+				<div style="width: 99%; height:90%;" id="Ocultar">
 
 							<div id ="Cajon41" >
 									<div data-include="../../Plantillas/Cajon51.html"></div>
@@ -167,23 +167,28 @@
 				</style>
 
 				<!-- Script para ventana emergente de impresión -->
+
 				<script>
 				  var modal4 = document.getElementById("myModalListaColaboradores");
 				  var btn4 = document.getElementById("myBtnListaColaboradores");
 				  var span4 = document.getElementsByClassName("ListaColaboradores")[0];
+					var modalocultar = document.getElementById("Ocultar");
 
 				  // When the user clicks on the button, open the modal
 				  btn4.onclick = function() {
 				    modal4.style.display = "block";
+						modalocultar.style.display = "none";
 				  }
 				  // When the user clicks on <span> (x), close the modal
 				  span4.onclick = function() {
 				    modal4.style.display = "none";
+						modalocultar.style.display = "block";
 				  }
 				  // When the user clicks anywhere outside of the modal, close it
 				  window.onclick = function(event) {
 				    if (event.target == modal4) {
 				      modal4.style.display = "none";
+							modalocultar.style.display = "block";
 				    }
 				  }
 				</script>
@@ -192,19 +197,23 @@
 					var modal5 = document.getElementById("myModalAgregarCondiciones");
 					var btn5 = document.getElementById("myBtnAgregarCondiciones");
 					var span5 = document.getElementsByClassName("AgregarCondiciones")[0];
+					var modalocultar = document.getElementById("Ocultar");
 
 					// When the user clicks on the button, open the modal
 					btn5.onclick = function() {
 						modal5.style.display = "block";
+						modalocultar.style.display = "none";
 					}
 					// When the user clicks on <span> (x), close the modal
 					span5.onclick = function() {
 						modal5.style.display = "none";
+						modalocultar.style.display = "block";
 					}
 					// When the user clicks anywhere outside of the modal, close it
 					window.onclick = function(event) {
 						if (event.target == modal5) {
 							modal5.style.display = "none";
+							modalocultar.style.display = "block";
 						}
 					}
 				</script>

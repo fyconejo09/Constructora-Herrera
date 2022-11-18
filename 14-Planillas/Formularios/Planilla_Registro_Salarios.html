@@ -246,12 +246,14 @@
 	span.onclick = function() {
 		modal.style.display = "none";
 		modalocultar.style.display = "block";
+		window.location.reload();
 	}
 	// When the user clicks anywhere outside of the modal, close it
 	window.onclick = function(event) {
 		if (event.target == modal) {
 			modal.style.display = "none";
 			modalocultar.style.display = "block";
+			window.location.reload();
 		}
 	}
 </script>

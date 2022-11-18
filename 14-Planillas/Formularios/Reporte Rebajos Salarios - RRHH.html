@@ -88,10 +88,10 @@
 				<!-- Codigo para ventana emergente de Registro Prestamos -->
 				<div id="myModalRegistroPrestamos" class="modal">
 						<div class="modal-content">
-							<span class="RegistroPrestamos" id="close"> X</span>
+							<span onClick="mostrar()" id="close"> X</span>
 							<!-- Codigo para impresión -->
 							<script src="../../Script/Include-html.js"></script>
-							<div style="width: 100%; height:100%;" id="Ocultar">
+							<div style="width: 100%; height:100%;"  >
 								<div  Class="Cajon31" id="modificable1" >
 															<div id="content">
 																<!-- Caspio Deployed Code Start Here || CM - Employees/Employees Report  -->
@@ -109,10 +109,10 @@
 				<!-- Codigo para ventana emergente de Registro Colaboradores -->
 				<div id="myModalRegistroColaboradores" class="modal">
 						<div class="modal-content">
-							<span class="RegistroColaboradores" id="close"> X</span>
+							<span onClick="mostrar()" id="close"> X</span>
 							<!-- Codigo para impresión -->
 							<script src="../../Script/Include-html.js"></script>
-							<div style="width: 100%; height:100%;" id="Ocultar">
+							<div style="width: 100%; height:100%;"  >
 								<div  Class="Cajon31" id="modificable1" >
 										<div id="content">
 											<!-- Caspio Deployed Code Start Here || CM - Employees/Employees Report  -->
@@ -130,10 +130,10 @@
 				<!-- Codigo para ventana emergente de Lista Colaboradores  -->
 				<div id="myModalListaColaboradores" class="modal">
 						<div class="modal-content">
-							<span class="ListaColaboradores" id="close"> X</span>
+							<span onClick="mostrar()" id="close"> X</span>
 							<!-- Codigo para impresión -->
 							<script src="../../Script/Include-html.js"></script>
-							<div style="width: 100%; height:100%;" id="Ocultar">
+							<div style="width: 100%; height:100%;"  >
 								<div  Class="Cajon31" id="modificable1" >
 									<div id="content">
 											<!-- Caspio Deployed Code Start Here || CM - Employees/Employees Report  -->
@@ -190,82 +190,6 @@
 						}
 				</style>
 
-				<!-- Script para ventana emergente de impresión -->
-				<script>
-				  var modal1 = document.getElementById("myModalRegistroPrestamos");
-				  var btn1 = document.getElementById("myBtnRegistroPrestamos");
-				  var span1 = document.getElementsByClassName("RegistroPrestamos")[0];
-					var modalocultar = document.getElementById("Ocultar");
-
-				  // When the user clicks on the button, open the modal
-				  btn1.onclick = function() {
-						modalocultar.style.display = "none";
-				    modal1.style.display = "block";
-				  }
-				  // When the user clicks on <span> (x), close the modal
-				  span1.onclick = function() {
-				    modal1.style.display = "none";
-						modalocultar.style.display = "block";
-				  }
-				  // When the user clicks anywhere outside of the modal, close it
-				  window.onclick = function(event) {
-				    if (event.target == modal1) {
-				      modal1.style.display = "none";
-							modalocultar.style.display = "block";
-				    }
-				  }
-				</script>
-
-				<script>
-				  var modal = document.getElementById("myModalRegistroColaboradores");
-				  var btn = document.getElementById("myBtnRegistroColaboradores");
-				  var span = document.getElementsByClassName("RegistroColaboradores")[0];
-					var modalocultar = document.getElementById("Ocultar");
-
-				  // When the user clicks on the button, open the modal
-				  btn.onclick = function() {
-				    modal.style.display = "block";
-						modalocultar.style.display = "none";
-				  }
-				  // When the user clicks on <span> (x), close the modal
-				  span.onclick = function() {
-				    modal.style.display = "none";
-						modalocultar.style.display = "block";
-				  }
-				  // When the user clicks anywhere outside of the modal, close it
-				  window.onclick = function(event) {
-				    if (event.target == modal) {
-				      modal.style.display = "none";
-							modalocultar.style.display = "block";
-				    }
-				  }
-
-				</script>
-
-				<script>
-				  var modal4 = document.getElementById("myModalListaColaboradores");
-				  var btn4 = document.getElementById("myBtnListaColaboradores");
-				  var span4 = document.getElementsByClassName("ListaColaboradores")[0];
-					var modalocultar = document.getElementById("Ocultar");
-
-				  // When the user clicks on the button, open the modal
-				  btn4.onclick = function() {
-						modalocultar.style.display = "none";
-				    modal4.style.display = "block";
-				  }
-				  // When the user clicks on <span> (x), close the modal
-				  span4.onclick = function() {
-				    modal4.style.display = "none";
-						modalocultar.style.display = "block";
-				  }
-				  // When the user clicks anywhere outside of the modal, close it
-				  window.onclick = function(event) {
-				    if (event.target == modal4) {
-				      modal4.style.display = "none";
-							modalocultar.style.display = "block";
-				    }
-				  }
-				</script>
 
 		</body>
 

@@ -164,15 +164,15 @@
 				<!-- Reimpresion traslados entre planteles   -->
 				<div id="myModalReimpresionTrasladosEntrePlanteles" class="modal">
 						<div class="modal-content">
-							<span onClick="location.reload()" class="close"> X</span>
+							<span onClick="location.reload()" id="close"> X</span>
 							<br>
 							<br>
 							<button  onClick="reimpresion()" type="menu" class="botonreimpresion">Imprimir Registro</button>
 							<!-- Codigo para impresión -->
 							<script src="../../Script/Include-html.js"></script>
-							<div style="width: 99%; height:90%;" id = "ventanaemergente">
+							<div style="width: 100%; height:100%;" id = "ventanaemergente" >
 								<div  Class="Cajon31" id="modificable1" >
-								  	<div id="content">
+										<div id="content">
 											<!-- Caspio Deployed Code Start Here || CM - Employees/Employees Report  -->
 											<script type="text/javascript" src="https://c0hcr676.caspio.com/dp/95de9000cae6b8bb96b34538b3e0/emb"></script>
 											<div id="cxkg"><a href="https://c0hcr676.caspio.com/dp/95de9000cae6b8bb96b34538b3e0">Click here</a> to load this Caspio <a href="http://www.caspio.com" target="_blank" title="Cloud Database">Cloud Database</a></div>
@@ -181,7 +181,7 @@
 								</div>
 							</div>
 							<script type="text/javascript">
-					        function reimpresion(){
+									function reimpresion(){
 											var Fecha = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordFecha"]').value;
 											var Plantel_de_Salida_Material = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordPlantel_de_Salida_Material"]').value;
 											var Plantel_Destino = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordPlantel_Destino"]').value;
@@ -200,7 +200,7 @@
 											var Apellidos_ID = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordApellidos_ID"]').value;
 											var N_Boleta = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordN_Boleta"]').value;
 											var Consecutivo_Interno = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordID_Imprimible"]').value;
-						          var popUpPersonalizado = window.open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
+											var popUpPersonalizado = window.open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
 											popUpPersonalizado.document.body.innerHTML ="<h2 align='center'>Constructora Herrera S.A</h2>"
 											+"<h3 align='center'>8F71, Traslados entre planteles</h3>"
 											+"<p align='center'>Ced: 3-101-125558</p>"
@@ -236,8 +236,8 @@
 											popUpPersonalizado.print( );
 											popUpPersonalizado.close();
 											location.getElementById('ventanaemergente').reload();
-					        }
-					    </script>
+									}
+							</script>
 							<script>
 								 const btncompra = document.getElementById('[Class^="cbSubmitButtonContainer cbFormBlock41"]');
 								 btncompra.disabled = true;
@@ -247,12 +247,13 @@
 									display: none !important;
 									cursor: not-allowed !important;
 									/*Esconde el boton de actualizar para reimpresion y deshabilita el boton*/
-							 	}
+								}
 							</style>
-					  	<div data-include="../../Plantillas/Pie_de_Pagina.html"></div>
 							<!-- Codigo para impresión -->
+							<div data-include="../../Plantillas/Pie_de_Pagina.html"></div>
 						</div>
 				</div>
+
 
 				<style>
 					body {font-family: Arial, Helvetica, sans-serif;}

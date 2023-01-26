@@ -1136,3 +1136,30 @@ Div element.style {
   .botonreimpresion:hover{
   background-color: #156ee4 !important;
   }
+
+
+  .boton1{
+  background-color: black;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+  cursor: pointer !important;
+
+  }
+
+
+  .boton{
+  background-color: black;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+  cursor: pointer !important;
+  margin: 0 auto !important;
+  display: block !important;
+  }

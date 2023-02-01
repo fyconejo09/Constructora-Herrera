@@ -1147,8 +1147,15 @@ Div element.style {
   font-size: 14px;
   padding: 10px 25px;
   cursor: pointer !important;
+  margin: 0 auto !important;
+  display: block !important;
 
   }
+
+.boton1:hover {
+  background-color: #156ee4;
+}
+
 
 
   .boton{
@@ -1160,6 +1167,10 @@ Div element.style {
   font-size: 14px;
   padding: 10px 25px;
   cursor: pointer !important;
-  margin: 0 auto !important;
-  display: block !important;
   }
+
+
+.boton:hover {
+  background-color: #156ee4;
+}
+

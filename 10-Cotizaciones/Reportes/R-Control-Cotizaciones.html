@@ -75,6 +75,20 @@
 							<script src="../../Script/Ocultar-Menu.js"></script>
 							<script src="../../Script/porcentajecotizaciones.js"></script>
 								
+								
+							<script>
+  							let rows = document.querySelectorAll("#table tr");
+  							for (let i = 0; i < rows.length; i++) {
+  							  rows[i].addEventListener("mouseover", function() {
+    							  this.style.backgroundColor = "orange";
+   												 });
+    							rows[i].addEventListener("mouseout", function() {
+    							  this.style.backgroundColor = "";
+ 												   });
+ 							 }
+							</script>
+
+								
 				</div>
 
 		  	<div data-include="../../Plantillas/Pie_de_Pagina.html"></div>

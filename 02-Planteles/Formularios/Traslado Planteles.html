@@ -180,7 +180,7 @@
 							</div>
 							<script type="text/javascript">
 									function reimpresion(){
-											var Fecha = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordFecha"]').value;
+											var Fecha = new Date(document.getElementById('ventanaemergente').querySelector('[name="InsertRecordFecha"]').value).toLocaleDateString("es-CR");
 											var Plantel_de_Salida_Material = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordPlantel_de_Salida_Material"]').value;
 											var Plantel_Destino = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordPlantel_Destino"]').value;
 											var Comentarios = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordComentarios"]').value;

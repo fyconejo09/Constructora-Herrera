@@ -78,8 +78,8 @@
 				</div>
 				<script type="text/javascript">
 		        function reimpresion(){
-								var Fecha = document.querySelector('[name="InsertRecordFecha"]').value;
-		            var cliente = document.querySelector('[name="InsertRecordCliente"]').value;
+								var Fecha = new Date(document.querySelector('[name="InsertRecordFecha"]').value).toLocaleDateString("es-CR");
+		           				        var cliente = document.querySelector('[name="InsertRecordCliente"]').value;
 								var solicita = document.querySelector('[name="InsertRecordSolicita"]').value;
 								var Luga_de_Envio = document.querySelector('[name="InsertRecordLuga_de_Envio"]').value;
 								var N_Boleta = document.querySelector('[name="InsertRecordN_Boleta"]').value;

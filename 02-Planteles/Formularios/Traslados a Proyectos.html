@@ -81,8 +81,8 @@
 				</div>
 				<script type="text/javascript">
 		        function imprimirNombre(){
-								var Fecha = document.querySelector('[name="InsertRecordFecha"]').value;
-		            var cliente = document.querySelector('[name="InsertRecordCliente"]').value;
+								var Fecha = new Date(document.querySelector('[name="InsertRecordFecha"]').value).toLocaleDateString("es-CR");
+		           				        var cliente = document.querySelector('[name="InsertRecordCliente"]').value;
 								var solicita = document.querySelector('[name="InsertRecordSolicita"]').value;
 								var Luga_de_Envio = document.querySelector('[name="InsertRecordLuga_de_Envio"]').value;
 								var Tipo_de_Solicitud = document.querySelector('[name="InsertRecordTipo_de_Solicitud"]').value;
@@ -186,8 +186,8 @@
 							</div>
 							<script type="text/javascript">
 									function reimpresion(){
-										var Fecha = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordFecha"]').value;
-				            var cliente = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordCliente"]').value;
+										var Fecha = new Date(document.getElementById('ventanaemergente').querySelector('[name="InsertRecordFecha"]').value).toLocaleDateString("es-CR");
+				          				        var cliente = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordCliente"]').value;
 										var solicita = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordSolicita"]').value;
 										var Luga_de_Envio = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordLuga_de_Envio"]').value;
 										var Tipo_de_Solicitud = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordTipo_de_Solicitud"]').value;

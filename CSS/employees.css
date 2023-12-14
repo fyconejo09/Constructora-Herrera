@@ -888,9 +888,9 @@ div#GridRootCtnr_5e16050d6be9b0 {
   color: #ffffffad !important;
 }
 
-.STF0BF11B31B944F1EB48F95D727699A6A .cbFormLabelRequired {
+/*.STF0BF11B31B944F1EB48F95D727699A6A .cbFormLabelRequired {
   color: #ffffffad !important;
-}
+}*/
 
 .STF0BF11B31B944F1EB48F95D727699A6A .cbFormLabel {
   color: #ffffffad !important;
@@ -908,6 +908,10 @@ div#GridRootCtnr_5e16050d6be9b0 {
 
 .STF0BF11B31B944F1EB48F95D727699A6A .cbFormTableRow {
     background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.cbFormSection_48ae91a7135dd2 [data-cb-alternate-semantic-row-desktop]{
+  background-color: rgba(0, 0, 0, 0.0) !important;
 }
 
 

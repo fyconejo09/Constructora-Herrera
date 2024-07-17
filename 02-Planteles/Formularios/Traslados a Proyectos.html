@@ -208,7 +208,8 @@
 										var ID_Apellido = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordID_Apellido"]').value;
 										var ID_Nombre = document.getElementById('ventanaemergente').querySelector('[name="InsertRecordID_Nombre"]').value;
 										var Consecutivo_Interno = document.getElementById('ventanaemergente').querySelector('[name="cbParamVirtual4"]').value;
-				            var popUpPersonalizado = window.open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
+				            					var Precio = document.querySelector('[name="InsertRecordPrecio"]').value;
+										var popUpPersonalizado = window.open("", "Título del popup", "width=1000,height=1000,scrollbars=NO");
 
 				            popUpPersonalizado.document.body.innerHTML ="<h2 align='center'>Constructora Herrera S.A</h2>"
 										+"<h3 align='center'>8F38, Salida de material a proyectos</h3>"
@@ -225,7 +226,8 @@
 										+"____________________________________________"+ "<br>"+ "<br>"
 										+"<b>Producto: </b>"+ Material +"<br>"
 										+"<b>Producto de Boleta: </b>" + Material_Boleta +"<br>"
-										+"<b>Cantidad: </b>"+ Cantidad +"<br>"
+										+"<b>Precio: </b>"+ Precio +"<br>"
+						    				+"<b>Cantidad: </b>"+ Cantidad +"<br>"
 										+"<b>Orden de Compra: </b>"+ Orden_de_Compra +"<br>"
 										+"<b>Centro de Costos: </b>"+ Cc +"<br>"
 										+"<b>Detalle CC: </b>"+ Detalle_CC +"<br>"
